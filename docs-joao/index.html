@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>João Mafra · Dashboard</title>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+/* ── Reset & vars ─────────────────────────────────────── */
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bg:#001e22;
+  --sb:#011618;
+  --card:#022929;
+  --card2:#013535;
+  --border:rgba(89,172,158,0.14);
+  --gd:#C9A254;
+  --gdd:rgba(201,162,84,0.12);
+  --gn:#25B348;
+  --gnd:rgba(37,179,72,0.12);
+  --tl:#59AC9E;
+  --tld:rgba(89,172,158,0.12);
+  --or:#D97A2A;
+  --ord:rgba(217,122,42,0.12);
+  --pu:#9B6DFF;
+  --pud:rgba(155,109,255,0.12);
+  --txt:#E5E5E5;
+  --mu:rgba(229,229,229,0.38);
+  --sw:228px;
+}
+html,body{
+  height:100%;
+  font-family:'Sora',-apple-system,BlinkMacSystemFont,sans-serif;
+  background:var(--bg);color:var(--txt);font-size:13px;
+}
+
+/* ── Sidebar ──────────────────────────────────────────── */
+.sidebar{
+  position:fixed;left:0;top:0;bottom:0;width:var(--sw);
+  background:var(--sb);border-right:1px solid var(--border);
+  display:flex;flex-direction:column;z-index:100;
+}
+.sb-logo{
+  padding:18px 16px 14px;border-bottom:1px solid var(--border);
+  display:flex;align-items:center;gap:10px;flex-shrink:0;
+}
+.sb-logo-icon{
+  width:36px;height:36px;border-radius:8px;flex-shrink:0;
+  background:linear-gradient(135deg,#C9A254,#9B6A2A);
+  display:flex;align-items:center;justify-content:center;
+  font-size:18px;font-weight:800;color:#001e22;
+}
+.sb-brand{font-size:13px;font-weight:800;color:var(--gd);line-height:1.15}
+.sb-sub{font-size:10px;color:var(--mu);margin-top:2px}
+
+.sb-sec{
+  padding:14px 16px 6px;font-size:9px;color:var(--mu);
+  text-transform:uppercase;letter-spacing:.12em;flex-shrink:0;
+}
+.sb-pills{padding:0 10px;flex:1;overflow-y:auto;min-height:0}
+.day-btn{
+  display:flex;align-items:center;gap:8px;width:100%;
+  padding:8px 10px;border-radius:8px;background:none;border:none;
+  color:var(--mu);font-size:12px;cursor:pointer;margin-bottom:2px;
+  transition:all .14s;text-align:left;font-family:inherit;
+}
+.day-btn .dot{width:6px;height:6px;border-radius:50%;background:currentColor;flex-shrink:0;opacity:.35}
+.day-btn:hover{background:var(--gdd);color:var(--txt)}
+.day-btn.on{background:var(--gdd);color:var(--gd);font-weight:600}
+.day-btn.on .dot{opacity:1}
+
+.sb-sum{padding:14px 16px;border-top:1px solid var(--border);flex-shrink:0}
+.sb-sum-ttl{font-size:9px;text-transform:uppercase;color:var(--mu);letter-spacing:.1em;margin-bottom:10px}
+.sb-row{display:flex;justify-content:space-between;align-items:center;margin-bottom:7px}
+.sb-lbl{font-size:11px;color:var(--mu)}
+.sb-val{font-size:13px;font-weight:700;font-variant-numeric:tabular-nums;color:var(--gd)}
+.sb-row.gn .sb-val{color:var(--gn)}
+.sb-row.tl .sb-val{color:var(--tl)}
+.sb-row.pu .sb-val{color:var(--pu)}
+.sb-row.wh .sb-val{color:var(--txt)}
+
+/* ── Main ─────────────────────────────────────────────── */
+.main{margin-left:var(--sw);min-height:100vh;padding:22px 22px 0;display:flex;flex-direction:column;gap:16px}
+
+/* ── Header ───────────────────────────────────────────── */
+.hdr{display:flex;justify-content:space-between;align-items:flex-start}
+.hdr h1{font-size:20px;font-weight:800;letter-spacing:-.3px}
+.hdr h1 em{color:var(--gd);font-style:normal}
+.hdr-range{font-size:11px;color:var(--mu);margin-top:3px}
+.hdr-right{text-align:right;font-size:11px;color:var(--mu)}
+.hdr-next{margin-top:3px;color:rgba(201,162,84,.45);font-size:10px}
+
+/* ── Cards base ───────────────────────────────────────── */
+.card{background:var(--card);border:1px solid var(--border);border-radius:12px}
+.card-ttl{
+  font-size:10px;text-transform:uppercase;letter-spacing:.08em;color:var(--mu);
+  padding:13px 16px 0;display:flex;justify-content:space-between;align-items:center;
+}
+.bsm{font-size:9px;padding:2px 7px;border-radius:10px;font-weight:600}
+.bsm-gd{background:var(--gdd);color:var(--gd)}
+.bsm-gn{background:var(--gnd);color:var(--gn)}
+.bsm-tl{background:var(--tld);color:var(--tl)}
+.bsm-wh{background:rgba(255,255,255,.07);color:rgba(229,229,229,.5)}
+
+/* ── Hover expand ─────────────────────────────────────── */
+.gcrd,.kcrd,.xcrd,.vcrd{
+  transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease;
+}
+.gcrd:hover,.kcrd:hover,.xcrd:hover,.vcrd:hover{
+  transform:scale(1.04) translateY(-3px);
+  border-color:rgba(201,162,84,.35);
+  box-shadow:0 10px 36px rgba(0,0,0,.6);
+  z-index:2;position:relative;
+}
+
+/* ── Row-1: Gauges + Chart ────────────────────────────── */
+.row1{display:grid;grid-template-columns:1fr 1fr 1fr 2.3fr;gap:14px;align-items:start}
+
+.gcrd{
+  background:var(--card);border:1px solid var(--border);border-radius:12px;
+  padding:18px 12px 16px;display:flex;flex-direction:column;align-items:center;
+  height:230px;justify-content:center;
+}
+.g-lbl{font-size:10px;color:var(--mu);text-transform:uppercase;letter-spacing:.07em;text-align:center;margin-bottom:10px}
+.g-wrap{position:relative;width:108px;height:108px}
+.g-wrap svg{width:100%;height:100%;display:block}
+.g-trk{fill:none;stroke:rgba(229,229,229,.06);stroke-width:9}
+.g-arc{fill:none;stroke-width:9;stroke-linecap:round;transition:stroke-dashoffset .75s cubic-bezier(.4,0,.2,1)}
+.g-ctr{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.g-num{font-size:20px;font-weight:800;font-variant-numeric:tabular-nums;line-height:1}
+.g-unit{font-size:9px;color:var(--mu);margin-top:1px}
+.g-foot{font-size:10px;color:var(--mu);margin-top:6px;text-align:center}
+
+.ccrd{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:14px 16px;height:230px;display:flex;flex-direction:column}
+.ccrd canvas{display:block;width:100%!important;flex:1;min-height:0}
+
+/* ── Row-2: KPI strip ─────────────────────────────────── */
+.row2{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.kcrd{
+  background:var(--card);border:1px solid var(--border);border-radius:12px;
+  padding:16px 16px 13px;position:relative;overflow:hidden;
+}
+.kcrd::before{
+  content:'';position:absolute;left:0;top:0;bottom:0;
+  width:3px;border-radius:3px 0 0 3px;background:var(--gd);
+}
+.kcrd.gn::before{background:var(--gn)}
+.kcrd.tl::before{background:var(--tl)}
+.kcrd.mu::before{background:rgba(229,229,229,.18)}
+.k-lbl{font-size:10px;color:var(--mu);text-transform:uppercase;letter-spacing:.07em;margin-bottom:6px}
+.k-val{font-size:24px;font-weight:800;font-variant-numeric:tabular-nums;color:var(--gd);line-height:1}
+.kcrd.gn .k-val{color:var(--gn)}
+.kcrd.tl .k-val{color:var(--tl)}
+.kcrd.mu .k-val{color:var(--txt)}
+.k-sub{font-size:11px;color:var(--mu);margin-top:5px}
+
+/* ── Row-3: WA + Forms + Video ────────────────────────── */
+.row3{display:grid;grid-template-columns:1fr 1fr 1.2fr;gap:14px}
+.xcrd{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:16px}
+.x-ico{font-size:20px;margin-bottom:4px}
+.x-lbl{font-size:10px;color:var(--mu);text-transform:uppercase;letter-spacing:.07em;margin-bottom:5px}
+.x-num{font-size:38px;font-weight:800;font-variant-numeric:tabular-nums;line-height:1}
+.x-num.gn{color:var(--gn)}
+.x-num.pu{color:var(--pu)}
+.x-cst{font-size:12px;color:var(--mu);margin-top:6px}
+.x-cst span{color:var(--txt);font-weight:600;font-variant-numeric:tabular-nums}
+.pbr{height:5px;background:rgba(229,229,229,.07);border-radius:3px;overflow:hidden;margin-top:10px}
+.pbf{height:100%;border-radius:3px;transition:width .7s ease}
+.pbf.gn{background:var(--gn)}
+.pbf.pu{background:var(--pu)}
+.pb-pct{font-size:10px;color:var(--mu);margin-top:4px}
+
+.vcrd{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:16px}
+.vr-ttl{font-size:10px;color:var(--mu);text-transform:uppercase;letter-spacing:.08em;margin-bottom:14px}
+.vr-row{display:flex;align-items:center;gap:8px;margin-bottom:9px}
+.vr-lbl{font-size:11px;color:var(--mu);width:28px;flex-shrink:0}
+.vr-bar{flex:1;height:7px;background:rgba(229,229,229,.07);border-radius:4px;overflow:hidden}
+.vr-fill{height:100%;border-radius:4px;transition:width .65s ease}
+.vr-val{font-size:11px;font-variant-numeric:tabular-nums;width:38px;text-align:right;flex-shrink:0}
+
+/* ── Section divider ──────────────────────────────────── */
+.sec-div{
+  display:flex;align-items:center;gap:12px;margin-top:6px;
+}
+.sec-div-ttl{font-size:14px;font-weight:700;color:var(--txt);white-space:nowrap}
+.sec-div-line{flex:1;height:1px;background:var(--border)}
+
+/* ── Campaign table ───────────────────────────────────── */
+.tbl-crd{background:var(--card);border:1px solid var(--border);border-radius:12px;overflow:hidden}
+.tbl-hdr{display:flex;justify-content:space-between;align-items:center;padding:13px 18px;border-bottom:1px solid var(--border)}
+.tbl-ttl{font-size:13px;font-weight:600}
+.tbl-wrap{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:12px;white-space:nowrap}
+th{
+  padding:9px 14px;text-align:right;
+  font-size:9px;text-transform:uppercase;letter-spacing:.07em;
+  color:var(--mu);background:rgba(89,172,158,.03);
+  cursor:pointer;border-bottom:1px solid var(--border);user-select:none;
+}
+th:first-child{text-align:left}
+th:hover{color:var(--txt)}
+th.sort-asc::after{content:' ↑';color:var(--gd)}
+th.sort-desc::after{content:' ↓';color:var(--gd)}
+td{padding:10px 14px;border-bottom:1px solid rgba(89,172,158,.06)}
+tr:last-child td{border-bottom:none}
+tr:hover td{background:rgba(201,162,84,.025)}
+.tr{text-align:right}
+.mono{font-variant-numeric:tabular-nums}
+.gd{color:var(--gd);font-weight:600}
+.dim{color:var(--mu)}
+.trunc{max-width:220px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sbdg{display:inline-flex;align-items:center;gap:3px;font-size:10px;padding:2px 8px;border-radius:10px;font-weight:600}
+.s-act{background:var(--gnd);color:var(--gn)}
+.s-pau{background:rgba(229,229,229,.06);color:var(--mu)}
+
+/* ── Campaign + Adset sections ────────────────────────── */
+.camp-section{margin-bottom:28px}
+.camp-heading{
+  display:flex;align-items:center;gap:10px;
+  padding:12px 18px;background:var(--card2);
+  border:1px solid var(--border);border-radius:12px 12px 0 0;
+  margin-bottom:0;
+}
+.camp-heading-icon{font-size:14px}
+.camp-heading-name{font-size:13px;font-weight:700;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.camp-heading-stats{display:flex;gap:16px;flex-shrink:0}
+.camp-heading-stat{text-align:right}
+.camp-heading-stat .lbl{font-size:9px;text-transform:uppercase;color:var(--mu);letter-spacing:.07em}
+.camp-heading-stat .val{font-size:13px;font-weight:700;font-variant-numeric:tabular-nums}
+
+.adset-section{
+  border:1px solid var(--border);border-top:none;
+  background:rgba(2,41,41,.4);
+}
+.adset-section:last-child{border-radius:0 0 12px 12px}
+
+.adset-heading{
+  display:flex;align-items:center;gap:8px;
+  padding:10px 18px 10px 28px;
+  border-bottom:1px solid var(--border);
+  background:rgba(89,172,158,.04);
+}
+.adset-heading:last-of-type{border-bottom:none}
+.adset-icon{font-size:11px;color:var(--tl)}
+.adset-name{font-size:12px;font-weight:600;color:var(--tl);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.adset-stats{display:flex;gap:14px;flex-shrink:0}
+.adset-stat{text-align:right}
+.adset-stat .lbl{font-size:9px;text-transform:uppercase;color:var(--mu);letter-spacing:.06em}
+.adset-stat .val{font-size:12px;font-weight:600;font-variant-numeric:tabular-nums}
+
+/* ── Creative grid ────────────────────────────────────── */
+.cr-grid-wrap{padding:14px 18px 18px 28px}
+.cr-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(188px,1fr));gap:12px}
+.cr-empty{font-size:11px;color:var(--mu);padding:8px 0}
+.crcrd{
+  background:var(--card);border:1px solid var(--border);border-radius:10px;
+  overflow:hidden;transition:transform .14s,border-color .14s;
+}
+.crcrd:hover{transform:translateY(-3px);border-color:rgba(201,162,84,.3);box-shadow:0 8px 28px rgba(0,0,0,.55)}
+.cr-thumb-wrap{position:relative;display:block;overflow:hidden}
+.cr-thumb-wrap:hover .cr-play{opacity:1}
+.cr-play{
+  position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  background:rgba(0,0,0,.45);opacity:0;transition:opacity .16s;
+  font-size:36px;text-decoration:none;
+}
+.cr-thumb{width:100%;aspect-ratio:16/9;object-fit:cover;display:block}
+.cr-ph{width:100%;aspect-ratio:16/9;display:flex;align-items:center;justify-content:center;
+  background:rgba(1,41,40,.8);font-size:26px;color:var(--mu)}
+.cr-preview-btn{
+  display:flex;align-items:center;justify-content:center;gap:5px;
+  margin-top:10px;padding:6px 0;border-radius:8px;
+  background:var(--gdd);border:1px solid rgba(201,162,84,.2);
+  color:var(--gd);font-size:11px;font-weight:600;text-decoration:none;
+  transition:background .15s,border-color .15s;
+}
+.cr-preview-btn:hover{background:rgba(201,162,84,.22);border-color:rgba(201,162,84,.5)}
+.cr-body{padding:10px 12px 12px}
+.cr-nm{font-size:11px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-bottom:2px}
+.cr-cp{font-size:10px;color:var(--mu);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-bottom:8px}
+.cr-stats{display:grid;grid-template-columns:1fr 1fr;gap:4px}
+.cs{background:rgba(89,172,158,.05);border-radius:6px;padding:5px 7px}
+.cs-l{font-size:9px;text-transform:uppercase;color:var(--mu);letter-spacing:.05em;margin-bottom:2px}
+.cs-v{font-size:13px;font-weight:700;font-variant-numeric:tabular-nums}
+.cs-v.gd{color:var(--gd)}
+.cs-v.wh{color:var(--txt)}
+.cs-v.gn{color:var(--gn)}
+.cs-v.tl{color:var(--tl)}
+.cs-v.or{color:var(--or)}
+.cs-v.pu{color:var(--pu)}
+.cr-vbars{margin-top:8px}
+.cv-row{display:flex;align-items:center;gap:5px;margin-bottom:4px}
+.cv-l{font-size:9px;color:var(--mu);width:20px}
+.cv-bg{flex:1;height:4px;background:rgba(229,229,229,.06);border-radius:2px;overflow:hidden}
+.cv-fill{height:100%;background:var(--gd);border-radius:2px;transition:width .5s}
+.cv-v{font-size:9px;color:var(--mu);width:28px;text-align:right;font-variant-numeric:tabular-nums}
+
+/* ── Footer ───────────────────────────────────────────── */
+.footer{font-size:11px;color:var(--mu);text-align:center;padding:6px 0 18px}
+.footer strong{color:rgba(229,229,229,.55)}
+
+/* ── Scrollbar ────────────────────────────────────────── */
+::-webkit-scrollbar{width:4px;height:4px}
+::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:rgba(89,172,158,.2);border-radius:2px}
+
+/* ── Responsive ───────────────────────────────────────── */
+@media(max-width:1200px){
+  .row1{grid-template-columns:1fr 1fr 1fr}
+  .chart-col{grid-column:1/-1;order:-1}
+}
+@media(max-width:900px){
+  .row1{grid-template-columns:1fr 1fr}
+  .row2{grid-template-columns:repeat(2,1fr)}
+  .row3{grid-template-columns:1fr 1fr}
+  .vcrd{grid-column:1/-1}
+}
+@media(max-width:700px){
+  :root{--sw:0px}
+  .sidebar{display:none}
+  .row2{grid-template-columns:1fr 1fr}
+  .row3{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<!-- ── SIDEBAR ─────────────────────────────────────────── -->
+<nav class="sidebar">
+  <div class="sb-logo">
+    <div class="sb-logo-icon">JM</div>
+    <div>
+      <div class="sb-brand" id="sb-name">João Mafra</div>
+      <div class="sb-sub">Ads Dashboard · 30 dias</div>
+    </div>
+  </div>
+
+  <div class="sb-sec">Dias com gasto</div>
+  <div class="sb-pills" id="day-pills"></div>
+
+  <div class="sb-sum">
+    <div class="sb-sum-ttl">Resumo 30 dias</div>
+    <div class="sb-row"><span class="sb-lbl">💰 Gasto</span><span class="sb-val" id="ss-spend">—</span></div>
+    <div class="sb-row"><span class="sb-lbl">🎯 Leads</span><span class="sb-val" id="ss-leads">—</span></div>
+    <div class="sb-row wh"><span class="sb-lbl">📊 CPL</span><span class="sb-val" id="ss-cpl">—</span></div>
+    <div class="sb-row gn"><span class="sb-lbl">💬 Entrou WA</span><span class="sb-val" id="ss-wa">—</span></div>
+    <div class="sb-row pu"><span class="sb-lbl">📝 Forms Obrig.</span><span class="sb-val" id="ss-form">—</span></div>
+  </div>
+</nav>
+
+<!-- ── MAIN ────────────────────────────────────────────── -->
+<main class="main">
+
+  <!-- Header -->
+  <div class="hdr">
+    <div>
+      <h1><em id="hdr-name">João Mafra</em> · Dashboard</h1>
+      <div class="hdr-range" id="hdr-range">—</div>
+    </div>
+    <div class="hdr-right">
+      <div id="hdr-updated">—</div>
+      <div class="hdr-next" id="hdr-next">—</div>
+    </div>
+  </div>
+
+  <!-- Row 1 — Gauges + Chart -->
+  <div class="row1">
+    <div class="gcrd">
+      <div class="g-lbl">Connect Rate</div>
+      <div class="g-wrap">
+        <svg viewBox="0 0 108 108">
+          <circle class="g-trk" cx="54" cy="54" r="45" transform="rotate(-90 54 54)"/>
+          <circle id="g-ctr" class="g-arc" cx="54" cy="54" r="45"
+            stroke="#C9A254" stroke-dasharray="282.74" stroke-dashoffset="282.74"
+            transform="rotate(-90 54 54)"/>
+        </svg>
+        <div class="g-ctr">
+          <span class="g-num" id="gn-ctr" style="color:#C9A254">—</span>
+          <span class="g-unit">CTR</span>
+        </div>
+      </div>
+      <div class="g-foot" id="gf-ctr">—</div>
+    </div>
+
+    <div class="gcrd">
+      <div class="g-lbl">Conversão LP</div>
+      <div class="g-wrap">
+        <svg viewBox="0 0 108 108">
+          <circle class="g-trk" cx="54" cy="54" r="45" transform="rotate(-90 54 54)"/>
+          <circle id="g-lp" class="g-arc" cx="54" cy="54" r="45"
+            stroke="#59AC9E" stroke-dasharray="282.74" stroke-dashoffset="282.74"
+            transform="rotate(-90 54 54)"/>
+        </svg>
+        <div class="g-ctr">
+          <span class="g-num" id="gn-lp" style="color:#59AC9E">—</span>
+          <span class="g-unit">Leads/Clique</span>
+        </div>
+      </div>
+      <div class="g-foot" id="gf-lp">—</div>
+    </div>
+
+    <div class="gcrd">
+      <div class="g-lbl">Hook Rate</div>
+      <div class="g-wrap">
+        <svg viewBox="0 0 108 108">
+          <circle class="g-trk" cx="54" cy="54" r="45" transform="rotate(-90 54 54)"/>
+          <circle id="g-hook" class="g-arc" cx="54" cy="54" r="45"
+            stroke="#D97A2A" stroke-dasharray="282.74" stroke-dashoffset="282.74"
+            transform="rotate(-90 54 54)"/>
+        </svg>
+        <div class="g-ctr">
+          <span class="g-num" id="gn-hook" style="color:#D97A2A">—</span>
+          <span class="g-unit">Views/Impr</span>
+        </div>
+      </div>
+      <div class="g-foot" id="gf-hook">—</div>
+    </div>
+
+    <div class="ccrd chart-col">
+      <div class="card-ttl">
+        <span>Gasto &amp; Leads diários</span>
+        <span class="bsm bsm-gd" id="chart-badge">—</span>
+      </div>
+      <canvas id="chart" style="margin-top:10px"></canvas>
+    </div>
+  </div>
+
+  <!-- Row 2 — KPI strip -->
+  <div class="row2">
+    <div class="kcrd">
+      <div class="k-lbl">💰 Gasto Total</div>
+      <div class="k-val" id="k-spend">—</div>
+      <div class="k-sub" id="k-spend-sub">—</div>
+    </div>
+    <div class="kcrd mu">
+      <div class="k-lbl">🎯 Leads</div>
+      <div class="k-val" id="k-leads">—</div>
+      <div class="k-sub" id="k-leads-sub">—</div>
+    </div>
+    <div class="kcrd mu">
+      <div class="k-lbl">📊 CPL</div>
+      <div class="k-val" id="k-cpl">—</div>
+      <div class="k-sub">Custo por lead</div>
+    </div>
+    <div class="kcrd mu">
+      <div class="k-lbl">📢 CPM</div>
+      <div class="k-val" id="k-cpm">—</div>
+      <div class="k-sub">Custo por mil impr.</div>
+    </div>
+  </div>
+
+  <!-- Row 3 — WA + Forms + Video retention -->
+  <div class="row3">
+    <div class="xcrd">
+      <div class="x-ico">💬</div>
+      <div class="x-lbl">Entrou Grupo do Whatsapp</div>
+      <div class="x-num gn" id="k-wa">—</div>
+      <div class="x-cst">Custo p/ entrada: <span id="k-cpwa">—</span></div>
+      <div class="pbr"><div class="pbf gn" id="pg-wa" style="width:0%"></div></div>
+      <div class="pb-pct" id="pg-wa-pct">—% das leads</div>
+    </div>
+    <div class="xcrd">
+      <div class="x-ico">📝</div>
+      <div class="x-lbl">Clicou no Forms da Pág. Obrigado</div>
+      <div class="x-num pu" id="k-form">—</div>
+      <div class="x-cst">Custo p/ clique: <span id="k-cpform">—</span></div>
+      <div class="pbr"><div class="pbf pu" id="pg-form" style="width:0%"></div></div>
+      <div class="pb-pct" id="pg-form-pct">—% das leads</div>
+    </div>
+    <div class="vcrd">
+      <div class="vr-ttl">🎬 Retenção de Vídeo</div>
+      <div class="vr-row">
+        <span class="vr-lbl">25%</span>
+        <div class="vr-bar"><div class="vr-fill" id="vr25" style="width:0%;background:rgba(201,162,84,.9)"></div></div>
+        <span class="vr-val" id="vv25">—</span>
+      </div>
+      <div class="vr-row">
+        <span class="vr-lbl">50%</span>
+        <div class="vr-bar"><div class="vr-fill" id="vr50" style="width:0%;background:rgba(201,162,84,.65)"></div></div>
+        <span class="vr-val" id="vv50">—</span>
+      </div>
+      <div class="vr-row">
+        <span class="vr-lbl">75%</span>
+        <div class="vr-bar"><div class="vr-fill" id="vr75" style="width:0%;background:rgba(201,162,84,.45)"></div></div>
+        <span class="vr-val" id="vv75">—</span>
+      </div>
+      <div class="vr-row">
+        <span class="vr-lbl">100%</span>
+        <div class="vr-bar"><div class="vr-fill" id="vr100" style="width:0%;background:rgba(201,162,84,.28)"></div></div>
+        <span class="vr-val" id="vv100">—</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Campaign summary table -->
+  <div class="sec-div">
+    <span class="sec-div-ttl">📊 Campanhas</span>
+    <div class="sec-div-line"></div>
+    <span class="bsm bsm-gd" id="camps-badge">—</span>
+  </div>
+
+  <div class="tbl-crd">
+    <div class="tbl-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th onclick="srt('name')">Campanha</th>
+            <th class="tr" onclick="srt('spend')">Gasto</th>
+            <th class="tr" onclick="srt('leads')">Leads</th>
+            <th class="tr" onclick="srt('cpl')">CPL</th>
+            <th class="tr" onclick="srt('ctr')">Connect Rate</th>
+            <th class="tr" onclick="srt('lp_conv')">Conv. LP</th>
+            <th class="tr" onclick="srt('cpm')">CPM</th>
+            <th class="tr" onclick="srt('impressions')">Impressões</th>
+            <th class="tr" onclick="srt('wa_group')" style="color:#25B348">💬 WA</th>
+            <th class="tr" onclick="srt('form_thanks')" style="color:#9B6DFF">📝 Forms</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody id="camps-body"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Campaigns + Adsets + Creatives (nested) -->
+  <div class="sec-div">
+    <span class="sec-div-ttl">🎯 Conjuntos &amp; Criativos por Campanha</span>
+    <div class="sec-div-line"></div>
+    <span class="bsm bsm-tl" id="adsets-badge">—</span>
+  </div>
+
+  <div id="camps-adsets"></div>
+
+  <div class="footer" id="footer">—</div>
+
+</main>
+
+<script>
+let D = null, selD = 'all', ch = null, srtK = 'spend', srtDir = -1;
+const CIRC = 282.74;
+
+async function init() {
+  try {
+    const r = await fetch('data.json?t=' + Date.now());
+    D = await r.json();
+    render();
+  } catch(e) {
+    document.querySelector('.main').innerHTML =
+      '<div style="padding:60px;text-align:center;color:rgba(229,229,229,.35)">Erro ao carregar dados.<br>Verifique o console.</div>';
+    console.error(e);
+  }
+}
+
+/* ── Formatters ───────────────────────────────────────── */
+function fmtC(v){ return 'R$ ' + Number(v||0).toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2}); }
+function fmtN(v){ return Number(v||0).toLocaleString('pt-BR'); }
+function fmtP(v){ return Number(v||0).toLocaleString('pt-BR',{minimumFractionDigits:1,maximumFractionDigits:1}) + '%'; }
+function fd(s){ const d=new Date(s+'T12:00:00Z'); return d.getUTCDate().toString().padStart(2,'0')+'/'+(d.getUTCMonth()+1).toString().padStart(2,'0')+'/'+d.getUTCFullYear(); }
+function fdt(iso){ return new Date(iso).toLocaleString('pt-BR',{timeZone:'America/Sao_Paulo',day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'}); }
+function esc(s){ return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+
+/* ── Data helpers ─────────────────────────────────────── */
+function getMet(date) {
+  if (!date || date === 'all') return D.summary;
+  return D.daily.find(d => d.date === date) || D.summary;
+}
+function getCMet(c, date) {
+  if (!date || date === 'all') return {...c};
+  const d = (c.daily||[]).find(x => x.date === date);
+  return d ? {...c, ...d}
+           : {...c, spend:0, leads:0, cpl:0, ctr:0, lp_conv:0, cpm:0, impressions:0, wa_group:0, form_thanks:0};
+}
+
+/* ── Gauge helper ─────────────────────────────────────── */
+function setGauge(id, value, max) {
+  const pct = Math.min((value / (max || 100)) * 100, 100);
+  const el  = document.getElementById('g-' + id);
+  if (el) el.style.strokeDashoffset = CIRC * (1 - pct / 100);
+}
+
+/* ── Render ───────────────────────────────────────────── */
+function render() {
+  const dr = D.date_range;
+  document.getElementById('hdr-name').textContent    = D.account.name;
+  document.getElementById('sb-name').textContent     = D.account.name;
+  document.getElementById('hdr-range').textContent   = fd(dr.since) + ' → ' + fd(dr.until) + ' (últimos 30 dias)';
+  document.getElementById('hdr-updated').textContent = 'Atualizado ' + fdt(D.last_updated);
+  const next = new Date(new Date(D.last_updated).getTime() + 6*3600*1000);
+  document.getElementById('hdr-next').textContent    = 'Próxima: ' + fdt(next.toISOString());
+  document.title = D.account.name + ' · Dashboard';
+
+  const s = D.summary;
+  document.getElementById('ss-spend').textContent = fmtC(s.spend);
+  document.getElementById('ss-leads').textContent = fmtN(s.leads);
+  document.getElementById('ss-cpl').textContent   = s.cpl > 0 ? fmtC(s.cpl) : '—';
+  document.getElementById('ss-wa').textContent    = fmtN(s.wa_group   || 0);
+  document.getElementById('ss-form').textContent  = fmtN(s.form_thanks || 0);
+
+  renderPills();
+  updateKPIs(getMet(selD));
+  renderChart();
+  renderCampsTable(D.campaigns);
+  renderCampsAdsets(D.campaigns);
+
+  const totalAdsets = D.campaigns.reduce((s,c) => s + (c.adsets||[]).length, 0);
+  const totalAds    = D.campaigns.reduce((s,c) => s + (c.adsets||[]).reduce((ss,a) => ss + (a.ads||[]).length, 0), 0);
+  document.getElementById('adsets-badge').textContent = totalAdsets + ' conjuntos · ' + totalAds + ' criativos';
+
+  document.getElementById('footer').innerHTML =
+    `Conta: <strong>${D.account.name}</strong> (${D.account.id}) &nbsp;·&nbsp;
+     Atualizado: <strong>${fdt(D.last_updated)}</strong> &nbsp;·&nbsp;
+     Próxima: <strong>${fdt(next.toISOString())}</strong> &nbsp;·&nbsp;
+     Atualiza a cada 6 horas via GitHub Actions`;
+}
+
+/* ── Day pills ────────────────────────────────────────── */
+function renderPills() {
+  const days = ['Dom','Seg','Ter','Qua','Qui','Sex','Sáb'];
+  const c = document.getElementById('day-pills');
+  c.innerHTML = '';
+  const all = document.createElement('button');
+  all.className = 'day-btn' + (selD === 'all' ? ' on' : '');
+  all.innerHTML = '<span class="dot"></span>Todos os dias';
+  all.onclick = () => selDay('all', all);
+  c.appendChild(all);
+  (D.daily || []).filter(d => d.spend > 0).forEach(d => {
+    const dt  = new Date(d.date + 'T12:00:00Z');
+    const lbl = days[dt.getUTCDay()] + ' ' +
+                dt.getUTCDate().toString().padStart(2,'0') + '/' +
+                (dt.getUTCMonth()+1).toString().padStart(2,'0');
+    const btn = document.createElement('button');
+    btn.className = 'day-btn' + (selD === d.date ? ' on' : '');
+    btn.dataset.d = d.date;
+    btn.innerHTML = `<span class="dot"></span>${lbl}`;
+    btn.onclick = () => selDay(d.date, btn);
+    c.appendChild(btn);
+  });
+}
+
+function selDay(date, btn) {
+  selD = date;
+  document.querySelectorAll('.day-btn').forEach(p => p.classList.remove('on'));
+  btn.classList.add('on');
+  if (!D) return;
+  updateKPIs(getMet(date));
+  renderCampsTable(D.campaigns);
+  if (ch) highlightDay(date);
+}
+
+/* ── KPIs + Gauges ────────────────────────────────────── */
+function updateKPIs(m) {
+  document.getElementById('k-spend').textContent     = fmtC(m.spend);
+  document.getElementById('k-leads').textContent     = fmtN(m.leads);
+  document.getElementById('k-cpl').textContent       = m.cpl > 0 ? fmtC(m.cpl) : '—';
+  document.getElementById('k-cpm').textContent       = fmtC(m.cpm);
+  document.getElementById('k-spend-sub').textContent = fmtN(m.impressions) + ' impressões';
+  document.getElementById('k-leads-sub').textContent = fmtN(m.clicks || 0) + ' cliques';
+
+  const ctr  = m.ctr        || 0;
+  const lp   = m.lp_conv    || 0;
+  const hook = m.hook_rate  || 0;
+  setGauge('ctr',  ctr,  8);
+  setGauge('lp',   lp,   50);
+  setGauge('hook', hook, 60);
+  document.getElementById('gn-ctr').textContent  = fmtP(ctr);
+  document.getElementById('gn-lp').textContent   = fmtP(lp);
+  document.getElementById('gn-hook').textContent = fmtP(hook);
+  document.getElementById('gf-ctr').textContent  = fmtN(m.clicks || 0) + ' cliques';
+  document.getElementById('gf-lp').textContent   = fmtN(m.leads  || 0) + ' leads';
+  document.getElementById('gf-hook').textContent = fmtN(m.impressions || 0) + ' impr.';
+  document.getElementById('chart-badge').textContent = D.date_range.since + ' → ' + D.date_range.until;
+
+  const wa    = m.wa_group    || 0;
+  const form  = m.form_thanks || 0;
+  const leads = m.leads || 1;
+  document.getElementById('k-wa').textContent      = fmtN(wa);
+  document.getElementById('k-cpwa').textContent    = (m.cp_wa   || 0) > 0 ? fmtC(m.cp_wa)   : '—';
+  document.getElementById('k-form').textContent    = fmtN(form);
+  document.getElementById('k-cpform').textContent  = (m.cp_form || 0) > 0 ? fmtC(m.cp_form) : '—';
+
+  const waPct   = Math.min((wa   / leads) * 100, 100);
+  const formPct = Math.min((form / leads) * 100, 100);
+  document.getElementById('pg-wa').style.width       = waPct.toFixed(1)   + '%';
+  document.getElementById('pg-form').style.width     = formPct.toFixed(1) + '%';
+  document.getElementById('pg-wa-pct').textContent   = waPct.toFixed(1)   + '% das leads';
+  document.getElementById('pg-form-pct').textContent = formPct.toFixed(1) + '% das leads';
+
+  [25, 50, 75, 100].forEach(p => {
+    const v = m['vp' + p] || 0;
+    document.getElementById('vr'  + p).style.width = Math.min(v, 100) + '%';
+    document.getElementById('vv'  + p).textContent = fmtP(v);
+  });
+}
+
+/* ── Chart ────────────────────────────────────────────── */
+function renderChart() {
+  if (ch) { ch.destroy(); ch = null; }
+  const labels = D.daily.map(d => {
+    const dt = new Date(d.date + 'T12:00:00Z');
+    return dt.getUTCDate().toString().padStart(2,'0') + '/' +
+           (dt.getUTCMonth()+1).toString().padStart(2,'0');
+  });
+  const ctx = document.getElementById('chart').getContext('2d');
+  ch = new Chart(ctx, {
+    data: {
+      labels,
+      datasets: [
+        {
+          type: 'bar', label: 'Gasto (R$)',
+          data: D.daily.map(d => d.spend || 0),
+          backgroundColor: 'rgba(201,162,84,.65)',
+          yAxisID: 'y', borderRadius: 3, order: 3,
+        },
+        {
+          type: 'line', label: 'Leads',
+          data: D.daily.map(d => d.leads || 0),
+          borderColor: '#59AC9E', backgroundColor: 'rgba(89,172,158,.07)',
+          pointBackgroundColor: '#59AC9E',
+          pointRadius: 3, pointHoverRadius: 5, tension: 0.3,
+          fill: false, yAxisID: 'y2', order: 1,
+        },
+        {
+          type: 'line', label: 'Forms Obrigado',
+          data: D.daily.map(d => d.form_thanks || 0),
+          borderColor: '#9B6DFF', backgroundColor: 'transparent',
+          pointBackgroundColor: '#9B6DFF',
+          pointRadius: 3, pointHoverRadius: 5, tension: 0.3,
+          fill: false, yAxisID: 'y2', order: 2, borderDash: [4,3],
+        },
+      ]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      interaction: { mode: 'index', intersect: false },
+      plugins: {
+        legend: { display: true, labels: { color: 'rgba(229,229,229,.4)', boxWidth: 10, font: { size: 10 }, padding: 12 } },
+        tooltip: {
+          backgroundColor: '#022929', borderColor: 'rgba(201,162,84,.25)', borderWidth: 1,
+          titleColor: '#E5E5E5', bodyColor: 'rgba(229,229,229,.65)',
+          callbacks: {
+            label: c => {
+              if (c.dataset.yAxisID === 'y') return ' Gasto: R$ ' + c.parsed.y.toFixed(2);
+              return ` ${c.dataset.label}: ${c.parsed.y}`;
+            }
+          }
+        }
+      },
+      scales: {
+        x : { ticks: { color: 'rgba(229,229,229,.35)', font: { size: 10 }, maxTicksLimit: 14 }, grid: { color: 'rgba(89,172,158,.06)' } },
+        y : { position: 'left',  ticks: { color: 'rgba(201,162,84,.55)', font: { size: 10 }, callback: v => 'R$'+v }, grid: { color: 'rgba(89,172,158,.06)' } },
+        y2: { position: 'right', ticks: { color: 'rgba(89,172,158,.5)', font: { size: 10 } }, grid: { display: false }, min: 0 }
+      }
+    }
+  });
+}
+
+function highlightDay(date) {
+  const idx = D.daily.findIndex(d => d.date === date);
+  ch.data.datasets[0].backgroundColor = D.daily.map((_,i) =>
+    date === 'all' ? 'rgba(201,162,84,.65)' :
+    i === idx ? 'rgba(201,162,84,1)' : 'rgba(201,162,84,.12)'
+  );
+  ch.update();
+}
+
+/* ── Campaign summary table ───────────────────────────── */
+function srt(key) {
+  if (srtK === key) srtDir *= -1; else { srtK = key; srtDir = -1; }
+  document.querySelectorAll('th').forEach(th => th.classList.remove('sort-asc','sort-desc'));
+  const th = [...document.querySelectorAll('th')].find(t => t.getAttribute('onclick') === `srt('${key}')`);
+  if (th) th.classList.add(srtDir > 0 ? 'sort-asc' : 'sort-desc');
+  renderCampsTable(D.campaigns);
+}
+
+function renderCampsTable(camps) {
+  const rows   = camps.map(c => getCMet(c, selD)).filter(c => c.spend > 0);
+  rows.sort((a,b) => {
+    const av = a[srtK] ?? 0, bv = b[srtK] ?? 0;
+    return typeof av === 'string' ? av.localeCompare(bv)*srtDir : (av-bv)*srtDir;
+  });
+  document.getElementById('camps-badge').textContent = rows.length + ' campanhas';
+  document.getElementById('camps-body').innerHTML = rows.map(c => `
+    <tr>
+      <td class="trunc" title="${esc(c.name)}">${esc(c.name)}</td>
+      <td class="tr mono gd">${fmtC(c.spend)}</td>
+      <td class="tr mono">${fmtN(c.leads)}</td>
+      <td class="tr mono">${c.cpl > 0 ? fmtC(c.cpl) : '<span class="dim">—</span>'}</td>
+      <td class="tr mono">${fmtP(c.ctr)}</td>
+      <td class="tr mono">${fmtP(c.lp_conv)}</td>
+      <td class="tr mono dim">${fmtC(c.cpm)}</td>
+      <td class="tr mono dim">${fmtN(c.impressions)}</td>
+      <td class="tr mono" style="color:#25B348">${fmtN(c.wa_group   || 0)}</td>
+      <td class="tr mono" style="color:#9B6DFF">${fmtN(c.form_thanks || 0)}</td>
+      <td><span class="sbdg ${c.status==='ACTIVE'?'s-act':'s-pau'}">
+        ${c.status==='ACTIVE'?'● Ativa':'⏸ Pausada'}
+      </span></td>
+    </tr>`).join('');
+}
+
+/* ── Campaigns > Adsets > Creatives ───────────────────── */
+function renderCampsAdsets(campaigns) {
+  const container = document.getElementById('camps-adsets');
+  const filtered  = campaigns.filter(c => c.spend > 0);
+
+  container.innerHTML = filtered.map(camp => {
+    const adsets = (camp.adsets || []).filter(a => a.spend > 0);
+
+    const adsetsHtml = adsets.map(adset => {
+      const ads = (adset.ads || []).filter(a => a.spend > 0);
+      const crHtml = ads.length === 0
+        ? `<div class="cr-grid-wrap"><p class="cr-empty">Sem criativos com gasto neste período.</p></div>`
+        : `<div class="cr-grid-wrap"><div class="cr-grid">${ads.map(ad => renderAdCard(ad, camp.name)).join('')}</div></div>`;
+
+      return `
+        <div class="adset-section">
+          <div class="adset-heading">
+            <span class="adset-icon">▸</span>
+            <span class="adset-name" title="${esc(adset.name)}">${esc(adset.name)}</span>
+            <div class="adset-stats">
+              <div class="adset-stat"><div class="lbl">Gasto</div><div class="val" style="color:#C9A254">${fmtC(adset.spend)}</div></div>
+              <div class="adset-stat"><div class="lbl">Leads</div><div class="val">${fmtN(adset.leads)}</div></div>
+              <div class="adset-stat"><div class="lbl">CPL</div><div class="val">${adset.cpl > 0 ? fmtC(adset.cpl) : '—'}</div></div>
+              <div class="adset-stat"><div class="lbl">CTR</div><div class="val">${fmtP(adset.ctr)}</div></div>
+              <div class="adset-stat" style="display:${(adset.wa_group||0)>0?'block':'none'}">
+                <div class="lbl">💬 WA</div><div class="val" style="color:#25B348">${fmtN(adset.wa_group||0)}</div>
+              </div>
+            </div>
+          </div>
+          ${crHtml}
+        </div>`;
+    }).join('');
+
+    return `
+      <div class="camp-section">
+        <div class="camp-heading">
+          <span class="camp-heading-icon">📁</span>
+          <span class="camp-heading-name" title="${esc(camp.name)}">${esc(camp.name)}</span>
+          <div class="camp-heading-stats">
+            <div class="camp-heading-stat"><div class="lbl">Gasto</div><div class="val" style="color:#C9A254">${fmtC(camp.spend)}</div></div>
+            <div class="camp-heading-stat"><div class="lbl">Leads</div><div class="val">${fmtN(camp.leads)}</div></div>
+            <div class="camp-heading-stat"><div class="lbl">CPL</div><div class="val">${camp.cpl>0?fmtC(camp.cpl):'—'}</div></div>
+            <div class="camp-heading-stat"><div class="lbl">Status</div><div class="val">
+              <span class="sbdg ${camp.status==='ACTIVE'?'s-act':'s-pau'}" style="font-size:9px">
+                ${camp.status==='ACTIVE'?'● Ativa':'⏸ Pausada'}
+              </span>
+            </div></div>
+          </div>
+        </div>
+        ${adsets.length === 0 ? '<div style="padding:16px 18px;color:var(--mu);font-size:12px;border:1px solid var(--border);border-top:none;border-radius:0 0 12px 12px">Sem conjuntos com gasto.</div>' : adsetsHtml}
+      </div>`;
+  }).join('');
+}
+
+function renderAdCard(ad, campName) {
+  const previewUrl = ad.preview_url || '';
+  const imgTag = ad.thumbnail
+    ? `<img src="${ad.thumbnail}" class="cr-thumb" alt="${esc(ad.name)}" loading="lazy" onerror="this.style.display='none'">`
+    : `<div class="cr-ph">🎬</div>`;
+  const thumb = previewUrl
+    ? `<a href="${previewUrl}" target="_blank" rel="noopener" class="cr-thumb-wrap">
+         ${imgTag}<span class="cr-play">▶</span>
+       </a>`
+    : `<div class="cr-thumb-wrap">${imgTag}</div>`;
+
+  const hookHtml = ad.hook_rate > 0
+    ? `<div class="cs"><div class="cs-l">Hook Rate</div><div class="cs-v ${ad.hook_rate>=25?'gn':'or'}">${fmtP(ad.hook_rate)}</div></div>` : '';
+  const waHtml   = (ad.wa_group||0) > 0
+    ? `<div class="cs"><div class="cs-l">💬 WA</div><div class="cs-v gn">${fmtN(ad.wa_group)}</div></div>` : '';
+  const formHtml = (ad.form_thanks||0) > 0
+    ? `<div class="cs"><div class="cs-l">📝 Forms</div><div class="cs-v pu">${fmtN(ad.form_thanks)}</div></div>` : '';
+  const vbarsHtml = ad.vp25 > 0 ? `
+    <div class="cr-vbars">
+      ${[25,50,75,100].map(p => {
+        const v = ad['vp'+p] || 0;
+        return `<div class="cv-row">
+          <span class="cv-l">${p}%</span>
+          <div class="cv-bg"><div class="cv-fill" style="width:${Math.min(v,100)}%"></div></div>
+          <span class="cv-v">${fmtP(v)}</span>
+        </div>`;
+      }).join('')}
+    </div>` : '';
+
+  return `<div class="crcrd">
+    ${thumb}
+    <div class="cr-body">
+      <div class="cr-nm" title="${esc(ad.name)}">${esc(ad.name)}</div>
+      <div class="cr-cp">${esc(ad.adset_name || '')}</div>
+      <div class="cr-stats">
+        <div class="cs"><div class="cs-l">Gasto</div><div class="cs-v gd">${fmtC(ad.spend)}</div></div>
+        <div class="cs"><div class="cs-l">Leads</div><div class="cs-v wh">${fmtN(ad.leads)}</div></div>
+        <div class="cs"><div class="cs-l">CPL</div><div class="cs-v wh">${ad.cpl>0?fmtC(ad.cpl):'—'}</div></div>
+        <div class="cs"><div class="cs-l">CTR</div><div class="cs-v wh">${fmtP(ad.ctr)}</div></div>
+        ${hookHtml}${waHtml}${formHtml}
+      </div>
+      ${vbarsHtml}
+      ${previewUrl ? `<a href="${previewUrl}" target="_blank" rel="noopener" class="cr-preview-btn">▶ Ver criativo</a>` : ''}
+    </div>
+  </div>`;
+}
+
+init();
+</script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+name: Update João Mafra Dashboard
+on:
+  schedule:
+    - cron: '0 */6 * * *'   # a cada 6 horas (0h, 6h, 12h, 18h UTC)
+  workflow_dispatch:          # disparo manual
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - name: Fetch Meta data
+        env:
+          META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
+        run: python scripts/fetch_joao_dashboard.py
+      - name: Deploy to gh-pages
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Salvar arquivos gerados
+          cp docs-joao/data.json  /tmp/data.json
+          cp docs-joao/index.html /tmp/index.html
+          cp -r docs-joao/thumbnails /tmp/thumbnails 2>/dev/null || mkdir /tmp/thumbnails
+
+          # Ir para gh-pages (force para descartar mudanças no worktree)
+          git fetch origin gh-pages
+          git checkout -f gh-pages
+
+          # Atualizar arquivos
+          cp /tmp/data.json  data.json
+          cp /tmp/index.html index.html
+          mkdir -p thumbnails
+          cp -r /tmp/thumbnails/. thumbnails/ 2>/dev/null || true
+
+          # Commit se houver mudanças
+          git add data.json index.html thumbnails/
+          if git diff --staged --quiet; then
+            echo "Sem alteracoes."
+          else
+            git commit -m "chore: dashboard $(date -u '+%Y-%m-%d %H:%M UTC') [skip ci]"
+            git push origin gh-pages
+            echo "Dashboard atualizado!"
+          fi
