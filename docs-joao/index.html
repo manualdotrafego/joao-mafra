@@ -102,12 +102,13 @@ html,body{
 .bsm-gn{background:var(--gnd);color:var(--gn)}
 .bsm-tl{background:var(--tld);color:var(--tl)}
 .bsm-wh{background:rgba(255,255,255,.07);color:rgba(229,229,229,.5)}
+.bsm-ig{background:rgba(155,109,255,.12);color:#b46bff}
 
 /* ── Hover expand ─────────────────────────────────────── */
-.gcrd,.kcrd,.xcrd,.vcrd{
+.gcrd,.kcrd,.vcrd{
   transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease;
 }
-.gcrd:hover,.kcrd:hover,.xcrd:hover,.vcrd:hover{
+.gcrd:hover,.kcrd:hover,.vcrd:hover{
   transform:scale(1.04) translateY(-3px);
   border-color:rgba(201,162,84,.35);
   box-shadow:0 10px 36px rgba(0,0,0,.6);
@@ -148,31 +149,21 @@ html,body{
 .kcrd.gn::before{background:var(--gn)}
 .kcrd.tl::before{background:var(--tl)}
 .kcrd.mu::before{background:rgba(229,229,229,.18)}
+.kcrd.ig::before{background:#b46bff}
 .k-lbl{font-size:10px;color:var(--mu);text-transform:uppercase;letter-spacing:.07em;margin-bottom:6px}
 .k-val{font-size:24px;font-weight:800;font-variant-numeric:tabular-nums;color:var(--gd);line-height:1}
 .kcrd.gn .k-val{color:var(--gn)}
 .kcrd.tl .k-val{color:var(--tl)}
 .kcrd.mu .k-val{color:var(--txt)}
+.kcrd.ig .k-val{color:#b46bff}
 .k-sub{font-size:11px;color:var(--mu);margin-top:5px}
 
-/* ── Row-3: WA + Forms + Video ────────────────────────── */
-.row3{display:grid;grid-template-columns:1fr 1fr 1.2fr;gap:14px}
-.xcrd{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:16px}
-.x-ico{font-size:20px;margin-bottom:4px}
-.x-lbl{font-size:10px;color:var(--mu);text-transform:uppercase;letter-spacing:.07em;margin-bottom:5px}
-.x-num{font-size:38px;font-weight:800;font-variant-numeric:tabular-nums;line-height:1}
-.x-num.gn{color:var(--gn)}
-.x-num.pu{color:var(--pu)}
-.x-cst{font-size:12px;color:var(--mu);margin-top:6px}
-.x-cst span{color:var(--txt);font-weight:600;font-variant-numeric:tabular-nums}
-.pbr{height:5px;background:rgba(229,229,229,.07);border-radius:3px;overflow:hidden;margin-top:10px}
-.pbf{height:100%;border-radius:3px;transition:width .7s ease}
-.pbf.gn{background:var(--gn)}
-.pbf.pu{background:var(--pu)}
-.pb-pct{font-size:10px;color:var(--mu);margin-top:4px}
+/* ── Row-3: Video retention only ─────────────────────── */
+.row3{display:grid;grid-template-columns:1fr;gap:14px}
 
-.vcrd{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:16px}
+.vcrd{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:16px 20px}
 .vr-ttl{font-size:10px;color:var(--mu);text-transform:uppercase;letter-spacing:.08em;margin-bottom:14px}
+.vr-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
 .vr-row{display:flex;align-items:center;gap:8px;margin-bottom:9px}
 .vr-lbl{font-size:11px;color:var(--mu);width:28px;flex-shrink:0}
 .vr-bar{flex:1;height:7px;background:rgba(229,229,229,.07);border-radius:4px;overflow:hidden}
@@ -289,12 +280,28 @@ tr:hover td{background:rgba(201,162,84,.025)}
 .cs-v.tl{color:var(--tl)}
 .cs-v.or{color:var(--or)}
 .cs-v.pu{color:var(--pu)}
+.cs-v.ig{color:#b46bff}
 .cr-vbars{margin-top:8px}
 .cv-row{display:flex;align-items:center;gap:5px;margin-bottom:4px}
 .cv-l{font-size:9px;color:var(--mu);width:20px}
 .cv-bg{flex:1;height:4px;background:rgba(229,229,229,.06);border-radius:2px;overflow:hidden}
 .cv-fill{height:100%;background:var(--gd);border-radius:2px;transition:width .5s}
 .cv-v{font-size:9px;color:var(--mu);width:28px;text-align:right;font-variant-numeric:tabular-nums}
+
+/* ── Instagram section ────────────────────────────────── */
+.ig-kpi-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+@media(max-width:1100px){.ig-kpi-grid{grid-template-columns:repeat(2,1fr)}}
+.ig-chart-crd{
+  background:var(--card);border:1px solid var(--border);border-radius:12px;
+  padding:14px 16px;height:240px;display:flex;flex-direction:column;
+}
+.ig-chart-crd canvas{display:block;width:100%!important;flex:1;min-height:0;margin-top:10px}
+.ig-ads-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:14px}
+.ig-crcrd{
+  background:var(--card);border:1px solid rgba(155,109,255,.18);border-radius:10px;
+  overflow:hidden;transition:transform .14s,border-color .14s;
+}
+.ig-crcrd:hover{transform:translateY(-3px);border-color:rgba(180,107,255,.45);box-shadow:0 8px 28px rgba(0,0,0,.55)}
 
 /* ── Footer ───────────────────────────────────────────── */
 .footer{font-size:11px;color:var(--mu);text-align:center;padding:6px 0 18px}
@@ -313,14 +320,12 @@ tr:hover td{background:rgba(201,162,84,.025)}
 @media(max-width:900px){
   .row1{grid-template-columns:1fr 1fr}
   .row2{grid-template-columns:repeat(2,1fr)}
-  .row3{grid-template-columns:1fr 1fr}
-  .vcrd{grid-column:1/-1}
 }
 @media(max-width:700px){
   :root{--sw:0px}
   .sidebar{display:none}
   .row2{grid-template-columns:1fr 1fr}
-  .row3{grid-template-columns:1fr}
+  .ig-kpi-grid{grid-template-columns:1fr 1fr}
 }
 </style>
 </head>
@@ -344,8 +349,8 @@ tr:hover td{background:rgba(201,162,84,.025)}
     <div class="sb-row"><span class="sb-lbl">💰 Gasto</span><span class="sb-val" id="ss-spend">—</span></div>
     <div class="sb-row"><span class="sb-lbl">🎯 Leads</span><span class="sb-val" id="ss-leads">—</span></div>
     <div class="sb-row wh"><span class="sb-lbl">📊 CPL</span><span class="sb-val" id="ss-cpl">—</span></div>
-    <div class="sb-row gn"><span class="sb-lbl">💬 Entrou WA</span><span class="sb-val" id="ss-wa">—</span></div>
-    <div class="sb-row pu"><span class="sb-lbl">📝 Forms Obrig.</span><span class="sb-val" id="ss-form">—</span></div>
+    <div class="sb-row tl"><span class="sb-lbl">📸 IG Visitas</span><span class="sb-val" id="ss-ig-visits">—</span></div>
+    <div class="sb-row tl"><span class="sb-lbl">📸 IG Gasto</span><span class="sb-val" id="ss-ig-spend">—</span></div>
   </div>
 </nav>
 
@@ -450,24 +455,8 @@ tr:hover td{background:rgba(201,162,84,.025)}
     </div>
   </div>
 
-  <!-- Row 3 — WA + Forms + Video retention -->
+  <!-- Row 3 — Video retention -->
   <div class="row3">
-    <div class="xcrd">
-      <div class="x-ico">💬</div>
-      <div class="x-lbl">Entrou Grupo do Whatsapp</div>
-      <div class="x-num gn" id="k-wa">—</div>
-      <div class="x-cst">Custo p/ entrada: <span id="k-cpwa">—</span></div>
-      <div class="pbr"><div class="pbf gn" id="pg-wa" style="width:0%"></div></div>
-      <div class="pb-pct" id="pg-wa-pct">—% das leads</div>
-    </div>
-    <div class="xcrd">
-      <div class="x-ico">📝</div>
-      <div class="x-lbl">Clicou no Forms da Pág. Obrigado</div>
-      <div class="x-num pu" id="k-form">—</div>
-      <div class="x-cst">Custo p/ clique: <span id="k-cpform">—</span></div>
-      <div class="pbr"><div class="pbf pu" id="pg-form" style="width:0%"></div></div>
-      <div class="pb-pct" id="pg-form-pct">—% das leads</div>
-    </div>
     <div class="vcrd">
       <div class="vr-ttl">🎬 Retenção de Vídeo</div>
       <div class="vr-row">
@@ -513,8 +502,6 @@ tr:hover td{background:rgba(201,162,84,.025)}
             <th class="tr" onclick="srt('lp_conv')">Conv. LP</th>
             <th class="tr" onclick="srt('cpm')">CPM</th>
             <th class="tr" onclick="srt('impressions')">Impressões</th>
-            <th class="tr" onclick="srt('wa_group')" style="color:#25B348">💬 WA</th>
-            <th class="tr" onclick="srt('form_thanks')" style="color:#9B6DFF">📝 Forms</th>
             <th>Status</th>
           </tr>
         </thead>
@@ -532,13 +519,80 @@ tr:hover td{background:rgba(201,162,84,.025)}
 
   <div id="camps-adsets"></div>
 
+  <!-- ── INSTAGRAM SECTION ──────────────────────────────── -->
+  <div class="sec-div" id="ig-section-div" style="display:none">
+    <span class="sec-div-ttl">📸 Instagram · Tráfego</span>
+    <div class="sec-div-line"></div>
+    <span class="bsm bsm-ig" id="ig-badge">—</span>
+  </div>
+
+  <!-- Instagram KPI cards -->
+  <div class="ig-kpi-grid" id="ig-kpis" style="display:none">
+    <div class="kcrd ig">
+      <div class="k-lbl">💰 Gasto Instagram</div>
+      <div class="k-val" id="ig-spend">—</div>
+      <div class="k-sub" id="ig-spend-sub">—</div>
+    </div>
+    <div class="kcrd tl">
+      <div class="k-lbl">👁 Alcance</div>
+      <div class="k-val" id="ig-reach">—</div>
+      <div class="k-sub" id="ig-reach-sub">—</div>
+    </div>
+    <div class="kcrd mu">
+      <div class="k-lbl">🔗 Visitas ao Perfil</div>
+      <div class="k-val" id="ig-visits">—</div>
+      <div class="k-sub" id="ig-visits-sub">Cliques → perfil (proxy)</div>
+    </div>
+    <div class="kcrd mu">
+      <div class="k-lbl">💸 Custo por Visita</div>
+      <div class="k-val" id="ig-cpp">—</div>
+      <div class="k-sub">Por link click</div>
+    </div>
+    <div class="kcrd mu">
+      <div class="k-lbl">❤️ Engajamento</div>
+      <div class="k-val" id="ig-eng">—</div>
+      <div class="k-sub">Interações totais</div>
+    </div>
+    <div class="kcrd mu">
+      <div class="k-lbl">📢 CPM</div>
+      <div class="k-val" id="ig-cpm">—</div>
+      <div class="k-sub">Custo por mil impr.</div>
+    </div>
+  </div>
+
+  <!-- Instagram daily chart -->
+  <div class="ig-chart-crd" id="ig-chart-crd" style="display:none">
+    <div class="card-ttl">
+      <span>Instagram · Gasto &amp; Visitas ao Perfil diários</span>
+      <span class="bsm bsm-ig" id="ig-chart-badge">—</span>
+    </div>
+    <canvas id="ig-chart"></canvas>
+  </div>
+
+  <!-- Instagram ad cards -->
+  <div class="sec-div" id="ig-ads-div" style="display:none">
+    <span class="sec-div-ttl">🎨 Criativos Instagram Ativos</span>
+    <div class="sec-div-line"></div>
+    <span class="bsm bsm-ig" id="ig-ads-badge">—</span>
+  </div>
+  <div class="ig-ads-grid" id="ig-ads" style="display:none"></div>
+
   <div class="footer" id="footer">—</div>
 
 </main>
 
 <script>
-let D = null, selD = 'all', ch = null, srtK = 'spend', srtDir = -1;
+let D = null, selD = 'all', ch = null, igCh = null, srtK = 'spend', srtDir = -1;
 const CIRC = 282.74;
+
+// ── Currency ───────────────────────────────────────────
+const CUR_SYMS = {BRL:'R$', EUR:'€', USD:'US$', GBP:'£', ARS:'AR$', MXN:'MX$', CLP:'CLP$'};
+let CUR_SYM = '€';
+
+function initCurrency() {
+  const cur = D?.account?.currency || 'EUR';
+  CUR_SYM = CUR_SYMS[cur] || cur;
+}
 
 async function init() {
   try {
@@ -553,11 +607,11 @@ async function init() {
 }
 
 /* ── Formatters ───────────────────────────────────────── */
-function fmtC(v){ return 'R$ ' + Number(v||0).toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2}); }
+function fmtC(v){ return CUR_SYM + ' ' + Number(v||0).toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2}); }
 function fmtN(v){ return Number(v||0).toLocaleString('pt-BR'); }
 function fmtP(v){ return Number(v||0).toLocaleString('pt-BR',{minimumFractionDigits:1,maximumFractionDigits:1}) + '%'; }
 function fd(s){ const d=new Date(s+'T12:00:00Z'); return d.getUTCDate().toString().padStart(2,'0')+'/'+(d.getUTCMonth()+1).toString().padStart(2,'0')+'/'+d.getUTCFullYear(); }
-function fdt(iso){ return new Date(iso).toLocaleString('pt-BR',{timeZone:'America/Sao_Paulo',day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'}); }
+function fdt(iso){ return new Date(iso).toLocaleString('pt-BR',{timeZone:'Europe/Lisbon',day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'}); }
 function esc(s){ return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
 
 /* ── Data helpers ─────────────────────────────────────── */
@@ -569,7 +623,7 @@ function getCMet(c, date) {
   if (!date || date === 'all') return {...c};
   const d = (c.daily||[]).find(x => x.date === date);
   return d ? {...c, ...d}
-           : {...c, spend:0, leads:0, cpl:0, ctr:0, lp_conv:0, cpm:0, impressions:0, wa_group:0, form_thanks:0};
+           : {...c, spend:0, leads:0, cpl:0, ctr:0, lp_conv:0, cpm:0, impressions:0};
 }
 
 /* ── Gauge helper ─────────────────────────────────────── */
@@ -581,6 +635,8 @@ function setGauge(id, value, max) {
 
 /* ── Render ───────────────────────────────────────────── */
 function render() {
+  initCurrency();
+
   const dr = D.date_range;
   document.getElementById('hdr-name').textContent    = D.account.name;
   document.getElementById('sb-name').textContent     = D.account.name;
@@ -594,8 +650,13 @@ function render() {
   document.getElementById('ss-spend').textContent = fmtC(s.spend);
   document.getElementById('ss-leads').textContent = fmtN(s.leads);
   document.getElementById('ss-cpl').textContent   = s.cpl > 0 ? fmtC(s.cpl) : '—';
-  document.getElementById('ss-wa').textContent    = fmtN(s.wa_group   || 0);
-  document.getElementById('ss-form').textContent  = fmtN(s.form_thanks || 0);
+
+  // Instagram sidebar summary
+  if (D.instagram) {
+    const ig = D.instagram.summary || {};
+    document.getElementById('ss-ig-visits').textContent = fmtN(ig.link_clicks || 0);
+    document.getElementById('ss-ig-spend').textContent  = fmtC(ig.spend || 0);
+  }
 
   renderPills();
   updateKPIs(getMet(selD));
@@ -607,8 +668,11 @@ function render() {
   const totalAds    = D.campaigns.reduce((s,c) => s + (c.adsets||[]).reduce((ss,a) => ss + (a.ads||[]).length, 0), 0);
   document.getElementById('adsets-badge').textContent = totalAdsets + ' conjuntos · ' + totalAds + ' criativos';
 
+  renderInstagram();
+
   document.getElementById('footer').innerHTML =
     `Conta: <strong>${D.account.name}</strong> (${D.account.id}) &nbsp;·&nbsp;
+     Moeda: <strong>${D.account.currency || 'EUR'}</strong> &nbsp;·&nbsp;
      Atualizado: <strong>${fdt(D.last_updated)}</strong> &nbsp;·&nbsp;
      Próxima: <strong>${fdt(next.toISOString())}</strong> &nbsp;·&nbsp;
      Atualiza a cada 6 horas via GitHub Actions`;
@@ -671,21 +735,6 @@ function updateKPIs(m) {
   document.getElementById('gf-hook').textContent = fmtN(m.impressions || 0) + ' impr.';
   document.getElementById('chart-badge').textContent = D.date_range.since + ' → ' + D.date_range.until;
 
-  const wa    = m.wa_group    || 0;
-  const form  = m.form_thanks || 0;
-  const leads = m.leads || 1;
-  document.getElementById('k-wa').textContent      = fmtN(wa);
-  document.getElementById('k-cpwa').textContent    = (m.cp_wa   || 0) > 0 ? fmtC(m.cp_wa)   : '—';
-  document.getElementById('k-form').textContent    = fmtN(form);
-  document.getElementById('k-cpform').textContent  = (m.cp_form || 0) > 0 ? fmtC(m.cp_form) : '—';
-
-  const waPct   = Math.min((wa   / leads) * 100, 100);
-  const formPct = Math.min((form / leads) * 100, 100);
-  document.getElementById('pg-wa').style.width       = waPct.toFixed(1)   + '%';
-  document.getElementById('pg-form').style.width     = formPct.toFixed(1) + '%';
-  document.getElementById('pg-wa-pct').textContent   = waPct.toFixed(1)   + '% das leads';
-  document.getElementById('pg-form-pct').textContent = formPct.toFixed(1) + '% das leads';
-
   [25, 50, 75, 100].forEach(p => {
     const v = m['vp' + p] || 0;
     document.getElementById('vr'  + p).style.width = Math.min(v, 100) + '%';
@@ -693,7 +742,7 @@ function updateKPIs(m) {
   });
 }
 
-/* ── Chart ────────────────────────────────────────────── */
+/* ── Leads Chart ──────────────────────────────────────── */
 function renderChart() {
   if (ch) { ch.destroy(); ch = null; }
   const labels = D.daily.map(d => {
@@ -702,15 +751,16 @@ function renderChart() {
            (dt.getUTCMonth()+1).toString().padStart(2,'0');
   });
   const ctx = document.getElementById('chart').getContext('2d');
+  const curSym = CUR_SYM;
   ch = new Chart(ctx, {
     data: {
       labels,
       datasets: [
         {
-          type: 'bar', label: 'Gasto (R$)',
+          type: 'bar', label: 'Gasto',
           data: D.daily.map(d => d.spend || 0),
           backgroundColor: 'rgba(201,162,84,.65)',
-          yAxisID: 'y', borderRadius: 3, order: 3,
+          yAxisID: 'y', borderRadius: 3, order: 2,
         },
         {
           type: 'line', label: 'Leads',
@@ -719,14 +769,6 @@ function renderChart() {
           pointBackgroundColor: '#59AC9E',
           pointRadius: 3, pointHoverRadius: 5, tension: 0.3,
           fill: false, yAxisID: 'y2', order: 1,
-        },
-        {
-          type: 'line', label: 'Forms Obrigado',
-          data: D.daily.map(d => d.form_thanks || 0),
-          borderColor: '#9B6DFF', backgroundColor: 'transparent',
-          pointBackgroundColor: '#9B6DFF',
-          pointRadius: 3, pointHoverRadius: 5, tension: 0.3,
-          fill: false, yAxisID: 'y2', order: 2, borderDash: [4,3],
         },
       ]
     },
@@ -740,7 +782,7 @@ function renderChart() {
           titleColor: '#E5E5E5', bodyColor: 'rgba(229,229,229,.65)',
           callbacks: {
             label: c => {
-              if (c.dataset.yAxisID === 'y') return ' Gasto: R$ ' + c.parsed.y.toFixed(2);
+              if (c.dataset.yAxisID === 'y') return ` Gasto: ${curSym} ${c.parsed.y.toFixed(2)}`;
               return ` ${c.dataset.label}: ${c.parsed.y}`;
             }
           }
@@ -748,7 +790,7 @@ function renderChart() {
       },
       scales: {
         x : { ticks: { color: 'rgba(229,229,229,.35)', font: { size: 10 }, maxTicksLimit: 14 }, grid: { color: 'rgba(89,172,158,.06)' } },
-        y : { position: 'left',  ticks: { color: 'rgba(201,162,84,.55)', font: { size: 10 }, callback: v => 'R$'+v }, grid: { color: 'rgba(89,172,158,.06)' } },
+        y : { position: 'left',  ticks: { color: 'rgba(201,162,84,.55)', font: { size: 10 }, callback: v => curSym + v }, grid: { color: 'rgba(89,172,158,.06)' } },
         y2: { position: 'right', ticks: { color: 'rgba(89,172,158,.5)', font: { size: 10 } }, grid: { display: false }, min: 0 }
       }
     }
@@ -790,8 +832,6 @@ function renderCampsTable(camps) {
       <td class="tr mono">${fmtP(c.lp_conv)}</td>
       <td class="tr mono dim">${fmtC(c.cpm)}</td>
       <td class="tr mono dim">${fmtN(c.impressions)}</td>
-      <td class="tr mono" style="color:#25B348">${fmtN(c.wa_group   || 0)}</td>
-      <td class="tr mono" style="color:#9B6DFF">${fmtN(c.form_thanks || 0)}</td>
       <td><span class="sbdg ${c.status==='ACTIVE'?'s-act':'s-pau'}">
         ${c.status==='ACTIVE'?'● Ativa':'⏸ Pausada'}
       </span></td>
@@ -810,7 +850,7 @@ function renderCampsAdsets(campaigns) {
       const ads = (adset.ads || []).filter(a => a.spend > 0);
       const crHtml = ads.length === 0
         ? `<div class="cr-grid-wrap"><p class="cr-empty">Sem criativos com gasto neste período.</p></div>`
-        : `<div class="cr-grid-wrap"><div class="cr-grid">${ads.map(ad => renderAdCard(ad, camp.name)).join('')}</div></div>`;
+        : `<div class="cr-grid-wrap"><div class="cr-grid">${ads.map(ad => renderAdCard(ad)).join('')}</div></div>`;
 
       return `
         <div class="adset-section">
@@ -822,9 +862,6 @@ function renderCampsAdsets(campaigns) {
               <div class="adset-stat"><div class="lbl">Leads</div><div class="val">${fmtN(adset.leads)}</div></div>
               <div class="adset-stat"><div class="lbl">CPL</div><div class="val">${adset.cpl > 0 ? fmtC(adset.cpl) : '—'}</div></div>
               <div class="adset-stat"><div class="lbl">CTR</div><div class="val">${fmtP(adset.ctr)}</div></div>
-              <div class="adset-stat" style="display:${(adset.wa_group||0)>0?'block':'none'}">
-                <div class="lbl">💬 WA</div><div class="val" style="color:#25B348">${fmtN(adset.wa_group||0)}</div>
-              </div>
             </div>
           </div>
           ${crHtml}
@@ -852,7 +889,7 @@ function renderCampsAdsets(campaigns) {
   }).join('');
 }
 
-function renderAdCard(ad, campName) {
+function renderAdCard(ad) {
   const previewUrl = ad.preview_url || '';
   const imgTag = ad.thumbnail
     ? `<img src="${ad.thumbnail}" class="cr-thumb" alt="${esc(ad.name)}" loading="lazy" onerror="this.style.display='none'">`
@@ -865,10 +902,6 @@ function renderAdCard(ad, campName) {
 
   const hookHtml = ad.hook_rate > 0
     ? `<div class="cs"><div class="cs-l">Hook Rate</div><div class="cs-v ${ad.hook_rate>=25?'gn':'or'}">${fmtP(ad.hook_rate)}</div></div>` : '';
-  const waHtml   = (ad.wa_group||0) > 0
-    ? `<div class="cs"><div class="cs-l">💬 WA</div><div class="cs-v gn">${fmtN(ad.wa_group)}</div></div>` : '';
-  const formHtml = (ad.form_thanks||0) > 0
-    ? `<div class="cs"><div class="cs-l">📝 Forms</div><div class="cs-v pu">${fmtN(ad.form_thanks)}</div></div>` : '';
   const vbarsHtml = ad.vp25 > 0 ? `
     <div class="cr-vbars">
       ${[25,50,75,100].map(p => {
@@ -891,10 +924,136 @@ function renderAdCard(ad, campName) {
         <div class="cs"><div class="cs-l">Leads</div><div class="cs-v wh">${fmtN(ad.leads)}</div></div>
         <div class="cs"><div class="cs-l">CPL</div><div class="cs-v wh">${ad.cpl>0?fmtC(ad.cpl):'—'}</div></div>
         <div class="cs"><div class="cs-l">CTR</div><div class="cs-v wh">${fmtP(ad.ctr)}</div></div>
-        ${hookHtml}${waHtml}${formHtml}
+        ${hookHtml}
       </div>
       ${vbarsHtml}
       ${previewUrl ? `<a href="${previewUrl}" target="_blank" rel="noopener" class="cr-preview-btn">▶ Ver criativo</a>` : ''}
+    </div>
+  </div>`;
+}
+
+/* ── Instagram section ────────────────────────────────── */
+function renderInstagram() {
+  const ig = D.instagram;
+  if (!ig) return;
+
+  // Show all Instagram elements
+  ['ig-section-div','ig-kpis','ig-chart-crd','ig-ads-div','ig-ads'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.style.display = '';
+  });
+
+  const s = ig.summary || {};
+  document.getElementById('ig-badge').textContent       = ig.campaign_name || 'Instagram';
+  document.getElementById('ig-spend').textContent       = fmtC(s.spend || 0);
+  document.getElementById('ig-spend-sub').textContent   = fmtN(s.impressions || 0) + ' impressões';
+  document.getElementById('ig-reach').textContent       = fmtN(s.reach || 0);
+  document.getElementById('ig-reach-sub').textContent   = fmtN(s.video_views || 0) + ' video views';
+  document.getElementById('ig-visits').textContent      = fmtN(s.link_clicks || 0);
+  document.getElementById('ig-cpp').textContent         = (s.cpp || 0) > 0 ? fmtC(s.cpp) : '—';
+  document.getElementById('ig-eng').textContent         = fmtN(s.engagement || 0);
+  document.getElementById('ig-cpm').textContent         = fmtC(s.cpm || 0);
+
+  // Chart
+  renderIgChart(ig.daily || []);
+
+  // Ad cards
+  const ads = (ig.ads || []).filter(a => a.spend > 0);
+  document.getElementById('ig-ads-badge').textContent = ads.length + ' criativos';
+  document.getElementById('ig-ads').innerHTML = ads.length
+    ? ads.map(ad => renderIgAdCard(ad)).join('')
+    : '<div style="color:var(--mu);font-size:12px;padding:8px 0">Sem criativos com gasto.</div>';
+
+  document.getElementById('ig-chart-badge').textContent =
+    (ig.daily && ig.daily.length > 0)
+      ? ig.daily[0].date + ' → ' + ig.daily[ig.daily.length-1].date
+      : '—';
+}
+
+function renderIgChart(daily) {
+  if (igCh) { igCh.destroy(); igCh = null; }
+  if (!daily || daily.length === 0) return;
+
+  const labels = daily.map(d => {
+    const dt = new Date(d.date + 'T12:00:00Z');
+    return dt.getUTCDate().toString().padStart(2,'0') + '/' +
+           (dt.getUTCMonth()+1).toString().padStart(2,'0');
+  });
+  const curSym = CUR_SYM;
+  const ctx = document.getElementById('ig-chart').getContext('2d');
+  igCh = new Chart(ctx, {
+    data: {
+      labels,
+      datasets: [
+        {
+          type: 'bar', label: 'Gasto',
+          data: daily.map(d => d.spend || 0),
+          backgroundColor: 'rgba(180,107,255,.55)',
+          yAxisID: 'y', borderRadius: 3, order: 2,
+        },
+        {
+          type: 'line', label: 'Visitas Perfil',
+          data: daily.map(d => d.link_clicks || 0),
+          borderColor: '#59AC9E', backgroundColor: 'rgba(89,172,158,.07)',
+          pointBackgroundColor: '#59AC9E',
+          pointRadius: 3, pointHoverRadius: 5, tension: 0.3,
+          fill: false, yAxisID: 'y2', order: 1,
+        },
+      ]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      interaction: { mode: 'index', intersect: false },
+      plugins: {
+        legend: { display: true, labels: { color: 'rgba(229,229,229,.4)', boxWidth: 10, font: { size: 10 }, padding: 12 } },
+        tooltip: {
+          backgroundColor: '#022929', borderColor: 'rgba(180,107,255,.25)', borderWidth: 1,
+          titleColor: '#E5E5E5', bodyColor: 'rgba(229,229,229,.65)',
+          callbacks: {
+            label: c => {
+              if (c.dataset.yAxisID === 'y') return ` Gasto: ${curSym} ${c.parsed.y.toFixed(2)}`;
+              return ` ${c.dataset.label}: ${c.parsed.y}`;
+            }
+          }
+        }
+      },
+      scales: {
+        x : { ticks: { color: 'rgba(229,229,229,.35)', font: { size: 10 }, maxTicksLimit: 14 }, grid: { color: 'rgba(89,172,158,.06)' } },
+        y : { position: 'left',  ticks: { color: 'rgba(180,107,255,.55)', font: { size: 10 }, callback: v => curSym + v }, grid: { color: 'rgba(89,172,158,.06)' } },
+        y2: { position: 'right', ticks: { color: 'rgba(89,172,158,.5)', font: { size: 10 } }, grid: { display: false }, min: 0 }
+      }
+    }
+  });
+}
+
+function renderIgAdCard(ad) {
+  const previewUrl = ad.preview_url || '';
+  const imgTag = ad.thumbnail
+    ? `<img src="${ad.thumbnail}" class="cr-thumb" alt="${esc(ad.name)}" loading="lazy" onerror="this.style.display='none'">`
+    : `<div class="cr-ph">📸</div>`;
+  const thumb = previewUrl
+    ? `<a href="${previewUrl}" target="_blank" rel="noopener" class="cr-thumb-wrap">
+         ${imgTag}<span class="cr-play">▶</span>
+       </a>`
+    : `<div class="cr-thumb-wrap">${imgTag}</div>`;
+
+  const hookHtml = (ad.hook_rate || 0) > 0
+    ? `<div class="cs"><div class="cs-l">Hook Rate</div><div class="cs-v ${ad.hook_rate>=25?'gn':'or'}">${fmtP(ad.hook_rate)}</div></div>` : '';
+
+  return `<div class="crcrd ig-crcrd">
+    ${thumb}
+    <div class="cr-body">
+      <div class="cr-nm" title="${esc(ad.name)}">${esc(ad.name)}</div>
+      <div class="cr-cp">${esc(ad.adset_name || '')}</div>
+      <div class="cr-stats">
+        <div class="cs"><div class="cs-l">Gasto</div><div class="cs-v ig">${fmtC(ad.spend)}</div></div>
+        <div class="cs"><div class="cs-l">Visitas</div><div class="cs-v wh">${fmtN(ad.link_clicks || 0)}</div></div>
+        <div class="cs"><div class="cs-l">Cst/Visita</div><div class="cs-v wh">${(ad.cpp||0)>0?fmtC(ad.cpp):'—'}</div></div>
+        <div class="cs"><div class="cs-l">Eng.</div><div class="cs-v wh">${fmtN(ad.engagement || 0)}</div></div>
+        ${hookHtml}
+        <div class="cs"><div class="cs-l">CPM</div><div class="cs-v tl">${fmtC(ad.cpm || 0)}</div></div>
+      </div>
+      ${previewUrl ? `<a href="${previewUrl}" target="_blank" rel="noopener" class="cr-preview-btn" style="border-color:rgba(180,107,255,.2);color:#b46bff;background:rgba(155,109,255,.1)">▶ Ver criativo</a>` : ''}
     </div>
   </div>`;
 }
