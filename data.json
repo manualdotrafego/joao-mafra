@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-28T16:00:35Z",
+  "last_updated": "2026-04-28T17:57:14Z",
   "account": {
     "id": "act_615338413578534",
     "name": "CA - João Mafra Lançamento",
@@ -10,25 +10,21 @@
     "until": "2026-04-28"
   },
   "summary": {
-    "spend": 1491.77,
-    "impressions": 167070,
-    "clicks": 3412,
-    "reach": 63609,
-    "leads": 56,
-    "ctr": 2.04,
+    "spend": 1502.73,
+    "impressions": 168289,
+    "clicks": 3444,
+    "reach": 63735,
+    "leads": 304,
+    "ctr": 2.05,
     "cpc": 0.44,
     "cpm": 8.93,
-    "cpl": 26.64,
-    "lp_conv": 1.6,
+    "cpl": 4.94,
+    "lp_conv": 1.7,
     "hook_rate": 25.5,
     "vp25": 6.1,
     "vp50": 3.4,
     "vp75": 2.0,
-    "vp100": 1.1,
-    "wa_group": 0,
-    "cp_wa": 0,
-    "form_thanks": 5,
-    "cp_form": 298.35
+    "vp100": 1.1
   },
   "daily": [
     {
@@ -47,10 +43,6 @@
       "vp50": 0.0,
       "vp75": 0.0,
       "vp100": 0.0,
-      "wa_group": 0,
-      "cp_wa": 0,
-      "form_thanks": 0,
-      "cp_form": 0,
       "date": "2026-03-30"
     },
     {
@@ -69,10 +61,6 @@
       "vp50": 1.0,
       "vp75": 0.6,
       "vp100": 0.3,
-      "wa_group": 0,
-      "cp_wa": 0,
-      "form_thanks": 0,
-      "cp_form": 0,
       "date": "2026-03-31"
     },
     {
@@ -80,21 +68,17 @@
       "impressions": 471,
       "clicks": 11,
       "reach": 429,
-      "leads": 1,
+      "leads": 2,
       "ctr": 2.34,
       "cpc": 0.26,
       "cpm": 6.14,
-      "cpl": 2.89,
+      "cpl": 1.45,
       "lp_conv": 9.1,
       "hook_rate": 26.3,
       "vp25": 8.3,
       "vp50": 4.9,
       "vp75": 2.3,
       "vp100": 1.5,
-      "wa_group": 0,
-      "cp_wa": 0,
-      "form_thanks": 0,
-      "cp_form": 0,
       "date": "2026-04-01"
     },
     {
@@ -102,21 +86,17 @@
       "impressions": 4997,
       "clicks": 97,
       "reach": 4354,
-      "leads": 4,
+      "leads": 7,
       "ctr": 1.94,
       "cpc": 0.37,
       "cpm": 7.14,
-      "cpl": 8.92,
+      "cpl": 5.1,
       "lp_conv": 4.1,
       "hook_rate": 24.0,
       "vp25": 7.2,
       "vp50": 3.2,
       "vp75": 1.7,
       "vp100": 1.0,
-      "wa_group": 0,
-      "cp_wa": 0,
-      "form_thanks": 0,
-      "cp_form": 0,
       "date": "2026-04-02"
     },
     {
@@ -124,21 +104,17 @@
       "impressions": 5826,
       "clicks": 123,
       "reach": 3798,
-      "leads": 4,
+      "leads": 9,
       "ctr": 2.11,
       "cpc": 0.38,
       "cpm": 8.07,
-      "cpl": 11.75,
+      "cpl": 5.22,
       "lp_conv": 3.3,
       "hook_rate": 20.9,
       "vp25": 7.2,
       "vp50": 4.0,
       "vp75": 2.6,
       "vp100": 1.6,
-      "wa_group": 0,
-      "cp_wa": 0,
-      "form_thanks": 0,
-      "cp_form": 0,
       "date": "2026-04-03"
     },
     {
@@ -157,10 +133,6 @@
       "vp50": 5.9,
       "vp75": 3.2,
       "vp100": 1.8,
-      "wa_group": 0,
-      "cp_wa": 0,
-      "form_thanks": 0,
-      "cp_form": 0,
       "date": "2026-04-04"
     },
     {
@@ -179,10 +151,6 @@
       "vp50": 4.4,
       "vp75": 1.8,
       "vp100": 0.9,
-      "wa_group": 0,
-      "cp_wa": 0,
-      "form_thanks": 0,
-      "cp_form": 0,
       "date": "2026-04-05"
     },
     {
@@ -201,10 +169,6 @@
       "vp50": 4.6,
       "vp75": 2.3,
       "vp100": 1.4,
-      "wa_group": 0,
-      "cp_wa": 0,
-      "form_thanks": 0,
-      "cp_form": 0,
       "date": "2026-04-06"
     },
     {
@@ -223,10 +187,6 @@
       "vp50": 6.5,
       "vp75": 3.0,
       "vp100": 1.9,
-      "wa_group": 0,
-      "cp_wa": 0,
-      "form_thanks": 0,
-      "cp_form": 0,
       "date": "2026-04-07"
     },
     {
@@ -245,10 +205,6 @@
       "vp50": 5.9,
       "vp75": 2.7,
       "vp100": 1.7,
-      "wa_group": 0,
-      "cp_wa": 0,
-      "form_thanks": 0,
-      "cp_form": 0,
       "date": "2026-04-08"
     },
     {
@@ -256,21 +212,17 @@
       "impressions": 9221,
       "clicks": 159,
       "reach": 8315,
-      "leads": 1,
+      "leads": 6,
       "ctr": 1.72,
       "cpc": 0.37,
       "cpm": 6.45,
-      "cpl": 59.44,
+      "cpl": 9.91,
       "lp_conv": 0.6,
       "hook_rate": 19.7,
       "vp25": 4.4,
       "vp50": 2.1,
       "vp75": 1.3,
       "vp100": 0.8,
-      "wa_group": 0,
-      "cp_wa": 0,
-      "form_thanks": 0,
-      "cp_form": 0,
       "date": "2026-04-09"
     },
     {
@@ -278,21 +230,17 @@
       "impressions": 8037,
       "clicks": 164,
       "reach": 5657,
-      "leads": 2,
+      "leads": 18,
       "ctr": 2.04,
       "cpc": 0.41,
       "cpm": 8.38,
-      "cpl": 33.67,
+      "cpl": 3.74,
       "lp_conv": 1.2,
       "hook_rate": 17.4,
       "vp25": 5.3,
       "vp50": 2.9,
       "vp75": 1.8,
       "vp100": 1.0,
-      "wa_group": 0,
-      "cp_wa": 0,
-      "form_thanks": 0,
-      "cp_form": 0,
       "date": "2026-04-10"
     },
     {
@@ -300,21 +248,17 @@
       "impressions": 3813,
       "clicks": 78,
       "reach": 2843,
-      "leads": 4,
+      "leads": 5,
       "ctr": 2.05,
       "cpc": 0.41,
       "cpm": 8.35,
-      "cpl": 7.96,
+      "cpl": 6.37,
       "lp_conv": 5.1,
       "hook_rate": 21.7,
       "vp25": 7.1,
       "vp50": 3.9,
       "vp75": 2.5,
       "vp100": 1.4,
-      "wa_group": 0,
-      "cp_wa": 0,
-      "form_thanks": 0,
-      "cp_form": 0,
       "date": "2026-04-11"
     },
     {
@@ -322,21 +266,17 @@
       "impressions": 5717,
       "clicks": 115,
       "reach": 4521,
-      "leads": 1,
+      "leads": 10,
       "ctr": 2.01,
       "cpc": 0.4,
       "cpm": 7.95,
-      "cpl": 45.44,
+      "cpl": 4.54,
       "lp_conv": 0.9,
       "hook_rate": 24.3,
       "vp25": 6.1,
       "vp50": 3.6,
       "vp75": 2.1,
       "vp100": 1.2,
-      "wa_group": 0,
-      "cp_wa": 0,
-      "form_thanks": 0,
-      "cp_form": 0,
       "date": "2026-04-12"
     },
     {
@@ -344,21 +284,17 @@
       "impressions": 6408,
       "clicks": 135,
       "reach": 5130,
-      "leads": 1,
+      "leads": 12,
       "ctr": 2.11,
       "cpc": 0.41,
       "cpm": 8.55,
-      "cpl": 54.79,
+      "cpl": 4.57,
       "lp_conv": 0.7,
       "hook_rate": 28.4,
       "vp25": 7.0,
       "vp50": 4.3,
       "vp75": 2.4,
       "vp100": 1.2,
-      "wa_group": 0,
-      "cp_wa": 0,
-      "form_thanks": 0,
-      "cp_form": 0,
       "date": "2026-04-13"
     },
     {
@@ -366,21 +302,17 @@
       "impressions": 6042,
       "clicks": 102,
       "reach": 5046,
-      "leads": 1,
+      "leads": 13,
       "ctr": 1.69,
       "cpc": 0.49,
       "cpm": 8.25,
-      "cpl": 49.82,
+      "cpl": 3.83,
       "lp_conv": 1.0,
       "hook_rate": 35.0,
       "vp25": 8.3,
       "vp50": 5.1,
       "vp75": 3.0,
       "vp100": 1.5,
-      "wa_group": 0,
-      "cp_wa": 0,
-      "form_thanks": 0,
-      "cp_form": 0,
       "date": "2026-04-14"
     },
     {
@@ -399,10 +331,6 @@
       "vp50": 6.5,
       "vp75": 3.9,
       "vp100": 2.4,
-      "wa_group": 0,
-      "cp_wa": 0,
-      "form_thanks": 0,
-      "cp_form": 0,
       "date": "2026-04-15"
     },
     {
@@ -410,21 +338,17 @@
       "impressions": 3474,
       "clicks": 67,
       "reach": 3071,
-      "leads": 1,
+      "leads": 10,
       "ctr": 1.93,
       "cpc": 0.44,
       "cpm": 8.54,
-      "cpl": 29.67,
+      "cpl": 2.97,
       "lp_conv": 1.5,
       "hook_rate": 38.9,
       "vp25": 8.8,
       "vp50": 5.2,
       "vp75": 3.1,
       "vp100": 1.7,
-      "wa_group": 0,
-      "cp_wa": 0,
-      "form_thanks": 0,
-      "cp_form": 0,
       "date": "2026-04-16"
     },
     {
@@ -443,10 +367,6 @@
       "vp50": 4.6,
       "vp75": 3.0,
       "vp100": 1.6,
-      "wa_group": 0,
-      "cp_wa": 0,
-      "form_thanks": 0,
-      "cp_form": 0,
       "date": "2026-04-17"
     },
     {
@@ -465,10 +385,6 @@
       "vp50": 5.6,
       "vp75": 3.4,
       "vp100": 1.8,
-      "wa_group": 0,
-      "cp_wa": 0,
-      "form_thanks": 0,
-      "cp_form": 0,
       "date": "2026-04-18"
     },
     {
@@ -487,10 +403,6 @@
       "vp50": 5.7,
       "vp75": 3.5,
       "vp100": 1.7,
-      "wa_group": 0,
-      "cp_wa": 0,
-      "form_thanks": 0,
-      "cp_form": 0,
       "date": "2026-04-19"
     },
     {
@@ -509,10 +421,6 @@
       "vp50": 4.8,
       "vp75": 3.2,
       "vp100": 1.4,
-      "wa_group": 0,
-      "cp_wa": 0,
-      "form_thanks": 0,
-      "cp_form": 0,
       "date": "2026-04-20"
     },
     {
@@ -531,10 +439,6 @@
       "vp50": 3.6,
       "vp75": 2.1,
       "vp100": 1.0,
-      "wa_group": 0,
-      "cp_wa": 0,
-      "form_thanks": 1,
-      "cp_form": 61.32,
       "date": "2026-04-21"
     },
     {
@@ -553,10 +457,6 @@
       "vp50": 2.1,
       "vp75": 0.9,
       "vp100": 0.4,
-      "wa_group": 0,
-      "cp_wa": 0,
-      "form_thanks": 3,
-      "cp_form": 8.86,
       "date": "2026-04-22"
     },
     {
@@ -564,21 +464,17 @@
       "impressions": 13629,
       "clicks": 330,
       "reach": 10349,
-      "leads": 4,
+      "leads": 36,
       "ctr": 2.42,
       "cpc": 0.41,
       "cpm": 10.04,
-      "cpl": 34.21,
+      "cpl": 3.8,
       "lp_conv": 1.2,
       "hook_rate": 30.9,
       "vp25": 6.4,
       "vp50": 3.8,
       "vp75": 2.5,
       "vp100": 1.3,
-      "wa_group": 0,
-      "cp_wa": 0,
-      "form_thanks": 1,
-      "cp_form": 136.84,
       "date": "2026-04-23"
     },
     {
@@ -586,21 +482,17 @@
       "impressions": 9439,
       "clicks": 231,
       "reach": 7015,
-      "leads": 10,
+      "leads": 24,
       "ctr": 2.45,
       "cpc": 0.42,
       "cpm": 10.22,
-      "cpl": 9.64,
+      "cpl": 4.02,
       "lp_conv": 4.3,
       "hook_rate": 23.0,
       "vp25": 4.8,
       "vp50": 2.8,
       "vp75": 1.8,
       "vp100": 1.0,
-      "wa_group": 0,
-      "cp_wa": 0,
-      "form_thanks": 0,
-      "cp_form": 0,
       "date": "2026-04-24"
     },
     {
@@ -608,21 +500,17 @@
       "impressions": 16463,
       "clicks": 245,
       "reach": 12092,
-      "leads": 2,
+      "leads": 14,
       "ctr": 1.49,
       "cpc": 0.58,
       "cpm": 8.7,
-      "cpl": 71.58,
+      "cpl": 10.22,
       "lp_conv": 0.8,
       "hook_rate": 19.9,
       "vp25": 3.4,
       "vp50": 1.9,
       "vp75": 1.1,
       "vp100": 0.6,
-      "wa_group": 0,
-      "cp_wa": 0,
-      "form_thanks": 0,
-      "cp_form": 0,
       "date": "2026-04-25"
     },
     {
@@ -630,89 +518,73 @@
       "impressions": 12631,
       "clicks": 275,
       "reach": 9564,
-      "leads": 5,
+      "leads": 27,
       "ctr": 2.18,
       "cpc": 0.47,
       "cpm": 10.26,
-      "cpl": 25.92,
+      "cpl": 4.8,
       "lp_conv": 1.8,
       "hook_rate": 23.2,
       "vp25": 4.4,
       "vp50": 2.7,
       "vp75": 1.6,
       "vp100": 0.8,
-      "wa_group": 0,
-      "cp_wa": 0,
-      "form_thanks": 0,
-      "cp_form": 0,
       "date": "2026-04-26"
     },
     {
       "spend": 100.66,
-      "impressions": 11067,
+      "impressions": 11069,
       "clicks": 221,
       "reach": 8670,
-      "leads": 6,
+      "leads": 19,
       "ctr": 2.0,
       "cpc": 0.46,
-      "cpm": 9.1,
-      "cpl": 16.78,
+      "cpm": 9.09,
+      "cpl": 5.3,
       "lp_conv": 2.7,
       "hook_rate": 22.2,
       "vp25": 4.3,
       "vp50": 2.4,
       "vp75": 1.6,
       "vp100": 0.8,
-      "wa_group": 0,
-      "cp_wa": 0,
-      "form_thanks": 0,
-      "cp_form": 0,
       "date": "2026-04-27"
     },
     {
-      "spend": 83.78,
-      "impressions": 8759,
-      "clicks": 157,
-      "reach": 7566,
-      "leads": 1,
-      "ctr": 1.79,
-      "cpc": 0.53,
-      "cpm": 9.57,
-      "cpl": 83.78,
-      "lp_conv": 0.6,
-      "hook_rate": 25.1,
+      "spend": 94.74,
+      "impressions": 9976,
+      "clicks": 189,
+      "reach": 8304,
+      "leads": 11,
+      "ctr": 1.89,
+      "cpc": 0.5,
+      "cpm": 9.5,
+      "cpl": 8.61,
+      "lp_conv": 1.6,
+      "hook_rate": 24.9,
       "vp25": 4.7,
       "vp50": 2.8,
       "vp75": 1.7,
       "vp100": 1.0,
-      "wa_group": 0,
-      "cp_wa": 0,
-      "form_thanks": 0,
-      "cp_form": 0,
       "date": "2026-04-28"
     }
   ],
   "campaigns": [
     {
-      "spend": 968.86,
-      "impressions": 98858,
-      "clicks": 2216,
-      "reach": 47993,
-      "leads": 235,
+      "spend": 974.33,
+      "impressions": 99475,
+      "clicks": 2232,
+      "reach": 48208,
+      "leads": 238,
       "ctr": 2.24,
       "cpc": 0.44,
-      "cpm": 9.8,
-      "cpl": 4.12,
-      "lp_conv": 10.6,
+      "cpm": 9.79,
+      "cpl": 4.09,
+      "lp_conv": 10.7,
       "hook_rate": 30.8,
       "vp25": 5.9,
       "vp50": 3.6,
       "vp75": 2.2,
       "vp100": 1.1,
-      "wa_group": 0,
-      "cp_wa": 0,
-      "form_thanks": 0,
-      "cp_form": 0,
       "id": "120248546729160002",
       "name": "[NOVA CAPTAÇÃO] - [WEBNAR]",
       "status": "ACTIVE",
@@ -733,10 +605,6 @@
           "vp50": 0.0,
           "vp75": 0.0,
           "vp100": 0.0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-03-30"
         },
         {
@@ -755,10 +623,6 @@
           "vp50": 1.4,
           "vp75": 0.8,
           "vp100": 0.3,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-03-31"
         },
         {
@@ -777,10 +641,6 @@
           "vp50": 4.1,
           "vp75": 2.5,
           "vp100": 2.0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-01"
         },
         {
@@ -799,10 +659,6 @@
           "vp50": 1.3,
           "vp75": 1.2,
           "vp100": 0.7,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-02"
         },
         {
@@ -821,10 +677,6 @@
           "vp50": 2.1,
           "vp75": 1.5,
           "vp100": 0.8,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-03"
         },
         {
@@ -843,11 +695,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-05",
@@ -865,11 +713,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-06",
@@ -887,11 +731,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-07",
@@ -909,11 +749,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "spend": 0.48,
@@ -931,10 +767,6 @@
           "vp50": 2.5,
           "vp75": 1.2,
           "vp100": 1.2,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-08"
         },
         {
@@ -953,10 +785,6 @@
           "vp50": 1.2,
           "vp75": 0.8,
           "vp100": 0.5,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-09"
         },
         {
@@ -975,10 +803,6 @@
           "vp50": 2.6,
           "vp75": 1.8,
           "vp100": 0.9,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-10"
         },
         {
@@ -997,10 +821,6 @@
           "vp50": 4.4,
           "vp75": 2.7,
           "vp100": 1.4,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-11"
         },
         {
@@ -1019,10 +839,6 @@
           "vp50": 4.8,
           "vp75": 2.7,
           "vp100": 1.3,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-12"
         },
         {
@@ -1041,10 +857,6 @@
           "vp50": 5.2,
           "vp75": 3.0,
           "vp100": 1.4,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-13"
         },
         {
@@ -1063,10 +875,6 @@
           "vp50": 5.2,
           "vp75": 3.1,
           "vp100": 1.4,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-14"
         },
         {
@@ -1085,10 +893,6 @@
           "vp50": 3.1,
           "vp75": 3.1,
           "vp100": 0.0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-15"
         },
         {
@@ -1107,10 +911,6 @@
           "vp50": 5.0,
           "vp75": 3.1,
           "vp100": 1.4,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-16"
         },
         {
@@ -1129,10 +929,6 @@
           "vp50": 4.6,
           "vp75": 3.0,
           "vp100": 1.6,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-17"
         },
         {
@@ -1151,10 +947,6 @@
           "vp50": 5.6,
           "vp75": 3.4,
           "vp100": 1.8,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-18"
         },
         {
@@ -1173,10 +965,6 @@
           "vp50": 5.7,
           "vp75": 3.5,
           "vp100": 1.7,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-19"
         },
         {
@@ -1195,10 +983,6 @@
           "vp50": 4.8,
           "vp75": 3.2,
           "vp100": 1.4,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-20"
         },
         {
@@ -1217,10 +1001,6 @@
           "vp50": 4.2,
           "vp75": 2.4,
           "vp100": 1.2,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-21"
         },
         {
@@ -1239,10 +1019,6 @@
           "vp50": 5.5,
           "vp75": 2.1,
           "vp100": 1.1,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-22"
         },
         {
@@ -1261,10 +1037,6 @@
           "vp50": 4.5,
           "vp75": 3.0,
           "vp100": 1.6,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-23"
         },
         {
@@ -1283,10 +1055,6 @@
           "vp50": 3.9,
           "vp75": 2.5,
           "vp100": 1.4,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-24"
         },
         {
@@ -1305,10 +1073,6 @@
           "vp50": 2.7,
           "vp75": 1.6,
           "vp100": 0.8,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-25"
         },
         {
@@ -1327,21 +1091,17 @@
           "vp50": 3.3,
           "vp75": 2.0,
           "vp100": 1.0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-26"
         },
         {
           "spend": 64.12,
-          "impressions": 7057,
+          "impressions": 7058,
           "clicks": 163,
           "reach": 5942,
           "leads": 13,
           "ctr": 2.31,
           "cpc": 0.39,
-          "cpm": 9.09,
+          "cpm": 9.08,
           "cpl": 4.93,
           "lp_conv": 8.0,
           "hook_rate": 27.9,
@@ -1349,80 +1109,64 @@
           "vp50": 2.9,
           "vp75": 2.0,
           "vp100": 1.0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-27"
         },
         {
-          "spend": 54.9,
-          "impressions": 6137,
-          "clicks": 116,
-          "reach": 5484,
-          "leads": 5,
-          "ctr": 1.89,
-          "cpc": 0.47,
-          "cpm": 8.95,
-          "cpl": 10.98,
-          "lp_conv": 4.3,
-          "hook_rate": 29.1,
-          "vp25": 4.4,
-          "vp50": 2.7,
-          "vp75": 1.7,
-          "vp100": 0.9,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
+          "spend": 60.37,
+          "impressions": 6753,
+          "clicks": 132,
+          "reach": 5957,
+          "leads": 8,
+          "ctr": 1.95,
+          "cpc": 0.46,
+          "cpm": 8.94,
+          "cpl": 7.55,
+          "lp_conv": 6.1,
+          "hook_rate": 29.2,
+          "vp25": 4.5,
+          "vp50": 2.8,
+          "vp75": 1.8,
+          "vp100": 1.0,
           "date": "2026-04-28"
         }
       ],
       "adsets": [
         {
-          "spend": 663.14,
-          "impressions": 64093,
-          "clicks": 1470,
-          "reach": 35741,
-          "leads": 180,
-          "ctr": 2.29,
+          "spend": 667.63,
+          "impressions": 64524,
+          "clicks": 1482,
+          "reach": 35962,
+          "leads": 183,
+          "ctr": 2.3,
           "cpc": 0.45,
           "cpm": 10.35,
-          "cpl": 3.68,
-          "lp_conv": 12.2,
+          "cpl": 3.65,
+          "lp_conv": 12.3,
           "hook_rate": 45.9,
           "vp25": 8.8,
           "vp50": 5.4,
           "vp75": 3.4,
           "vp100": 1.7,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "id": "120248912638000002",
           "name": "[AD SET 1.7] - [SÓ VIDEO]",
           "campaign_id": "120248546729160002",
           "ads": [
             {
-              "spend": 662.16,
-              "impressions": 63931,
-              "clicks": 1467,
-              "reach": 35730,
-              "leads": 180,
-              "ctr": 2.29,
+              "spend": 666.65,
+              "impressions": 64362,
+              "clicks": 1479,
+              "reach": 35951,
+              "leads": 183,
+              "ctr": 2.3,
               "cpc": 0.45,
               "cpm": 10.36,
-              "cpl": 3.68,
-              "lp_conv": 12.3,
+              "cpl": 3.64,
+              "lp_conv": 12.4,
               "hook_rate": 45.9,
               "vp25": 8.8,
               "vp50": 5.4,
               "vp75": 3.4,
               "vp100": 1.7,
-              "wa_group": 0,
-              "cp_wa": 0,
-              "form_thanks": 0,
-              "cp_form": 0,
               "id": "120248912637990002",
               "name": "[NBP02VD]",
               "campaign_id": "120248546729160002",
@@ -1448,10 +1192,6 @@
               "vp50": 1.9,
               "vp75": 2.5,
               "vp100": 1.9,
-              "wa_group": 0,
-              "cp_wa": 0,
-              "form_thanks": 0,
-              "cp_form": 0,
               "id": "120248912657580002",
               "name": "[NBP03VD]",
               "campaign_id": "120248546729160002",
@@ -1479,10 +1219,6 @@
           "vp50": 0.0,
           "vp75": 0.0,
           "vp100": 0.0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "id": "120248546729170002",
           "name": "[AD SET 1.1] - [E_AD05]",
           "campaign_id": "120248546729160002",
@@ -1503,10 +1239,6 @@
               "vp50": 0.0,
               "vp75": 0.0,
               "vp100": 0.0,
-              "wa_group": 0,
-              "cp_wa": 0,
-              "form_thanks": 0,
-              "cp_form": 0,
               "id": "120248546729190002",
               "name": "[AD05]",
               "campaign_id": "120248546729160002",
@@ -1519,49 +1251,41 @@
           ]
         },
         {
-          "spend": 73.02,
-          "impressions": 10847,
-          "clicks": 267,
-          "reach": 6640,
+          "spend": 74.0,
+          "impressions": 11033,
+          "clicks": 271,
+          "reach": 6720,
           "leads": 18,
           "ctr": 2.46,
           "cpc": 0.27,
-          "cpm": 6.73,
-          "cpl": 4.06,
-          "lp_conv": 6.7,
+          "cpm": 6.71,
+          "cpl": 4.11,
+          "lp_conv": 6.6,
           "hook_rate": 0.9,
           "vp25": 0.0,
           "vp50": 0.0,
           "vp75": 0.0,
           "vp100": 0.0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "id": "120250195415730002",
           "name": "[AD SET 1.10] - [REMOLD] 2 ESTÁTICO",
           "campaign_id": "120248546729160002",
           "ads": [
             {
-              "spend": 68.33,
-              "impressions": 10260,
-              "clicks": 259,
-              "reach": 6579,
+              "spend": 69.31,
+              "impressions": 10446,
+              "clicks": 263,
+              "reach": 6663,
               "leads": 18,
               "ctr": 2.52,
               "cpc": 0.26,
-              "cpm": 6.66,
-              "cpl": 3.8,
-              "lp_conv": 6.9,
+              "cpm": 6.64,
+              "cpl": 3.85,
+              "lp_conv": 6.8,
               "hook_rate": 0.9,
               "vp25": 0.0,
               "vp50": 0.0,
               "vp75": 0.0,
               "vp100": 0.0,
-              "wa_group": 0,
-              "cp_wa": 0,
-              "form_thanks": 0,
-              "cp_form": 0,
               "id": "120250196502080002",
               "name": "[framework_remold] — Cópia",
               "campaign_id": "120248546729160002",
@@ -1587,10 +1311,6 @@
               "vp50": 0.0,
               "vp75": 0.0,
               "vp100": 0.0,
-              "wa_group": 0,
-              "cp_wa": 0,
-              "form_thanks": 0,
-              "cp_form": 0,
               "id": "120250195415740002",
               "name": "[framework_remold]",
               "campaign_id": "120248546729160002",
@@ -1618,10 +1338,6 @@
           "vp50": 0.0,
           "vp75": 0.0,
           "vp100": 0.0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "id": "120248802155390002",
           "name": "[AD SET 1.6] - [ESTÁTICO MODELADO]  [TESTE]",
           "campaign_id": "120248546729160002",
@@ -1642,10 +1358,6 @@
               "vp50": 0.0,
               "vp75": 0.0,
               "vp100": 0.0,
-              "wa_group": 0,
-              "cp_wa": 0,
-              "form_thanks": 0,
-              "cp_form": 0,
               "id": "120248802155360002",
               "name": "[MDL3]",
               "campaign_id": "120248546729160002",
@@ -1673,10 +1385,6 @@
           "vp50": 0.0,
           "vp75": 0.0,
           "vp100": 0.0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "id": "120248547611850002",
           "name": "[AD SET 1.3] - [E_AD02]  + [VD01] [TESTE]",
           "campaign_id": "120248546729160002",
@@ -1697,10 +1405,6 @@
               "vp50": 0.0,
               "vp75": 0.0,
               "vp100": 0.0,
-              "wa_group": 0,
-              "cp_wa": 0,
-              "form_thanks": 0,
-              "cp_form": 0,
               "id": "120248547611830002",
               "name": "[AD02]",
               "campaign_id": "120248546729160002",
@@ -1728,10 +1432,6 @@
           "vp50": 3.6,
           "vp75": 2.9,
           "vp100": 1.6,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "id": "120249134086250002",
           "name": "[AD SET 1.9] - [SÓ VIDEO]",
           "campaign_id": "120248546729160002",
@@ -1752,10 +1452,6 @@
               "vp50": 3.6,
               "vp75": 2.9,
               "vp100": 1.6,
-              "wa_group": 0,
-              "cp_wa": 0,
-              "form_thanks": 0,
-              "cp_form": 0,
               "id": "120249134090730002",
               "name": "[NBP01VD]",
               "campaign_id": "120248546729160002",
@@ -1783,10 +1479,6 @@
           "vp50": 1.9,
           "vp75": 1.1,
           "vp100": 0.6,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "id": "120249134075230002",
           "name": "[AD SET 1.8] - [SÓ VIDEO]",
           "campaign_id": "120248546729160002",
@@ -1807,10 +1499,6 @@
               "vp50": 1.9,
               "vp75": 1.1,
               "vp100": 0.6,
-              "wa_group": 0,
-              "cp_wa": 0,
-              "form_thanks": 0,
-              "cp_form": 0,
               "id": "120249134075240002",
               "name": "[NBP03VD]",
               "campaign_id": "120248546729160002",
@@ -1838,10 +1526,6 @@
           "vp50": 0.0,
           "vp75": 0.0,
           "vp100": 0.0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "id": "120248555528970002",
           "name": "[AD SET 1.5] - [ESTÁTICO $1EUR  [TESTE]",
           "campaign_id": "120248546729160002",
@@ -1862,10 +1546,6 @@
               "vp50": 0.0,
               "vp75": 0.0,
               "vp100": 0.0,
-              "wa_group": 0,
-              "cp_wa": 0,
-              "form_thanks": 0,
-              "cp_form": 0,
               "id": "120248555591920002",
               "name": "[MDL2]",
               "campaign_id": "120248546729160002",
@@ -1891,10 +1571,6 @@
               "vp50": 0.0,
               "vp75": 0.0,
               "vp100": 0.0,
-              "wa_group": 0,
-              "cp_wa": 0,
-              "form_thanks": 0,
-              "cp_form": 0,
               "id": "120248555595430002",
               "name": "[MDL1]",
               "campaign_id": "120248546729160002",
@@ -1922,10 +1598,6 @@
           "vp50": 0.0,
           "vp75": 0.0,
           "vp100": 0.0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "id": "120248547611810002",
           "name": "[AD SET 1.2] - [E_AD03] - [v\\VIDEO ATIVO P TESTE]",
           "campaign_id": "120248546729160002",
@@ -1946,10 +1618,6 @@
               "vp50": 0.0,
               "vp75": 0.0,
               "vp100": 0.0,
-              "wa_group": 0,
-              "cp_wa": 0,
-              "form_thanks": 0,
-              "cp_form": 0,
               "id": "120248547611840002",
               "name": "[AD03]",
               "campaign_id": "120248546729160002",
@@ -1964,25 +1632,21 @@
       ]
     },
     {
-      "spend": 320.6,
-      "impressions": 44609,
-      "clicks": 748,
-      "reach": 18694,
-      "leads": 45,
-      "ctr": 1.68,
+      "spend": 324.54,
+      "impressions": 45030,
+      "clicks": 760,
+      "reach": 18806,
+      "leads": 47,
+      "ctr": 1.69,
       "cpc": 0.43,
-      "cpm": 7.19,
-      "cpl": 7.12,
-      "lp_conv": 6.0,
-      "hook_rate": 26.4,
+      "cpm": 7.21,
+      "cpl": 6.91,
+      "lp_conv": 6.2,
+      "hook_rate": 26.3,
       "vp25": 9.5,
-      "vp50": 4.8,
+      "vp50": 4.7,
       "vp75": 2.6,
       "vp100": 1.6,
-      "wa_group": 0,
-      "cp_wa": 0,
-      "form_thanks": 0,
-      "cp_form": 0,
       "id": "120249001823230002",
       "name": "[EVENTO PRESENCIAL] - [VALIDAÇÃO]",
       "status": "ACTIVE",
@@ -2003,11 +1667,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-03-31",
@@ -2025,11 +1685,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "spend": 1.03,
@@ -2047,10 +1703,6 @@
           "vp50": 5.5,
           "vp75": 2.2,
           "vp100": 1.1,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-01"
         },
         {
@@ -2069,10 +1721,6 @@
           "vp50": 4.0,
           "vp75": 2.0,
           "vp100": 1.2,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-02"
         },
         {
@@ -2091,10 +1739,6 @@
           "vp50": 5.2,
           "vp75": 3.3,
           "vp100": 2.0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-03"
         },
         {
@@ -2113,10 +1757,6 @@
           "vp50": 5.9,
           "vp75": 3.2,
           "vp100": 1.8,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-04"
         },
         {
@@ -2135,10 +1775,6 @@
           "vp50": 4.4,
           "vp75": 1.8,
           "vp100": 0.9,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-05"
         },
         {
@@ -2157,10 +1793,6 @@
           "vp50": 4.6,
           "vp75": 2.3,
           "vp100": 1.4,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-06"
         },
         {
@@ -2179,10 +1811,6 @@
           "vp50": 6.5,
           "vp75": 3.0,
           "vp100": 1.9,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-07"
         },
         {
@@ -2201,10 +1829,6 @@
           "vp50": 6.6,
           "vp75": 3.0,
           "vp100": 1.9,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-08"
         },
         {
@@ -2223,10 +1847,6 @@
           "vp50": 4.7,
           "vp75": 2.7,
           "vp100": 1.9,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-09"
         },
         {
@@ -2245,10 +1865,6 @@
           "vp50": 6.4,
           "vp75": 3.2,
           "vp100": 2.3,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-10"
         },
         {
@@ -2267,10 +1883,6 @@
           "vp50": 7.6,
           "vp75": 4.8,
           "vp100": 3.0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-11"
         },
         {
@@ -2289,10 +1901,6 @@
           "vp50": 5.6,
           "vp75": 3.5,
           "vp100": 2.3,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-12"
         },
         {
@@ -2311,10 +1919,6 @@
           "vp50": 5.1,
           "vp75": 2.8,
           "vp100": 1.7,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-13"
         },
         {
@@ -2333,10 +1937,6 @@
           "vp50": 4.7,
           "vp75": 2.9,
           "vp100": 1.7,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-14"
         },
         {
@@ -2355,10 +1955,6 @@
           "vp50": 6.6,
           "vp75": 3.9,
           "vp100": 2.5,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-15"
         },
         {
@@ -2377,10 +1973,6 @@
           "vp50": 5.8,
           "vp75": 3.2,
           "vp100": 2.5,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-16"
         },
         {
@@ -2399,11 +1991,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-18",
@@ -2421,11 +2009,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-19",
@@ -2443,11 +2027,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-20",
@@ -2465,11 +2045,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-21",
@@ -2487,11 +2063,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "spend": 5.51,
@@ -2509,10 +2081,6 @@
           "vp50": 4.5,
           "vp75": 2.2,
           "vp100": 1.0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-22"
         },
         {
@@ -2531,10 +2099,6 @@
           "vp50": 4.0,
           "vp75": 2.5,
           "vp100": 1.5,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-23"
         },
         {
@@ -2553,10 +2117,6 @@
           "vp50": 2.7,
           "vp75": 1.6,
           "vp100": 1.0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-24"
         },
         {
@@ -2575,10 +2135,6 @@
           "vp50": 2.6,
           "vp75": 1.4,
           "vp100": 0.8,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-25"
         },
         {
@@ -2597,15 +2153,11 @@
           "vp50": 3.4,
           "vp75": 1.8,
           "vp100": 1.0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-26"
         },
         {
           "spend": 18.18,
-          "impressions": 2049,
+          "impressions": 2050,
           "clicks": 31,
           "reach": 1758,
           "leads": 2,
@@ -2619,80 +2171,64 @@
           "vp50": 2.9,
           "vp75": 1.6,
           "vp100": 0.8,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-27"
         },
         {
-          "spend": 20.58,
-          "impressions": 1773,
-          "clicks": 32,
-          "reach": 1520,
-          "leads": 1,
-          "ctr": 1.8,
-          "cpc": 0.64,
-          "cpm": 11.61,
-          "cpl": 20.58,
-          "lp_conv": 3.1,
-          "hook_rate": 23.2,
-          "vp25": 8.3,
-          "vp50": 4.4,
-          "vp75": 2.5,
-          "vp100": 1.5,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
+          "spend": 24.52,
+          "impressions": 2193,
+          "clicks": 44,
+          "reach": 1840,
+          "leads": 3,
+          "ctr": 2.01,
+          "cpc": 0.56,
+          "cpm": 11.18,
+          "cpl": 8.17,
+          "lp_conv": 6.8,
+          "hook_rate": 23.4,
+          "vp25": 7.8,
+          "vp50": 4.1,
+          "vp75": 2.3,
+          "vp100": 1.4,
           "date": "2026-04-28"
         }
       ],
       "adsets": [
         {
-          "spend": 104.96,
-          "impressions": 12842,
-          "clicks": 214,
-          "reach": 8271,
+          "spend": 106.85,
+          "impressions": 13019,
+          "clicks": 216,
+          "reach": 8345,
           "leads": 15,
-          "ctr": 1.67,
+          "ctr": 1.66,
           "cpc": 0.49,
-          "cpm": 8.17,
-          "cpl": 7.0,
-          "lp_conv": 7.0,
+          "cpm": 8.21,
+          "cpl": 7.12,
+          "lp_conv": 6.9,
           "hook_rate": 31.6,
-          "vp25": 8.3,
+          "vp25": 8.2,
           "vp50": 3.8,
           "vp75": 2.3,
           "vp100": 1.4,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "id": "120249005627140002",
           "name": "[AD SET 1.3] - [DISTRICT]",
           "campaign_id": "120249001823230002",
           "ads": [
             {
-              "spend": 104.96,
-              "impressions": 12842,
-              "clicks": 214,
-              "reach": 8271,
+              "spend": 106.85,
+              "impressions": 13019,
+              "clicks": 216,
+              "reach": 8345,
               "leads": 15,
-              "ctr": 1.67,
+              "ctr": 1.66,
               "cpc": 0.49,
-              "cpm": 8.17,
-              "cpl": 7.0,
-              "lp_conv": 7.0,
+              "cpm": 8.21,
+              "cpl": 7.12,
+              "lp_conv": 6.9,
               "hook_rate": 31.6,
-              "vp25": 8.3,
+              "vp25": 8.2,
               "vp50": 3.8,
               "vp75": 2.3,
               "vp100": 1.4,
-              "wa_group": 0,
-              "cp_wa": 0,
-              "form_thanks": 0,
-              "cp_form": 0,
               "id": "120249005627130002",
               "name": "AD - IMG_4585",
               "campaign_id": "120249001823230002",
@@ -2705,49 +2241,41 @@
           ]
         },
         {
-          "spend": 97.41,
-          "impressions": 15990,
-          "clicks": 238,
-          "reach": 9964,
-          "leads": 17,
-          "ctr": 1.49,
+          "spend": 97.73,
+          "impressions": 16036,
+          "clicks": 240,
+          "reach": 9998,
+          "leads": 18,
+          "ctr": 1.5,
           "cpc": 0.41,
           "cpm": 6.09,
-          "cpl": 5.73,
-          "lp_conv": 7.1,
-          "hook_rate": 26.5,
+          "cpl": 5.43,
+          "lp_conv": 7.5,
+          "hook_rate": 26.6,
           "vp25": 15.1,
           "vp50": 8.6,
           "vp75": 4.4,
-          "vp100": 2.6,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
+          "vp100": 2.7,
           "id": "120249001823250002",
           "name": "[AD SET 1.1] - [DISTRICT]",
           "campaign_id": "120249001823230002",
           "ads": [
             {
-              "spend": 97.41,
-              "impressions": 15990,
-              "clicks": 238,
-              "reach": 9964,
-              "leads": 17,
-              "ctr": 1.49,
+              "spend": 97.73,
+              "impressions": 16036,
+              "clicks": 240,
+              "reach": 10000,
+              "leads": 18,
+              "ctr": 1.5,
               "cpc": 0.41,
               "cpm": 6.09,
-              "cpl": 5.73,
-              "lp_conv": 7.1,
-              "hook_rate": 26.5,
+              "cpl": 5.43,
+              "lp_conv": 7.5,
+              "hook_rate": 26.6,
               "vp25": 15.1,
               "vp50": 8.6,
               "vp75": 4.4,
-              "vp100": 2.6,
-              "wa_group": 0,
-              "cp_wa": 0,
-              "form_thanks": 0,
-              "cp_form": 0,
+              "vp100": 2.7,
               "id": "120249001823240002",
               "name": "AD - IMG_4583",
               "campaign_id": "120249001823230002",
@@ -2760,49 +2288,41 @@
           ]
         },
         {
-          "spend": 58.04,
-          "impressions": 6683,
-          "clicks": 123,
-          "reach": 4443,
-          "leads": 7,
-          "ctr": 1.84,
-          "cpc": 0.47,
-          "cpm": 8.68,
-          "cpl": 8.29,
-          "lp_conv": 5.7,
-          "hook_rate": 18.9,
+          "spend": 58.69,
+          "impressions": 6745,
+          "clicks": 127,
+          "reach": 4446,
+          "leads": 8,
+          "ctr": 1.88,
+          "cpc": 0.46,
+          "cpm": 8.7,
+          "cpl": 7.34,
+          "lp_conv": 6.3,
+          "hook_rate": 19.0,
           "vp25": 0.7,
           "vp50": 0.3,
           "vp75": 0.2,
           "vp100": 0.1,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "id": "120250118031630002",
           "name": "[AD SET 1.3] - [DISTRICT] — [VSL]",
           "campaign_id": "120249001823230002",
           "ads": [
             {
-              "spend": 58.04,
-              "impressions": 6683,
-              "clicks": 123,
-              "reach": 4443,
-              "leads": 7,
-              "ctr": 1.84,
-              "cpc": 0.47,
-              "cpm": 8.68,
-              "cpl": 8.29,
-              "lp_conv": 5.7,
-              "hook_rate": 18.9,
+              "spend": 58.69,
+              "impressions": 6745,
+              "clicks": 127,
+              "reach": 4446,
+              "leads": 8,
+              "ctr": 1.88,
+              "cpc": 0.46,
+              "cpm": 8.7,
+              "cpl": 7.34,
+              "lp_conv": 6.3,
+              "hook_rate": 19.0,
               "vp25": 0.7,
               "vp50": 0.3,
               "vp75": 0.2,
               "vp100": 0.1,
-              "wa_group": 0,
-              "cp_wa": 0,
-              "form_thanks": 0,
-              "cp_form": 0,
               "id": "120250118031640002",
               "name": "VSL",
               "campaign_id": "120249001823230002",
@@ -2830,10 +2350,6 @@
           "vp50": 3.2,
           "vp75": 2.0,
           "vp100": 1.3,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "id": "120249005624680002",
           "name": "[AD SET 1.2] - [DISTRICT]",
           "campaign_id": "120249001823230002",
@@ -2854,10 +2370,6 @@
               "vp50": 3.2,
               "vp75": 2.0,
               "vp100": 1.3,
-              "wa_group": 0,
-              "cp_wa": 0,
-              "form_thanks": 0,
-              "cp_form": 0,
               "id": "120249005624690002",
               "name": "AD - IMG_4584",
               "campaign_id": "120249001823230002",
@@ -2870,49 +2382,41 @@
           ]
         },
         {
-          "spend": 12.56,
-          "impressions": 1142,
-          "clicks": 29,
-          "reach": 992,
+          "spend": 13.64,
+          "impressions": 1278,
+          "clicks": 33,
+          "reach": 1102,
           "leads": 1,
-          "ctr": 2.54,
-          "cpc": 0.43,
-          "cpm": 11.0,
-          "cpl": 12.56,
-          "lp_conv": 3.4,
-          "hook_rate": 21.0,
-          "vp25": 5.8,
-          "vp50": 3.0,
-          "vp75": 2.1,
-          "vp100": 1.6,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
+          "ctr": 2.58,
+          "cpc": 0.41,
+          "cpm": 10.67,
+          "cpl": 13.64,
+          "lp_conv": 3.0,
+          "hook_rate": 20.7,
+          "vp25": 5.6,
+          "vp50": 2.9,
+          "vp75": 2.0,
+          "vp100": 1.5,
           "id": "120250413812750002",
           "name": "[AD SET 1.3] - [DISTRICT] — [DEPOIMENTOS_COMPILADOS]",
           "campaign_id": "120249001823230002",
           "ads": [
             {
-              "spend": 12.56,
-              "impressions": 1142,
-              "clicks": 29,
-              "reach": 992,
+              "spend": 13.64,
+              "impressions": 1278,
+              "clicks": 33,
+              "reach": 1102,
               "leads": 1,
-              "ctr": 2.54,
-              "cpc": 0.43,
-              "cpm": 11.0,
-              "cpl": 12.56,
-              "lp_conv": 3.4,
-              "hook_rate": 21.0,
-              "vp25": 5.8,
-              "vp50": 3.0,
-              "vp75": 2.1,
-              "vp100": 1.6,
-              "wa_group": 0,
-              "cp_wa": 0,
-              "form_thanks": 0,
-              "cp_form": 0,
+              "ctr": 2.58,
+              "cpc": 0.41,
+              "cpm": 10.67,
+              "cpl": 13.64,
+              "lp_conv": 3.0,
+              "hook_rate": 20.7,
+              "vp25": 5.6,
+              "vp50": 2.9,
+              "vp75": 2.0,
+              "vp100": 1.5,
               "id": "120250413812760002",
               "name": "depoimento_compilado",
               "campaign_id": "120249001823230002",
@@ -2940,10 +2444,6 @@
           "vp50": 0.0,
           "vp75": 0.0,
           "vp100": 0.0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "id": "120249005639320002",
           "name": "[AD SET 1.5] - [DISTRICT]",
           "campaign_id": "120249001823230002",
@@ -2964,10 +2464,6 @@
               "vp50": 0.0,
               "vp75": 0.0,
               "vp100": 0.0,
-              "wa_group": 0,
-              "cp_wa": 0,
-              "form_thanks": 0,
-              "cp_form": 0,
               "id": "120249005639330002",
               "name": "AD - MIX ESTÁTICO",
               "campaign_id": "120249001823230002",
@@ -2995,10 +2491,6 @@
           "vp50": 0.9,
           "vp75": 0.5,
           "vp100": 0.4,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "id": "120249005629350002",
           "name": "[AD SET 1.4] - [DISTRICT]",
           "campaign_id": "120249001823230002",
@@ -3019,10 +2511,6 @@
               "vp50": 0.9,
               "vp75": 0.5,
               "vp100": 0.4,
-              "wa_group": 0,
-              "cp_wa": 0,
-              "form_thanks": 0,
-              "cp_form": 0,
               "id": "120249005629360002",
               "name": "AD - IMG_4582",
               "campaign_id": "120249001823230002",
@@ -3050,10 +2538,6 @@
           "vp50": 3.3,
           "vp75": 2.1,
           "vp100": 1.7,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "id": "120249340523730002",
           "name": "[AD SET 1.6] - [VALIDANDO]",
           "campaign_id": "120249001823230002",
@@ -3074,10 +2558,6 @@
               "vp50": 3.3,
               "vp75": 2.1,
               "vp100": 1.7,
-              "wa_group": 0,
-              "cp_wa": 0,
-              "form_thanks": 0,
-              "cp_form": 0,
               "id": "120249340523720002",
               "name": "AD - IMG_4584",
               "campaign_id": "120249001823230002",
@@ -3105,10 +2585,6 @@
           "vp50": 1.3,
           "vp75": 0.9,
           "vp100": 0.9,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "id": "120249347696140002",
           "name": "[AD SET 1.7] - [VALIDANDO]",
           "campaign_id": "120249001823230002",
@@ -3129,10 +2605,6 @@
               "vp50": 1.3,
               "vp75": 0.9,
               "vp100": 0.9,
-              "wa_group": 0,
-              "cp_wa": 0,
-              "form_thanks": 0,
-              "cp_form": 0,
               "id": "120249347696150002",
               "name": "Criativo 4.mp4",
               "campaign_id": "120249001823230002",
@@ -3147,25 +2619,21 @@
       ]
     },
     {
-      "spend": 102.87,
-      "impressions": 13031,
-      "clicks": 202,
-      "reach": 7944,
+      "spend": 104.42,
+      "impressions": 13212,
+      "clicks": 206,
+      "reach": 7976,
       "leads": 11,
-      "ctr": 1.55,
+      "ctr": 1.56,
       "cpc": 0.51,
-      "cpm": 7.89,
-      "cpl": 9.35,
-      "lp_conv": 5.4,
+      "cpm": 7.9,
+      "cpl": 9.49,
+      "lp_conv": 5.3,
       "hook_rate": 0.3,
       "vp25": 0.0,
       "vp50": 0.0,
       "vp75": 0.0,
       "vp100": 0.0,
-      "wa_group": 0,
-      "cp_wa": 0,
-      "form_thanks": 0,
-      "cp_form": 0,
       "id": "120250196615710002",
       "name": "[SESSÃO COM MAFRA]",
       "status": "ACTIVE",
@@ -3186,11 +2654,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-03-31",
@@ -3208,11 +2672,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-01",
@@ -3230,11 +2690,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-02",
@@ -3252,11 +2708,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-03",
@@ -3274,11 +2726,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-04",
@@ -3296,11 +2744,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-05",
@@ -3318,11 +2762,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-06",
@@ -3340,11 +2780,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-07",
@@ -3362,11 +2798,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-08",
@@ -3384,11 +2816,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-09",
@@ -3406,11 +2834,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-10",
@@ -3428,11 +2852,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-11",
@@ -3450,11 +2870,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-12",
@@ -3472,11 +2888,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-13",
@@ -3494,11 +2906,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-14",
@@ -3516,11 +2924,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-15",
@@ -3538,11 +2942,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-16",
@@ -3560,11 +2960,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-17",
@@ -3582,11 +2978,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-18",
@@ -3604,11 +2996,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-19",
@@ -3626,11 +3014,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-20",
@@ -3648,11 +3032,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-21",
@@ -3670,11 +3050,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-22",
@@ -3692,11 +3068,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "spend": 9.6,
@@ -3714,10 +3086,6 @@
           "vp50": 0.0,
           "vp75": 0.0,
           "vp100": 0.0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-23"
         },
         {
@@ -3736,10 +3104,6 @@
           "vp50": 0.0,
           "vp75": 0.0,
           "vp100": 0.0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-24"
         },
         {
@@ -3758,10 +3122,6 @@
           "vp50": 0.0,
           "vp75": 0.0,
           "vp100": 0.0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-25"
         },
         {
@@ -3780,10 +3140,6 @@
           "vp50": 0.0,
           "vp75": 0.0,
           "vp100": 0.0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-26"
         },
         {
@@ -3802,80 +3158,64 @@
           "vp50": 0.1,
           "vp75": 0.0,
           "vp100": 0.0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-27"
         },
         {
-          "spend": 8.3,
-          "impressions": 849,
-          "clicks": 9,
-          "reach": 721,
+          "spend": 9.85,
+          "impressions": 1030,
+          "clicks": 13,
+          "reach": 850,
           "leads": 0,
-          "ctr": 1.06,
-          "cpc": 0.92,
-          "cpm": 9.78,
+          "ctr": 1.26,
+          "cpc": 0.76,
+          "cpm": 9.56,
           "cpl": 0,
           "lp_conv": 0.0,
-          "hook_rate": 0.5,
+          "hook_rate": 0.4,
           "vp25": 0.0,
           "vp50": 0.0,
           "vp75": 0.0,
           "vp100": 0.0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-28"
         }
       ],
       "adsets": [
         {
-          "spend": 36.0,
-          "impressions": 4714,
-          "clicks": 89,
-          "reach": 3630,
+          "spend": 36.74,
+          "impressions": 4842,
+          "clicks": 92,
+          "reach": 3679,
           "leads": 6,
-          "ctr": 1.89,
+          "ctr": 1.9,
           "cpc": 0.4,
-          "cpm": 7.64,
-          "cpl": 6.0,
-          "lp_conv": 6.7,
+          "cpm": 7.59,
+          "cpl": 6.12,
+          "lp_conv": 6.5,
           "hook_rate": 0.3,
           "vp25": 0.0,
           "vp50": 0.0,
           "vp75": 0.0,
           "vp100": 0.0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "id": "120250196615720002",
           "name": "[AD SET 1.1]",
           "campaign_id": "120250196615710002",
           "ads": [
             {
-              "spend": 20.77,
-              "impressions": 2430,
-              "clicks": 47,
-              "reach": 2083,
+              "spend": 21.51,
+              "impressions": 2558,
+              "clicks": 50,
+              "reach": 2142,
               "leads": 6,
-              "ctr": 1.93,
-              "cpc": 0.44,
-              "cpm": 8.55,
-              "cpl": 3.46,
-              "lp_conv": 12.8,
+              "ctr": 1.95,
+              "cpc": 0.43,
+              "cpm": 8.41,
+              "cpl": 3.59,
+              "lp_conv": 12.0,
               "hook_rate": 0.6,
               "vp25": 0.0,
               "vp50": 0.0,
               "vp75": 0.0,
               "vp100": 0.0,
-              "wa_group": 0,
-              "cp_wa": 0,
-              "form_thanks": 0,
-              "cp_form": 0,
               "id": "120250196615730002",
               "name": "3",
               "campaign_id": "120250196615710002",
@@ -3901,10 +3241,6 @@
               "vp50": 0.0,
               "vp75": 0.0,
               "vp100": 0.0,
-              "wa_group": 0,
-              "cp_wa": 0,
-              "form_thanks": 0,
-              "cp_form": 0,
               "id": "120250197090160002",
               "name": "7",
               "campaign_id": "120250196615710002",
@@ -3932,10 +3268,6 @@
           "vp50": 0.0,
           "vp75": 0.0,
           "vp100": 0.0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "id": "120250197106140002",
           "name": "[AD SET 1.2]",
           "campaign_id": "120250196615710002",
@@ -3956,10 +3288,6 @@
               "vp50": 0.0,
               "vp75": 0.0,
               "vp100": 0.0,
-              "wa_group": 0,
-              "cp_wa": 0,
-              "form_thanks": 0,
-              "cp_form": 0,
               "id": "120250197106150002",
               "name": "3",
               "campaign_id": "120250196615710002",
@@ -3985,10 +3313,6 @@
               "vp50": 0.0,
               "vp75": 0.0,
               "vp100": 0.0,
-              "wa_group": 0,
-              "cp_wa": 0,
-              "form_thanks": 0,
-              "cp_form": 0,
               "id": "120250197106170002",
               "name": "4",
               "campaign_id": "120250196615710002",
@@ -4016,10 +3340,6 @@
           "vp50": 0.0,
           "vp75": 0.0,
           "vp100": 0.0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "id": "120250197226430002",
           "name": "[AD SET 1.4]",
           "campaign_id": "120250196615710002",
@@ -4040,10 +3360,6 @@
               "vp50": 0.0,
               "vp75": 0.0,
               "vp100": 0.0,
-              "wa_group": 0,
-              "cp_wa": 0,
-              "form_thanks": 0,
-              "cp_form": 0,
               "id": "120250197226450002",
               "name": "1",
               "campaign_id": "120250196615710002",
@@ -4069,10 +3385,6 @@
               "vp50": 0.0,
               "vp75": 0.0,
               "vp100": 0.0,
-              "wa_group": 0,
-              "cp_wa": 0,
-              "form_thanks": 0,
-              "cp_form": 0,
               "id": "120250197226440002",
               "name": "9",
               "campaign_id": "120250196615710002",
@@ -4085,49 +3397,41 @@
           ]
         },
         {
-          "spend": 10.6,
-          "impressions": 872,
-          "clicks": 11,
-          "reach": 440,
+          "spend": 11.41,
+          "impressions": 925,
+          "clicks": 12,
+          "reach": 464,
           "leads": 1,
-          "ctr": 1.26,
-          "cpc": 0.96,
-          "cpm": 12.16,
-          "cpl": 10.6,
-          "lp_conv": 9.1,
-          "hook_rate": 0.7,
+          "ctr": 1.3,
+          "cpc": 0.95,
+          "cpm": 12.34,
+          "cpl": 11.41,
+          "lp_conv": 8.3,
+          "hook_rate": 0.6,
           "vp25": 0.0,
           "vp50": 0.0,
           "vp75": 0.0,
           "vp100": 0.0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "id": "120250345494020002",
           "name": "[AD SET 1.5] - [QUENTE]",
           "campaign_id": "120250196615710002",
           "ads": [
             {
-              "spend": 9.49,
-              "impressions": 775,
-              "clicks": 11,
-              "reach": 419,
+              "spend": 10.3,
+              "impressions": 828,
+              "clicks": 12,
+              "reach": 443,
               "leads": 1,
-              "ctr": 1.42,
+              "ctr": 1.45,
               "cpc": 0.86,
-              "cpm": 12.25,
-              "cpl": 9.49,
-              "lp_conv": 9.1,
+              "cpm": 12.44,
+              "cpl": 10.3,
+              "lp_conv": 8.3,
               "hook_rate": 0.6,
               "vp25": 0.0,
               "vp50": 0.0,
               "vp75": 0.0,
               "vp100": 0.0,
-              "wa_group": 0,
-              "cp_wa": 0,
-              "form_thanks": 0,
-              "cp_form": 0,
               "id": "120250345494030002",
               "name": "4",
               "campaign_id": "120250196615710002",
@@ -4153,10 +3457,6 @@
               "vp50": 0.0,
               "vp75": 0.0,
               "vp100": 0.0,
-              "wa_group": 0,
-              "cp_wa": 0,
-              "form_thanks": 0,
-              "cp_form": 0,
               "id": "120250345494010002",
               "name": "3",
               "campaign_id": "120250196615710002",
@@ -4184,10 +3484,6 @@
           "vp50": 0.0,
           "vp75": 0.0,
           "vp100": 0.0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "id": "120250197106160002",
           "name": "[AD SET 1.3]",
           "campaign_id": "120250196615710002",
@@ -4208,10 +3504,6 @@
               "vp50": 0.0,
               "vp75": 0.0,
               "vp100": 0.0,
-              "wa_group": 0,
-              "cp_wa": 0,
-              "form_thanks": 0,
-              "cp_form": 0,
               "id": "120250197106200002",
               "name": "6",
               "campaign_id": "120250196615710002",
@@ -4237,10 +3529,6 @@
               "vp50": 0.0,
               "vp75": 0.0,
               "vp100": 0.0,
-              "wa_group": 0,
-              "cp_wa": 0,
-              "form_thanks": 0,
-              "cp_form": 0,
               "id": "120250197106180002",
               "name": "5",
               "campaign_id": "120250196615710002",
@@ -4270,10 +3558,6 @@
       "vp50": 0.1,
       "vp75": 0.1,
       "vp100": 0.1,
-      "wa_group": 0,
-      "cp_wa": 0,
-      "form_thanks": 0,
-      "cp_form": 0,
       "id": "120249404765890002",
       "name": "[WEBNAR] - [CBO]",
       "status": "PAUSED",
@@ -4294,11 +3578,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-03-31",
@@ -4316,11 +3596,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-01",
@@ -4338,11 +3614,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-02",
@@ -4360,11 +3632,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-03",
@@ -4382,11 +3650,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-04",
@@ -4404,11 +3668,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-05",
@@ -4426,11 +3686,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-06",
@@ -4448,11 +3704,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-07",
@@ -4470,11 +3722,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-08",
@@ -4492,11 +3740,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-09",
@@ -4514,11 +3758,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "spend": 12.19,
@@ -4536,10 +3776,6 @@
           "vp50": 0.0,
           "vp75": 0.0,
           "vp100": 0.0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-10"
         },
         {
@@ -4558,10 +3794,6 @@
           "vp50": 0.0,
           "vp75": 0.0,
           "vp100": 0.0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-11"
         },
         {
@@ -4580,10 +3812,6 @@
           "vp50": 0.1,
           "vp75": 0.1,
           "vp100": 0.1,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-12"
         },
         {
@@ -4602,10 +3830,6 @@
           "vp50": 0.3,
           "vp75": 0.2,
           "vp100": 0.2,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-13"
         },
         {
@@ -4624,11 +3848,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-15",
@@ -4646,11 +3866,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-16",
@@ -4668,11 +3884,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-17",
@@ -4690,11 +3902,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-18",
@@ -4712,11 +3920,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-19",
@@ -4734,11 +3938,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-20",
@@ -4756,11 +3956,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-21",
@@ -4778,11 +3974,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-22",
@@ -4800,11 +3992,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-23",
@@ -4822,11 +4010,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-24",
@@ -4844,11 +4028,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-25",
@@ -4866,11 +4046,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-26",
@@ -4888,11 +4064,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-27",
@@ -4910,11 +4082,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-28",
@@ -4932,11 +4100,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         }
       ],
       "adsets": [
@@ -4956,10 +4120,6 @@
           "vp50": 0.0,
           "vp75": 0.0,
           "vp100": 0.0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "id": "120249404797920002",
           "name": "[AD SET 4]",
           "campaign_id": "120249404765890002",
@@ -4980,10 +4140,6 @@
               "vp50": 0.0,
               "vp75": 0.0,
               "vp100": 0.0,
-              "wa_group": 0,
-              "cp_wa": 0,
-              "form_thanks": 0,
-              "cp_form": 0,
               "id": "120249404804990002",
               "name": "[MDL2]",
               "campaign_id": "120249404765890002",
@@ -5011,10 +4167,6 @@
           "vp50": 0.5,
           "vp75": 0.3,
           "vp100": 0.2,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "id": "120249404779320002",
           "name": "[AD SET 3] - [aq]",
           "campaign_id": "120249404765890002",
@@ -5035,10 +4187,6 @@
               "vp50": 0.0,
               "vp75": 0.0,
               "vp100": 0.0,
-              "wa_group": 0,
-              "cp_wa": 0,
-              "form_thanks": 0,
-              "cp_form": 0,
               "id": "120249404792810002",
               "name": "[AD03]",
               "campaign_id": "120249404765890002",
@@ -5064,10 +4212,6 @@
               "vp50": 2.8,
               "vp75": 1.8,
               "vp100": 1.4,
-              "wa_group": 0,
-              "cp_wa": 0,
-              "form_thanks": 0,
-              "cp_form": 0,
               "id": "120249470568490002",
               "name": "[NBP03VD] — Cópia",
               "campaign_id": "120249404765890002",
@@ -5095,10 +4239,6 @@
           "vp50": 0.0,
           "vp75": 0.0,
           "vp100": 0.0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "id": "120249404765900002",
           "name": "[AD SET 1]",
           "campaign_id": "120249404765890002",
@@ -5119,10 +4259,6 @@
               "vp50": 0.0,
               "vp75": 0.0,
               "vp100": 0.0,
-              "wa_group": 0,
-              "cp_wa": 0,
-              "form_thanks": 0,
-              "cp_form": 0,
               "id": "120249404788430002",
               "name": "[MDL3]",
               "campaign_id": "120249404765890002",
@@ -5150,10 +4286,6 @@
           "vp50": 0.0,
           "vp75": 0.0,
           "vp100": 0.0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "id": "120249404778460002",
           "name": "[AD SET 2]",
           "campaign_id": "120249404765890002",
@@ -5174,10 +4306,6 @@
               "vp50": 0.0,
               "vp75": 0.0,
               "vp100": 0.0,
-              "wa_group": 0,
-              "cp_wa": 0,
-              "form_thanks": 0,
-              "cp_form": 0,
               "id": "120249404790490002",
               "name": "[AD02]",
               "campaign_id": "120249404765890002",
@@ -5207,10 +4335,6 @@
       "vp50": 0.0,
       "vp75": 0.0,
       "vp100": 0.0,
-      "wa_group": 0,
-      "cp_wa": 0,
-      "form_thanks": 5,
-      "cp_form": 6.51,
       "id": "120250026283130002",
       "name": "[EVENTO PRESENCIAL MAIO - 26] - [LEAD]",
       "status": "PAUSED",
@@ -5231,11 +4355,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-03-31",
@@ -5253,11 +4373,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-01",
@@ -5275,11 +4391,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-02",
@@ -5297,11 +4409,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-03",
@@ -5319,11 +4427,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-04",
@@ -5341,11 +4445,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-05",
@@ -5363,11 +4463,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-06",
@@ -5385,11 +4481,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-07",
@@ -5407,11 +4499,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-08",
@@ -5429,11 +4517,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-09",
@@ -5451,11 +4535,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-10",
@@ -5473,11 +4553,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-11",
@@ -5495,11 +4571,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-12",
@@ -5517,11 +4589,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-13",
@@ -5539,11 +4607,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-14",
@@ -5561,11 +4625,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-15",
@@ -5583,11 +4643,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-16",
@@ -5605,11 +4661,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-17",
@@ -5627,11 +4679,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-18",
@@ -5649,11 +4697,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-19",
@@ -5671,11 +4715,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-20",
@@ -5693,11 +4733,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "spend": 8.83,
@@ -5715,10 +4751,6 @@
           "vp50": 0.0,
           "vp75": 0.0,
           "vp100": 0.0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 1,
-          "cp_form": 8.83,
           "date": "2026-04-21"
         },
         {
@@ -5737,10 +4769,6 @@
           "vp50": 0.0,
           "vp75": 0.0,
           "vp100": 0.0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 3,
-          "cp_form": 5.64,
           "date": "2026-04-22"
         },
         {
@@ -5759,10 +4787,6 @@
           "vp50": 0.0,
           "vp75": 0.0,
           "vp100": 0.0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 1,
-          "cp_form": 6.81,
           "date": "2026-04-23"
         },
         {
@@ -5781,11 +4805,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-25",
@@ -5803,11 +4823,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-26",
@@ -5825,11 +4841,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-27",
@@ -5847,11 +4859,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-28",
@@ -5869,11 +4877,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         }
       ],
       "adsets": [
@@ -5893,10 +4897,6 @@
           "vp50": 0.0,
           "vp75": 0.0,
           "vp100": 0.0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 5,
-          "cp_form": 6.51,
           "id": "120250026283140002",
           "name": "[AD SET 1.1]",
           "campaign_id": "120250026283130002",
@@ -5917,10 +4917,6 @@
               "vp50": 0.0,
               "vp75": 0.0,
               "vp100": 0.0,
-              "wa_group": 0,
-              "cp_wa": 0,
-              "form_thanks": 3,
-              "cp_form": 5.76,
               "id": "120250026459000002",
               "name": "FEED3_IMG",
               "campaign_id": "120250026283130002",
@@ -5946,10 +4942,6 @@
               "vp50": 0.0,
               "vp75": 0.0,
               "vp100": 0.0,
-              "wa_group": 0,
-              "cp_wa": 0,
-              "form_thanks": 2,
-              "cp_form": 7.64,
               "id": "120250026283150002",
               "name": "FEED4_IMG",
               "campaign_id": "120250026283130002",
@@ -5979,10 +4971,6 @@
       "vp50": 2.6,
       "vp75": 1.7,
       "vp100": 0.7,
-      "wa_group": 0,
-      "cp_wa": 0,
-      "form_thanks": 0,
-      "cp_form": 0,
       "id": "120249336645360002",
       "name": "[CBO] - [ESCALA PRESENCIAL]",
       "status": "PAUSED",
@@ -6003,11 +4991,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-03-31",
@@ -6025,11 +5009,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-01",
@@ -6047,11 +5027,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-02",
@@ -6069,11 +5045,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-03",
@@ -6091,11 +5063,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-04",
@@ -6113,11 +5081,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-05",
@@ -6135,11 +5099,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-06",
@@ -6157,11 +5117,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-07",
@@ -6179,11 +5135,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "spend": 2.27,
@@ -6201,10 +5153,6 @@
           "vp50": 2.9,
           "vp75": 1.6,
           "vp100": 1.0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-08"
         },
         {
@@ -6223,10 +5171,6 @@
           "vp50": 1.7,
           "vp75": 1.3,
           "vp100": 0.0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-09"
         },
         {
@@ -6245,10 +5189,6 @@
           "vp50": 2.8,
           "vp75": 1.9,
           "vp100": 0.8,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-10"
         },
         {
@@ -6267,11 +5207,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-12",
@@ -6289,11 +5225,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-13",
@@ -6311,11 +5243,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-14",
@@ -6333,11 +5261,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-15",
@@ -6355,11 +5279,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-16",
@@ -6377,11 +5297,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-17",
@@ -6399,11 +5315,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-18",
@@ -6421,11 +5333,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-19",
@@ -6443,11 +5351,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-20",
@@ -6465,11 +5369,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-21",
@@ -6487,11 +5387,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-22",
@@ -6509,11 +5405,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-23",
@@ -6531,11 +5423,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-24",
@@ -6553,11 +5441,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-25",
@@ -6575,11 +5459,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-26",
@@ -6597,11 +5477,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-27",
@@ -6619,11 +5495,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-28",
@@ -6641,11 +5513,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         }
       ],
       "adsets": [
@@ -6665,10 +5533,6 @@
           "vp50": 2.6,
           "vp75": 1.7,
           "vp100": 0.7,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "id": "120249336645370002",
           "name": "[AD SET 1.1] -",
           "campaign_id": "120249336645360002",
@@ -6689,10 +5553,6 @@
               "vp50": 2.3,
               "vp75": 1.6,
               "vp100": 0.5,
-              "wa_group": 0,
-              "cp_wa": 0,
-              "form_thanks": 0,
-              "cp_form": 0,
               "id": "120249336710780002",
               "name": "AD - IMG_4585",
               "campaign_id": "120249336645360002",
@@ -6718,10 +5578,6 @@
               "vp50": 7.8,
               "vp75": 3.9,
               "vp100": 3.9,
-              "wa_group": 0,
-              "cp_wa": 0,
-              "form_thanks": 0,
-              "cp_form": 0,
               "id": "120249336710770002",
               "name": "AD - IMG_4583",
               "campaign_id": "120249336645360002",
@@ -6751,10 +5607,6 @@
       "vp50": 0.0,
       "vp75": 0.0,
       "vp100": 0.0,
-      "wa_group": 0,
-      "cp_wa": 0,
-      "form_thanks": 0,
-      "cp_form": 0,
       "id": "120248861507370002",
       "name": "[BID CAP] - [WEBNAR]",
       "status": "PAUSED",
@@ -6775,10 +5627,6 @@
           "vp50": 0.0,
           "vp75": 0.0,
           "vp100": 0.0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-03-30"
         },
         {
@@ -6797,10 +5645,6 @@
           "vp50": 0.0,
           "vp75": 0.0,
           "vp100": 0.0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-03-31"
         },
         {
@@ -6819,11 +5663,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-02",
@@ -6841,11 +5681,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "spend": 0.01,
@@ -6863,10 +5699,6 @@
           "vp50": 0.0,
           "vp75": 0.0,
           "vp100": 0.0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "date": "2026-04-03"
         },
         {
@@ -6885,11 +5717,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-05",
@@ -6907,11 +5735,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-06",
@@ -6929,11 +5753,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-07",
@@ -6951,11 +5771,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-08",
@@ -6973,11 +5789,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-09",
@@ -6995,11 +5807,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-10",
@@ -7017,11 +5825,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-11",
@@ -7039,11 +5843,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-12",
@@ -7061,11 +5861,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-13",
@@ -7083,11 +5879,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-14",
@@ -7105,11 +5897,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-15",
@@ -7127,11 +5915,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-16",
@@ -7149,11 +5933,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-17",
@@ -7171,11 +5951,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-18",
@@ -7193,11 +5969,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-19",
@@ -7215,11 +5987,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-20",
@@ -7237,11 +6005,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-21",
@@ -7259,11 +6023,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-22",
@@ -7281,11 +6041,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-23",
@@ -7303,11 +6059,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-24",
@@ -7325,11 +6077,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-25",
@@ -7347,11 +6095,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-26",
@@ -7369,11 +6113,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-27",
@@ -7391,11 +6131,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         },
         {
           "date": "2026-04-28",
@@ -7413,11 +6149,7 @@
           "vp25": 0,
           "vp50": 0,
           "vp75": 0,
-          "vp100": 0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0
+          "vp100": 0
         }
       ],
       "adsets": [
@@ -7437,10 +6169,6 @@
           "vp50": 0.0,
           "vp75": 0.0,
           "vp100": 0.0,
-          "wa_group": 0,
-          "cp_wa": 0,
-          "form_thanks": 0,
-          "cp_form": 0,
           "id": "120248861507390002",
           "name": "[ALL IN ONE]",
           "campaign_id": "120248861507370002",
@@ -7461,10 +6189,6 @@
               "vp50": 0.0,
               "vp75": 0.0,
               "vp100": 0.0,
-              "wa_group": 0,
-              "cp_wa": 0,
-              "form_thanks": 0,
-              "cp_form": 0,
               "id": "120248861507380002",
               "name": "[03 NOVA LEVA]",
               "campaign_id": "120248861507370002",
@@ -7490,10 +6214,6 @@
               "vp50": 0.0,
               "vp75": 0.0,
               "vp100": 0.0,
-              "wa_group": 0,
-              "cp_wa": 0,
-              "form_thanks": 0,
-              "cp_form": 0,
               "id": "120248861740200002",
               "name": "[MDL2]",
               "campaign_id": "120248861507370002",
@@ -7519,10 +6239,6 @@
               "vp50": 0.0,
               "vp75": 0.0,
               "vp100": 0.0,
-              "wa_group": 0,
-              "cp_wa": 0,
-              "form_thanks": 0,
-              "cp_form": 0,
               "id": "120248861708550002",
               "name": "[04 NOVA LEVA]",
               "campaign_id": "120248861507370002",
@@ -7536,5 +6252,466 @@
         }
       ]
     }
-  ]
+  ],
+  "instagram": {
+    "campaign_id": "120249814173860002",
+    "campaign_name": "[TRÁFEGO INSTAGRAM] - [VISITA]",
+    "summary": {
+      "spend": 61.67,
+      "impressions": 25655,
+      "reach": 15359,
+      "clicks": 565,
+      "link_clicks": 559,
+      "engagement": 5389,
+      "video_views": 4707,
+      "cpm": 2.4,
+      "cpp": 0.11,
+      "hook_rate": 18.3
+    },
+    "daily": [
+      {
+        "date": "2026-03-30",
+        "spend": 0,
+        "impressions": 0,
+        "reach": 0,
+        "clicks": 0,
+        "link_clicks": 0,
+        "engagement": 0,
+        "video_views": 0,
+        "cpm": 0,
+        "cpp": 0,
+        "hook_rate": 0
+      },
+      {
+        "date": "2026-03-31",
+        "spend": 0,
+        "impressions": 0,
+        "reach": 0,
+        "clicks": 0,
+        "link_clicks": 0,
+        "engagement": 0,
+        "video_views": 0,
+        "cpm": 0,
+        "cpp": 0,
+        "hook_rate": 0
+      },
+      {
+        "date": "2026-04-01",
+        "spend": 0,
+        "impressions": 0,
+        "reach": 0,
+        "clicks": 0,
+        "link_clicks": 0,
+        "engagement": 0,
+        "video_views": 0,
+        "cpm": 0,
+        "cpp": 0,
+        "hook_rate": 0
+      },
+      {
+        "date": "2026-04-02",
+        "spend": 0,
+        "impressions": 0,
+        "reach": 0,
+        "clicks": 0,
+        "link_clicks": 0,
+        "engagement": 0,
+        "video_views": 0,
+        "cpm": 0,
+        "cpp": 0,
+        "hook_rate": 0
+      },
+      {
+        "date": "2026-04-03",
+        "spend": 0,
+        "impressions": 0,
+        "reach": 0,
+        "clicks": 0,
+        "link_clicks": 0,
+        "engagement": 0,
+        "video_views": 0,
+        "cpm": 0,
+        "cpp": 0,
+        "hook_rate": 0
+      },
+      {
+        "date": "2026-04-04",
+        "spend": 0,
+        "impressions": 0,
+        "reach": 0,
+        "clicks": 0,
+        "link_clicks": 0,
+        "engagement": 0,
+        "video_views": 0,
+        "cpm": 0,
+        "cpp": 0,
+        "hook_rate": 0
+      },
+      {
+        "date": "2026-04-05",
+        "spend": 0,
+        "impressions": 0,
+        "reach": 0,
+        "clicks": 0,
+        "link_clicks": 0,
+        "engagement": 0,
+        "video_views": 0,
+        "cpm": 0,
+        "cpp": 0,
+        "hook_rate": 0
+      },
+      {
+        "date": "2026-04-06",
+        "spend": 0,
+        "impressions": 0,
+        "reach": 0,
+        "clicks": 0,
+        "link_clicks": 0,
+        "engagement": 0,
+        "video_views": 0,
+        "cpm": 0,
+        "cpp": 0,
+        "hook_rate": 0
+      },
+      {
+        "date": "2026-04-07",
+        "spend": 0,
+        "impressions": 0,
+        "reach": 0,
+        "clicks": 0,
+        "link_clicks": 0,
+        "engagement": 0,
+        "video_views": 0,
+        "cpm": 0,
+        "cpp": 0,
+        "hook_rate": 0
+      },
+      {
+        "date": "2026-04-08",
+        "spend": 0,
+        "impressions": 0,
+        "reach": 0,
+        "clicks": 0,
+        "link_clicks": 0,
+        "engagement": 0,
+        "video_views": 0,
+        "cpm": 0,
+        "cpp": 0,
+        "hook_rate": 0
+      },
+      {
+        "date": "2026-04-09",
+        "spend": 0,
+        "impressions": 0,
+        "reach": 0,
+        "clicks": 0,
+        "link_clicks": 0,
+        "engagement": 0,
+        "video_views": 0,
+        "cpm": 0,
+        "cpp": 0,
+        "hook_rate": 0
+      },
+      {
+        "date": "2026-04-10",
+        "spend": 0,
+        "impressions": 0,
+        "reach": 0,
+        "clicks": 0,
+        "link_clicks": 0,
+        "engagement": 0,
+        "video_views": 0,
+        "cpm": 0,
+        "cpp": 0,
+        "hook_rate": 0
+      },
+      {
+        "date": "2026-04-11",
+        "spend": 0,
+        "impressions": 0,
+        "reach": 0,
+        "clicks": 0,
+        "link_clicks": 0,
+        "engagement": 0,
+        "video_views": 0,
+        "cpm": 0,
+        "cpp": 0,
+        "hook_rate": 0
+      },
+      {
+        "date": "2026-04-12",
+        "spend": 0,
+        "impressions": 0,
+        "reach": 0,
+        "clicks": 0,
+        "link_clicks": 0,
+        "engagement": 0,
+        "video_views": 0,
+        "cpm": 0,
+        "cpp": 0,
+        "hook_rate": 0
+      },
+      {
+        "date": "2026-04-13",
+        "spend": 0,
+        "impressions": 0,
+        "reach": 0,
+        "clicks": 0,
+        "link_clicks": 0,
+        "engagement": 0,
+        "video_views": 0,
+        "cpm": 0,
+        "cpp": 0,
+        "hook_rate": 0
+      },
+      {
+        "date": "2026-04-14",
+        "spend": 0,
+        "impressions": 0,
+        "reach": 0,
+        "clicks": 0,
+        "link_clicks": 0,
+        "engagement": 0,
+        "video_views": 0,
+        "cpm": 0,
+        "cpp": 0,
+        "hook_rate": 0
+      },
+      {
+        "date": "2026-04-15",
+        "spend": 0,
+        "impressions": 0,
+        "reach": 0,
+        "clicks": 0,
+        "link_clicks": 0,
+        "engagement": 0,
+        "video_views": 0,
+        "cpm": 0,
+        "cpp": 0,
+        "hook_rate": 0
+      },
+      {
+        "date": "2026-04-16",
+        "spend": 0,
+        "impressions": 0,
+        "reach": 0,
+        "clicks": 0,
+        "link_clicks": 0,
+        "engagement": 0,
+        "video_views": 0,
+        "cpm": 0,
+        "cpp": 0,
+        "hook_rate": 0
+      },
+      {
+        "spend": 3.78,
+        "impressions": 1209,
+        "reach": 1114,
+        "clicks": 16,
+        "link_clicks": 16,
+        "engagement": 295,
+        "video_views": 277,
+        "cpm": 3.13,
+        "cpp": 0.24,
+        "hook_rate": 22.9,
+        "date": "2026-04-17"
+      },
+      {
+        "spend": 5.95,
+        "impressions": 2030,
+        "reach": 1709,
+        "clicks": 51,
+        "link_clicks": 49,
+        "engagement": 497,
+        "video_views": 443,
+        "cpm": 2.93,
+        "cpp": 0.12,
+        "hook_rate": 21.8,
+        "date": "2026-04-18"
+      },
+      {
+        "spend": 4.34,
+        "impressions": 1416,
+        "reach": 1256,
+        "clicks": 28,
+        "link_clicks": 27,
+        "engagement": 299,
+        "video_views": 264,
+        "cpm": 3.06,
+        "cpp": 0.16,
+        "hook_rate": 18.6,
+        "date": "2026-04-19"
+      },
+      {
+        "spend": 5.51,
+        "impressions": 2028,
+        "reach": 1753,
+        "clicks": 52,
+        "link_clicks": 49,
+        "engagement": 417,
+        "video_views": 360,
+        "cpm": 2.72,
+        "cpp": 0.11,
+        "hook_rate": 17.8,
+        "date": "2026-04-20"
+      },
+      {
+        "spend": 4.9,
+        "impressions": 2079,
+        "reach": 1863,
+        "clicks": 45,
+        "link_clicks": 47,
+        "engagement": 479,
+        "video_views": 413,
+        "cpm": 2.36,
+        "cpp": 0.1,
+        "hook_rate": 19.9,
+        "date": "2026-04-21"
+      },
+      {
+        "spend": 6.6,
+        "impressions": 2942,
+        "reach": 2642,
+        "clicks": 64,
+        "link_clicks": 67,
+        "engagement": 623,
+        "video_views": 545,
+        "cpm": 2.24,
+        "cpp": 0.1,
+        "hook_rate": 18.5,
+        "date": "2026-04-22"
+      },
+      {
+        "spend": 6.76,
+        "impressions": 3008,
+        "reach": 2666,
+        "clicks": 58,
+        "link_clicks": 58,
+        "engagement": 684,
+        "video_views": 604,
+        "cpm": 2.25,
+        "cpp": 0.12,
+        "hook_rate": 20.1,
+        "date": "2026-04-23"
+      },
+      {
+        "spend": 4.55,
+        "impressions": 2170,
+        "reach": 1945,
+        "clicks": 51,
+        "link_clicks": 51,
+        "engagement": 440,
+        "video_views": 380,
+        "cpm": 2.1,
+        "cpp": 0.09,
+        "hook_rate": 17.5,
+        "date": "2026-04-24"
+      },
+      {
+        "spend": 3.96,
+        "impressions": 1785,
+        "reach": 1537,
+        "clicks": 37,
+        "link_clicks": 36,
+        "engagement": 300,
+        "video_views": 255,
+        "cpm": 2.22,
+        "cpp": 0.11,
+        "hook_rate": 14.3,
+        "date": "2026-04-25"
+      },
+      {
+        "spend": 9.56,
+        "impressions": 4369,
+        "reach": 3689,
+        "clicks": 91,
+        "link_clicks": 89,
+        "engagement": 775,
+        "video_views": 671,
+        "cpm": 2.19,
+        "cpp": 0.11,
+        "hook_rate": 15.4,
+        "date": "2026-04-26"
+      },
+      {
+        "spend": 4.17,
+        "impressions": 1772,
+        "reach": 1650,
+        "clicks": 50,
+        "link_clicks": 49,
+        "engagement": 409,
+        "video_views": 351,
+        "cpm": 2.35,
+        "cpp": 0.09,
+        "hook_rate": 19.8,
+        "date": "2026-04-27"
+      },
+      {
+        "spend": 1.59,
+        "impressions": 847,
+        "reach": 762,
+        "clicks": 22,
+        "link_clicks": 21,
+        "engagement": 171,
+        "video_views": 144,
+        "cpm": 1.88,
+        "cpp": 0.08,
+        "hook_rate": 17.0,
+        "date": "2026-04-28"
+      }
+    ],
+    "ads": [
+      {
+        "spend": 55.24,
+        "impressions": 22673,
+        "reach": 14295,
+        "clicks": 511,
+        "link_clicks": 512,
+        "engagement": 4989,
+        "video_views": 4357,
+        "cpm": 2.44,
+        "cpp": 0.11,
+        "hook_rate": 19.2,
+        "id": "120249814173870002",
+        "name": "[AD 01]",
+        "adset_name": "[AD SET 1.1] - [SEMELHANTE]",
+        "thumbnail": "thumbnails/120249814173870002.jpg",
+        "preview_url": "https://www.facebook.com/watch?v=2030318591219969"
+      },
+      {
+        "spend": 3.39,
+        "impressions": 1640,
+        "reach": 1314,
+        "clicks": 30,
+        "link_clicks": 24,
+        "engagement": 205,
+        "video_views": 178,
+        "cpm": 2.07,
+        "cpp": 0.14,
+        "hook_rate": 10.9,
+        "id": "120249814292190002",
+        "name": "[AD 02]",
+        "adset_name": "[AD SET 1.2] - [SEMELHANTE] —",
+        "thumbnail": "thumbnails/120249814292190002.jpg",
+        "preview_url": "https://www.facebook.com/watch?v=1490492202447032"
+      },
+      {
+        "spend": 3.04,
+        "impressions": 1342,
+        "reach": 1068,
+        "clicks": 24,
+        "link_clicks": 23,
+        "engagement": 195,
+        "video_views": 172,
+        "cpm": 2.27,
+        "cpp": 0.13,
+        "hook_rate": 12.8,
+        "id": "120249814303840002",
+        "name": "[AD 03]",
+        "adset_name": "[AD SET 1.3] - [SEMELHANTE]",
+        "thumbnail": "thumbnails/120249814303840002.jpg",
+        "preview_url": "https://www.facebook.com/watch?v=1349964587182790"
+      }
+    ]
+  }
 }
