@@ -1,0 +1,22 @@
+name: Ativar Campanha
+on:
+  workflow_dispatch:
+    inputs:
+      camp_keyword:
+        description: 'Palavra-chave da campanha'
+        required: true
+        default: 'webnar'
+jobs:
+  activate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - name: Activate campaign
+        env:
+          META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
+          CAMP_KEYWORD: ${{ github.event.inputs.camp_keyword }}
+        run: python scripts/activate_campaign.py
