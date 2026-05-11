@@ -1,93 +1,99 @@
 import requests, os, json
+from datetime import date
 
 TOKEN = os.environ['META_ACCESS_TOKEN']
 BASE  = "https://graph.facebook.com/v19.0"
 WEBNAR_CAMP = "120248546729160002"
 
-SINCE = "2026-05-08"  # Sexta-feira
-UNTIL = "2026-05-11"  # Hoje (Segunda)
+SINCE = "2026-05-08"  # Sexta
+UNTIL = "2026-05-11"  # Hoje
 
-print(f"=== WEBNAR — Conjuntos (sex {SINCE} → seg {UNTIL}) ===\n")
+print(f"=== CAMPANHA WEBNAR — Mafra Lancamento ===")
+print(f"Periodo: {SINCE} (sex) → {UNTIL} (seg)\n")
 
-# 1. Get all adsets in WEBNAR campaign
-r = requests.get(f"{BASE}/{WEBNAR_CAMP}/adsets", params={
-    'fields': 'id,name,status,effective_status,daily_budget,lifetime_budget',
-    'limit': 100, 'access_token': TOKEN
+# Total campanha
+ins_r = requests.get(f"{BASE}/{WEBNAR_CAMP}/insights", params={
+    'fields': 'spend,impressions,clicks,actions,reach,frequency,ctr,cpc,cpm',
+    'time_range': json.dumps({'since': SINCE, 'until': UNTIL}),
+    'access_token': TOKEN
 }, timeout=30)
-adsets = r.json().get('data', [])
-print(f"Total conjuntos: {len(adsets)}\n")
+data = ins_r.json().get('data', [])
+if data:
+    d = data[0]
+    spend = float(d.get('spend', 0))
+    leads = 0
+    link_clicks = lp_views = 0
+    for act in d.get('actions', []):
+        t = act.get('action_type', '')
+        v = int(act.get('value', 0))
+        if t in ('onsite_conversion.lead_grouped', 'lead', 'offsite_conversion.fb_pixel_lead', 'onsite_web_lead'):
+            leads = max(leads, v)
+        elif t == 'link_click':
+            link_clicks = v
+        elif t == 'landing_page_view':
+            lp_views = v
+    cpl = (spend/leads) if leads > 0 else 0
+    print(f"  TOTAL CAMPANHA:")
+    print(f"    Gasto:    R${spend:,.2f}")
+    print(f"    Leads:    {leads}")
+    print(f"    CPL:      R${cpl:.2f}")
+    print(f"    Impres:   {int(d.get('impressions',0)):,}")
+    print(f"    Reach:    {int(d.get('reach',0)):,}")
+    print(f"    Freq:     {float(d.get('frequency',0)):.2f}")
+    print(f"    CTR:      {float(d.get('ctr',0)):.2f}%")
+    print(f"    CPC:      R${float(d.get('cpc',0)):.2f}")
+    print(f"    CPM:      R${float(d.get('cpm',0)):.2f}")
+    print(f"    Clicks:   {int(d.get('clicks',0)):,} | Link: {link_clicks:,} | LP views: {lp_views:,}")
 
-# 2. Get insights for each adset in the date range
+# Per day breakdown
+print(f"\n=== POR DIA ===")
+day_r = requests.get(f"{BASE}/{WEBNAR_CAMP}/insights", params={
+    'fields': 'spend,impressions,clicks,actions,ctr',
+    'time_range': json.dumps({'since': SINCE, 'until': UNTIL}),
+    'time_increment': 1,
+    'access_token': TOKEN
+}, timeout=30)
+days = day_r.json().get('data', [])
+print(f"{'Data':<12} {'Gasto':>10} {'Leads':>7} {'CPL':>9} {'CTR':>8}")
+for d in days:
+    sp = float(d.get('spend', 0))
+    lds = 0
+    for act in d.get('actions', []):
+        if act.get('action_type') in ('onsite_conversion.lead_grouped', 'lead', 'offsite_conversion.fb_pixel_lead', 'onsite_web_lead'):
+            lds = max(lds, int(act.get('value', 0)))
+    cpl = sp/lds if lds > 0 else 0
+    print(f"{d.get('date_start')}   R${sp:>7.2f}  {lds:>5}   R${cpl:>5.2f}   {float(d.get('ctr',0)):>5.2f}%")
+
+# Adsets — only those with spend
+print(f"\n=== CONJUNTOS COM ENTREGA NO PERIODO ===")
+as_r = requests.get(f"{BASE}/{WEBNAR_CAMP}/adsets", params={
+    'fields': 'id,name,effective_status,daily_budget',
+    'limit': 50, 'access_token': TOKEN
+}, timeout=30)
 results = []
-for a in adsets:
-    aid = a['id']
-    name = a['name']
-    status = a.get('effective_status')
-    db = int(a.get('daily_budget') or 0)
-    
-    # Get insights
-    ins_r = requests.get(f"{BASE}/{aid}/insights", params={
-        'fields': 'spend,impressions,clicks,actions,cost_per_action_type,cpc,cpm,ctr',
+for a in as_r.json().get('data', []):
+    ar = requests.get(f"{BASE}/{a['id']}/insights", params={
+        'fields': 'spend,actions,ctr',
         'time_range': json.dumps({'since': SINCE, 'until': UNTIL}),
         'access_token': TOKEN
     }, timeout=30)
-    ins = ins_r.json().get('data', [])
-    
-    spend = 0
-    leads = 0
-    impressions = 0
-    clicks = 0
-    if ins:
-        d = ins[0]
-        spend = float(d.get('spend', 0))
-        impressions = int(d.get('impressions', 0))
-        clicks = int(d.get('clicks', 0))
-        # Find leads in actions
-        for act in d.get('actions', []):
-            t = act.get('action_type', '')
-            if t in ('onsite_conversion.lead_grouped', 'lead', 'offsite_conversion.fb_pixel_lead', 'onsite_web_lead'):
-                leads = max(leads, int(act.get('value', 0)))
-    
-    cpl = (spend / leads) if leads > 0 else 0
-    ctr = (clicks / impressions * 100) if impressions > 0 else 0
-    
+    ad = ar.json().get('data', [])
+    if not ad: continue
+    sp = float(ad[0].get('spend', 0))
+    if sp < 0.5: continue
+    lds = 0
+    for act in ad[0].get('actions', []):
+        if act.get('action_type') in ('onsite_conversion.lead_grouped', 'lead', 'offsite_conversion.fb_pixel_lead', 'onsite_web_lead'):
+            lds = max(lds, int(act.get('value', 0)))
+    cpl = sp/lds if lds > 0 else 0
     results.append({
-        'id': aid,
-        'name': name,
-        'status': status,
-        'daily': db / 100,
-        'spend': spend,
-        'leads': leads,
-        'cpl': cpl,
-        'imps': impressions,
-        'clicks': clicks,
-        'ctr': ctr,
+        'name': a['name'], 'status': a['effective_status'],
+        'daily': int(a.get('daily_budget') or 0)/100,
+        'spend': sp, 'leads': lds, 'cpl': cpl,
+        'ctr': float(ad[0].get('ctr',0))
     })
 
-# Sort: ACTIVE first, then by spend desc
-results.sort(key=lambda x: (x['status'] != 'ACTIVE', -x['spend']))
-
-# Print table
-total_spend = total_leads = 0
+results.sort(key=lambda x: -x['spend'])
 for r in results:
-    if r['spend'] == 0 and r['leads'] == 0:
-        continue
-    total_spend += r['spend']
-    total_leads += r['leads']
-    print(f"[{r['status']}] {r['name'][:60]}")
-    print(f"  id={r['id']} | daily=R${r['daily']:.2f}")
-    print(f"  Gasto: R${r['spend']:.2f} | Leads: {r['leads']} | CPL: R${r['cpl']:.2f}")
-    print(f"  Imps: {r['imps']:,} | Clicks: {r['clicks']:,} | CTR: {r['ctr']:.2f}%")
-    print()
-
-# Show inactive/zero
-print("=== Conjuntos sem dados no periodo ===")
-for r in results:
-    if r['spend'] == 0 and r['leads'] == 0:
-        print(f"  [{r['status']}] {r['name'][:60]} | id={r['id']}")
-
-print(f"\n=== TOTAL CAMPANHA WEBNAR (sex→hoje) ===")
-print(f"Gasto: R${total_spend:.2f}")
-print(f"Leads: {total_leads}")
-if total_leads > 0:
-    print(f"CPL medio: R${total_spend/total_leads:.2f}")
+    print(f"  [{r['status']:<8}] {r['name'][:50]}")
+    print(f"     Diario: R${r['daily']:.2f}  |  Gasto: R${r['spend']:.2f}  |  Leads: {r['leads']}  |  CPL: R${r['cpl']:.2f}  |  CTR: {r['ctr']:.2f}%\n")
