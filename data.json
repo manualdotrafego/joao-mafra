@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-30T13:40:15Z",
+  "last_updated": "2026-05-30T19:16:50Z",
   "account": {
     "id": "act_615338413578534",
     "name": "CA - João Mafra Lançamento",
@@ -3209,16 +3209,16 @@
     "campaign_id": "120249814173860002",
     "campaign_name": "[TRÁFEGO INSTAGRAM] - [VISITA]",
     "summary": {
-      "spend": 181.9,
-      "impressions": 94706,
-      "reach": 43429,
-      "clicks": 2121,
-      "link_clicks": 2157,
-      "engagement": 18672,
-      "video_views": 15773,
+      "spend": 182.69,
+      "impressions": 95076,
+      "reach": 43705,
+      "clicks": 2128,
+      "link_clicks": 2165,
+      "engagement": 18722,
+      "video_views": 15815,
       "cpm": 1.92,
       "cpp": 0.08,
-      "hook_rate": 16.7
+      "hook_rate": 16.6
     },
     "daily": [
       {
@@ -3599,28 +3599,28 @@
         "date": "2026-05-29"
       },
       {
-        "spend": 3.77,
-        "impressions": 1671,
-        "reach": 1487,
-        "clicks": 34,
-        "link_clicks": 37,
-        "engagement": 335,
-        "video_views": 286,
-        "cpm": 2.26,
+        "spend": 4.56,
+        "impressions": 2041,
+        "reach": 1932,
+        "clicks": 41,
+        "link_clicks": 45,
+        "engagement": 385,
+        "video_views": 328,
+        "cpm": 2.23,
         "cpp": 0.1,
-        "hook_rate": 17.1,
+        "hook_rate": 16.1,
         "date": "2026-05-30"
       }
     ],
     "ads": [
       {
         "spend": 170.43,
-        "impressions": 87488,
+        "impressions": 87489,
         "reach": 41474,
         "clicks": 2001,
         "link_clicks": 2039,
-        "engagement": 18013,
-        "video_views": 15243,
+        "engagement": 18014,
+        "video_views": 15244,
         "cpm": 1.95,
         "cpp": 0.08,
         "hook_rate": 17.4,
@@ -3663,6 +3663,40 @@
         "adset_name": "[AD SET 1.3] - [SEMELHANTE]",
         "thumbnail": "thumbnails/120249814303840002.jpg",
         "preview_url": "https://www.facebook.com/watch?v=1349964587182790"
+      },
+      {
+        "spend": 0.9,
+        "impressions": 471,
+        "reach": 461,
+        "clicks": 8,
+        "link_clicks": 8,
+        "engagement": 49,
+        "video_views": 41,
+        "cpm": 1.91,
+        "cpp": 0.11,
+        "hook_rate": 8.7,
+        "id": "120252685409720002",
+        "name": "[AD - MOVIMENTO]",
+        "adset_name": "[AD SET 1.4] - [SEMELHANTE] + [EVENTO PRESENCIAL]",
+        "thumbnail": "thumbnails/120252685409720002.jpg",
+        "preview_url": "https://www.facebook.com/watch?v=2518770698561449"
+      },
+      {
+        "spend": 0.0,
+        "impressions": 1,
+        "reach": 1,
+        "clicks": 0,
+        "link_clicks": 0,
+        "engagement": 0,
+        "video_views": 0,
+        "cpm": 0.0,
+        "cpp": 0,
+        "hook_rate": 0.0,
+        "id": "120252683672300002",
+        "name": "[AD 03]",
+        "adset_name": "[AD SET 1.4] - [SEMELHANTE] + [EVENTO PRESENCIAL]",
+        "thumbnail": "thumbnails/120252683672300002.jpg",
+        "preview_url": ""
       }
     ]
   }
