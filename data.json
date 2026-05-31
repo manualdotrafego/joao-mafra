@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-31T08:46:27Z",
+  "last_updated": "2026-05-31T13:46:25Z",
   "account": {
     "id": "act_615338413578534",
     "name": "CA - João Mafra Lançamento",
@@ -3184,16 +3184,16 @@
     "campaign_id": "120249814173860002",
     "campaign_name": "[TRÁFEGO INSTAGRAM] - [VISITA]",
     "summary": {
-      "spend": 185.33,
-      "impressions": 94301,
-      "reach": 43842,
-      "clicks": 2113,
-      "link_clicks": 2149,
-      "engagement": 18504,
-      "video_views": 15625,
-      "cpm": 1.97,
+      "spend": 187.23,
+      "impressions": 95445,
+      "reach": 44236,
+      "clicks": 2140,
+      "link_clicks": 2178,
+      "engagement": 18610,
+      "video_views": 15702,
+      "cpm": 1.96,
       "cpp": 0.09,
-      "hook_rate": 16.6
+      "hook_rate": 16.5
     },
     "daily": [
       {
@@ -3574,16 +3574,16 @@
         "date": "2026-05-30"
       },
       {
-        "spend": 8.71,
-        "impressions": 2886,
-        "reach": 2641,
-        "clicks": 58,
-        "link_clicks": 57,
-        "engagement": 385,
-        "video_views": 320,
-        "cpm": 3.02,
-        "cpp": 0.15,
-        "hook_rate": 11.1,
+        "spend": 10.61,
+        "impressions": 4030,
+        "reach": 3668,
+        "clicks": 85,
+        "link_clicks": 86,
+        "engagement": 491,
+        "video_views": 397,
+        "cpm": 2.63,
+        "cpp": 0.12,
+        "hook_rate": 9.9,
         "date": "2026-05-31"
       }
     ],
@@ -3606,16 +3606,16 @@
         "preview_url": "https://www.facebook.com/watch?v=2030318591219969"
       },
       {
-        "spend": 9.61,
-        "impressions": 3357,
-        "reach": 3062,
-        "clicks": 66,
-        "link_clicks": 64,
-        "engagement": 431,
-        "video_views": 359,
-        "cpm": 2.86,
-        "cpp": 0.15,
-        "hook_rate": 10.7,
+        "spend": 11.51,
+        "impressions": 4501,
+        "reach": 4062,
+        "clicks": 93,
+        "link_clicks": 94,
+        "engagement": 538,
+        "video_views": 436,
+        "cpm": 2.56,
+        "cpp": 0.12,
+        "hook_rate": 9.7,
         "id": "120252685409720002",
         "name": "[AD - MOVIMENTO]",
         "adset_name": "[AD SET 1.4] - [SEMELHANTE] + [EVENTO PRESENCIAL]",
