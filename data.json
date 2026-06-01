@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-01T04:09:58Z",
+  "last_updated": "2026-06-01T11:35:53Z",
   "account": {
     "id": "act_615338413578534",
     "name": "CA - João Mafra Lançamento",
@@ -3137,16 +3137,16 @@
     "campaign_id": "120249814173860002",
     "campaign_name": "[TRÁFEGO INSTAGRAM] - [VISITA]",
     "summary": {
-      "spend": 186.82,
-      "impressions": 95238,
-      "reach": 43886,
-      "clicks": 2120,
-      "link_clicks": 2157,
-      "engagement": 18174,
-      "video_views": 15297,
-      "cpm": 1.96,
+      "spend": 189.0,
+      "impressions": 96678,
+      "reach": 44210,
+      "clicks": 2142,
+      "link_clicks": 2179,
+      "engagement": 18300,
+      "video_views": 15400,
+      "cpm": 1.95,
       "cpp": 0.09,
-      "hook_rate": 16.1
+      "hook_rate": 15.9
     },
     "daily": [
       {
@@ -3527,16 +3527,16 @@
         "date": "2026-05-31"
       },
       {
-        "spend": 3.31,
-        "impressions": 2090,
-        "reach": 2059,
-        "clicks": 32,
-        "link_clicks": 33,
-        "engagement": 190,
-        "video_views": 152,
-        "cpm": 1.58,
+        "spend": 5.49,
+        "impressions": 3530,
+        "reach": 3339,
+        "clicks": 54,
+        "link_clicks": 55,
+        "engagement": 316,
+        "video_views": 255,
+        "cpm": 1.56,
         "cpp": 0.1,
-        "hook_rate": 7.3,
+        "hook_rate": 7.2,
         "date": "2026-06-01"
       }
     ],
@@ -3559,16 +3559,16 @@
         "preview_url": "https://www.facebook.com/watch?v=2030318591219969"
       },
       {
-        "spend": 19.19,
-        "impressions": 9613,
-        "reach": 7782,
-        "clicks": 164,
-        "link_clicks": 167,
-        "engagement": 961,
-        "video_views": 775,
-        "cpm": 2.0,
+        "spend": 21.37,
+        "impressions": 11033,
+        "reach": 8712,
+        "clicks": 186,
+        "link_clicks": 189,
+        "engagement": 1087,
+        "video_views": 878,
+        "cpm": 1.94,
         "cpp": 0.11,
-        "hook_rate": 8.1,
+        "hook_rate": 8.0,
         "id": "120252685409720002",
         "name": "[AD - MOVIMENTO]",
         "adset_name": "[AD SET 1.4] - [SEMELHANTE] + [EVENTO PRESENCIAL]",
@@ -3625,6 +3625,23 @@
         "adset_name": "[AD SET 1.4] - [SEMELHANTE] + [EVENTO PRESENCIAL]",
         "thumbnail": "thumbnails/120252683672300002.jpg",
         "preview_url": ""
+      },
+      {
+        "spend": 0.0,
+        "impressions": 20,
+        "reach": 18,
+        "clicks": 0,
+        "link_clicks": 0,
+        "engagement": 0,
+        "video_views": 0,
+        "cpm": 0.0,
+        "cpp": 0,
+        "hook_rate": 0.0,
+        "id": "120252804202750002",
+        "name": "[AD DOIS DIAS INCRIVEIS]",
+        "adset_name": "[AD SET 1.5] - [SEMELHANTE] + [EVENTO PRESENCIAL]",
+        "thumbnail": "thumbnails/120252804202750002.jpg",
+        "preview_url": "https://www.facebook.com/watch?v=1485484569925020"
       }
     ]
   }
