@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-11T01:45:24Z",
+  "last_updated": "2026-08-11T07:07:08Z",
   "account": {
     "id": "act_615338413578534",
     "name": "CA - João Mafra Lançamento",
@@ -10,8 +10,8 @@
     "until": "2026-08-11"
   },
   "summary": {
-    "spend": 1756.45,
-    "impressions": 193531,
+    "spend": 1756.46,
+    "impressions": 193532,
     "clicks": 9371,
     "reach": 90204,
     "leads": 728,
@@ -550,14 +550,14 @@
       "date": "2026-08-10"
     },
     {
-      "spend": 0.0,
-      "impressions": 2,
+      "spend": 0.01,
+      "impressions": 3,
       "clicks": 0,
-      "reach": 1,
+      "reach": 3,
       "leads": 0,
       "ctr": 0.0,
       "cpc": 0.0,
-      "cpm": 0.0,
+      "cpm": 3.33,
       "cpl": 0,
       "lp_conv": 0,
       "hook_rate": 0.0,
@@ -2804,8 +2804,8 @@
       ]
     },
     {
-      "spend": 236.66,
-      "impressions": 36865,
+      "spend": 236.67,
+      "impressions": 36866,
       "clicks": 1561,
       "reach": 24641,
       "leads": 159,
@@ -3346,14 +3346,14 @@
           "date": "2026-08-10"
         },
         {
-          "spend": 0.0,
-          "impressions": 2,
+          "spend": 0.01,
+          "impressions": 3,
           "clicks": 0,
-          "reach": 1,
+          "reach": 3,
           "leads": 0,
           "ctr": 0.0,
           "cpc": 0.0,
-          "cpm": 0.0,
+          "cpm": 3.33,
           "cpl": 0,
           "lp_conv": 0,
           "hook_rate": 0.0,
@@ -3366,8 +3366,8 @@
       ],
       "adsets": [
         {
-          "spend": 69.63,
-          "impressions": 10912,
+          "spend": 69.64,
+          "impressions": 10913,
           "clicks": 571,
           "reach": 8056,
           "leads": 69,
@@ -3386,8 +3386,8 @@
           "campaign_id": "120256297322760002",
           "ads": [
             {
-              "spend": 69.42,
-              "impressions": 10868,
+              "spend": 69.43,
+              "impressions": 10869,
               "clicks": 562,
               "reach": 7998,
               "leads": 68,
@@ -3461,7 +3461,7 @@
               "spend": 62.45,
               "impressions": 11163,
               "clicks": 590,
-              "reach": 8402,
+              "reach": 8403,
               "leads": 65,
               "ctr": 5.29,
               "cpc": 0.11,
