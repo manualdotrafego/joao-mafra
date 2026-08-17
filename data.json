@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-17T12:42:46Z",
+  "last_updated": "2026-08-17T18:38:37Z",
   "account": {
     "id": "act_615338413578534",
     "name": "CA - João Mafra Lançamento",
@@ -11,7 +11,7 @@
   },
   "summary": {
     "spend": 1626.69,
-    "impressions": 178611,
+    "impressions": 178613,
     "clicks": 9267,
     "reach": 84864,
     "leads": 705,
@@ -551,17 +551,17 @@
     },
     {
       "spend": 2.19,
-      "impressions": 245,
+      "impressions": 247,
       "clicks": 7,
-      "reach": 235,
+      "reach": 237,
       "leads": 1,
-      "ctr": 2.86,
+      "ctr": 2.83,
       "cpc": 0.31,
-      "cpm": 8.94,
+      "cpm": 8.87,
       "cpl": 2.19,
       "lp_conv": 14.3,
-      "hook_rate": 25.7,
-      "vp25": 10.6,
+      "hook_rate": 25.5,
+      "vp25": 10.5,
       "vp50": 5.3,
       "vp75": 0.4,
       "vp100": 0.0,
@@ -571,7 +571,7 @@
   "campaigns": [
     {
       "spend": 800.63,
-      "impressions": 68301,
+      "impressions": 68303,
       "clicks": 2483,
       "reach": 24424,
       "leads": 246,
@@ -587,7 +587,7 @@
       "vp100": 1.8,
       "id": "120255355949960002",
       "name": "[CAMPANHA WEBNAIR] - [TESTE MAFRA]",
-      "status": "ACTIVE",
+      "status": "PAUSED",
       "daily": [
         {
           "spend": 19.75,
@@ -1113,17 +1113,17 @@
         },
         {
           "spend": 2.19,
-          "impressions": 245,
+          "impressions": 247,
           "clicks": 7,
-          "reach": 235,
+          "reach": 237,
           "leads": 1,
-          "ctr": 2.86,
+          "ctr": 2.83,
           "cpc": 0.31,
-          "cpm": 8.94,
+          "cpm": 8.87,
           "cpl": 2.19,
           "lp_conv": 14.3,
-          "hook_rate": 25.7,
-          "vp25": 10.6,
+          "hook_rate": 25.5,
+          "vp25": 10.5,
           "vp50": 5.3,
           "vp75": 0.4,
           "vp100": 0.0,
@@ -1133,7 +1133,7 @@
       "adsets": [
         {
           "spend": 397.8,
-          "impressions": 37383,
+          "impressions": 37384,
           "clicks": 1535,
           "reach": 17434,
           "leads": 134,
@@ -1153,7 +1153,7 @@
           "ads": [
             {
               "spend": 397.8,
-              "impressions": 37383,
+              "impressions": 37384,
               "clicks": 1535,
               "reach": 17434,
               "leads": 134,
@@ -1274,13 +1274,13 @@
         },
         {
           "spend": 68.21,
-          "impressions": 7871,
+          "impressions": 7872,
           "clicks": 179,
           "reach": 4262,
           "leads": 22,
           "ctr": 2.27,
           "cpc": 0.38,
-          "cpm": 8.67,
+          "cpm": 8.66,
           "cpl": 3.1,
           "lp_conv": 12.3,
           "hook_rate": 19.5,
@@ -1294,13 +1294,13 @@
           "ads": [
             {
               "spend": 68.21,
-              "impressions": 7871,
+              "impressions": 7872,
               "clicks": 179,
               "reach": 4262,
               "leads": 22,
               "ctr": 2.27,
               "cpc": 0.38,
-              "cpm": 8.67,
+              "cpm": 8.66,
               "cpl": 3.1,
               "lp_conv": 12.3,
               "hook_rate": 19.5,
