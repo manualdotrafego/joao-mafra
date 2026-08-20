@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-20T06:45:11Z",
+  "last_updated": "2026-08-20T12:49:26Z",
   "account": {
     "id": "act_615338413578534",
     "name": "CA - João Mafra Lançamento",
@@ -11,11 +11,11 @@
   },
   "summary": {
     "spend": 1651.14,
-    "impressions": 178442,
+    "impressions": 178444,
     "clicks": 9288,
     "reach": 86735,
     "leads": 699,
-    "ctr": 5.21,
+    "ctr": 5.2,
     "cpc": 0.18,
     "cpm": 9.25,
     "cpl": 2.36,
@@ -515,7 +515,7 @@
     },
     {
       "spend": 42.79,
-      "impressions": 3940,
+      "impressions": 3941,
       "clicks": 152,
       "reach": 3246,
       "leads": 6,
@@ -533,13 +533,13 @@
     },
     {
       "spend": 45.47,
-      "impressions": 3677,
+      "impressions": 3678,
       "clicks": 115,
       "reach": 3300,
       "leads": 13,
       "ctr": 3.13,
       "cpc": 0.4,
-      "cpm": 12.37,
+      "cpm": 12.36,
       "cpl": 3.5,
       "lp_conv": 11.3,
       "hook_rate": 31.0,
@@ -571,7 +571,7 @@
   "campaigns": [
     {
       "spend": 836.85,
-      "impressions": 70050,
+      "impressions": 70052,
       "clicks": 2558,
       "reach": 25759,
       "leads": 243,
@@ -587,7 +587,7 @@
       "vp100": 1.8,
       "id": "120255355949960002",
       "name": "[CAMPANHA WEBNAIR] - [TESTE MAFRA]",
-      "status": "PAUSED",
+      "status": "ACTIVE",
       "daily": [
         {
           "spend": 14.29,
@@ -1077,7 +1077,7 @@
         },
         {
           "spend": 42.79,
-          "impressions": 3940,
+          "impressions": 3941,
           "clicks": 152,
           "reach": 3246,
           "leads": 6,
@@ -1095,13 +1095,13 @@
         },
         {
           "spend": 45.47,
-          "impressions": 3677,
+          "impressions": 3678,
           "clicks": 115,
           "reach": 3300,
           "leads": 13,
           "ctr": 3.13,
           "cpc": 0.4,
-          "cpm": 12.37,
+          "cpm": 12.36,
           "cpl": 3.5,
           "lp_conv": 11.3,
           "hook_rate": 31.0,
@@ -1133,7 +1133,7 @@
       "adsets": [
         {
           "spend": 433.7,
-          "impressions": 39629,
+          "impressions": 39631,
           "clicks": 1610,
           "reach": 18988,
           "leads": 136,
@@ -1153,7 +1153,7 @@
           "ads": [
             {
               "spend": 433.7,
-              "impressions": 39629,
+              "impressions": 39631,
               "clicks": 1610,
               "reach": 18988,
               "leads": 136,
