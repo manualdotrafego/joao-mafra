@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-06T10:23:33Z",
+  "last_updated": "2026-09-06T15:01:43Z",
   "account": {
     "id": "act_615338413578534",
     "name": "CA - João Mafra Lançamento",
@@ -1150,7 +1150,33 @@
           "id": "120255823851330002",
           "name": "[AD SET 1.22 - PUB on ADVT - FEED - STORY] —",
           "campaign_id": "120255355949960002",
-          "ads": []
+          "ads": [
+            {
+              "spend": 654.58,
+              "impressions": 49444,
+              "clicks": 1820,
+              "reach": 26897,
+              "leads": 133,
+              "ctr": 3.68,
+              "cpc": 0.36,
+              "cpm": 13.24,
+              "cpl": 4.92,
+              "lp_conv": 7.3,
+              "hook_rate": 27.9,
+              "vp25": 10.6,
+              "vp50": 5.7,
+              "vp75": 3.2,
+              "vp100": 2.0,
+              "id": "120255823851320002",
+              "name": "img7120",
+              "campaign_id": "120255355949960002",
+              "adset_id": "120255823851330002",
+              "adset_name": "[AD SET 1.22 - PUB on ADVT - FEED - STORY] —",
+              "thumbnail": "thumbnails/120255823851320002.jpg",
+              "video_id": "1695836904799873",
+              "preview_url": "https://www.facebook.com/watch?v=1695836904799873"
+            }
+          ]
         },
         {
           "spend": 238.98,
@@ -1171,7 +1197,33 @@
           "id": "120255425813170002",
           "name": "[AD SET 1.9 - PUB OFF ADVT - FEED - STORY] — [CRIATIVO VALIDADO]",
           "campaign_id": "120255355949960002",
-          "ads": []
+          "ads": [
+            {
+              "spend": 238.98,
+              "impressions": 14847,
+              "clicks": 473,
+              "reach": 10702,
+              "leads": 60,
+              "ctr": 3.19,
+              "cpc": 0.51,
+              "cpm": 16.1,
+              "cpl": 3.98,
+              "lp_conv": 12.7,
+              "hook_rate": 36.9,
+              "vp25": 9.7,
+              "vp50": 4.9,
+              "vp75": 2.4,
+              "vp100": 1.5,
+              "id": "120255425857500002",
+              "name": "img6623",
+              "campaign_id": "120255355949960002",
+              "adset_id": "120255425813170002",
+              "adset_name": "[AD SET 1.9 - PUB OFF ADVT - FEED - STORY] — [CRIATIVO VALIDADO]",
+              "thumbnail": "thumbnails/120255425857500002.jpg",
+              "video_id": "1592035372631274",
+              "preview_url": "https://www.facebook.com/watch?v=1592035372631274"
+            }
+          ]
         },
         {
           "spend": 108.21,
@@ -1192,7 +1244,33 @@
           "id": "120255356081230002",
           "name": "[AD SET 1.4 - PUB OFF ADVT - FEED - STORY]",
           "campaign_id": "120255355949960002",
-          "ads": []
+          "ads": [
+            {
+              "spend": 108.21,
+              "impressions": 12924,
+              "clicks": 294,
+              "reach": 7597,
+              "leads": 23,
+              "ctr": 2.27,
+              "cpc": 0.37,
+              "cpm": 8.37,
+              "cpl": 4.7,
+              "lp_conv": 7.8,
+              "hook_rate": 18.2,
+              "vp25": 5.9,
+              "vp50": 2.8,
+              "vp75": 1.7,
+              "vp100": 0.8,
+              "id": "120255356081300002",
+              "name": "voce_freelancer",
+              "campaign_id": "120255355949960002",
+              "adset_id": "120255356081230002",
+              "adset_name": "[AD SET 1.4 - PUB OFF ADVT - FEED - STORY]",
+              "thumbnail": "thumbnails/120255356081300002.jpg",
+              "video_id": "1661534985140063",
+              "preview_url": "https://www.facebook.com/watch?v=1661534985140063"
+            }
+          ]
         },
         {
           "spend": 86.94,
@@ -1213,7 +1291,33 @@
           "id": "120256718089130002",
           "name": "[AD SET 1.9 - PUB on ADVT - FEED - STORY] — [VALIDANDO CRIATIVO ] — Cópia — Cópia",
           "campaign_id": "120255355949960002",
-          "ads": []
+          "ads": [
+            {
+              "spend": 86.94,
+              "impressions": 5982,
+              "clicks": 182,
+              "reach": 4298,
+              "leads": 21,
+              "ctr": 3.04,
+              "cpc": 0.48,
+              "cpm": 14.53,
+              "cpl": 4.14,
+              "lp_conv": 11.5,
+              "hook_rate": 44.0,
+              "vp25": 9.9,
+              "vp50": 6.6,
+              "vp75": 4.0,
+              "vp100": 1.5,
+              "id": "120256718089120002",
+              "name": "iMG_7841.MP4",
+              "campaign_id": "120255355949960002",
+              "adset_id": "120256718089130002",
+              "adset_name": "[AD SET 1.9 - PUB on ADVT - FEED - STORY] — [VALIDANDO CRIATIVO ] — Cópia — Cópia",
+              "thumbnail": "thumbnails/120256718089120002.jpg",
+              "video_id": "992722893797598",
+              "preview_url": "https://www.facebook.com/watch?v=992722893797598"
+            }
+          ]
         },
         {
           "spend": 50.96,
@@ -1234,7 +1338,33 @@
           "id": "120255356081280002",
           "name": "[AD SET 1.2 - PUB OFF ADVT - FEED - STORY]",
           "campaign_id": "120255355949960002",
-          "ads": []
+          "ads": [
+            {
+              "spend": 50.96,
+              "impressions": 3496,
+              "clicks": 105,
+              "reach": 2247,
+              "leads": 8,
+              "ctr": 3.0,
+              "cpc": 0.49,
+              "cpm": 14.58,
+              "cpl": 6.37,
+              "lp_conv": 7.6,
+              "hook_rate": 22.2,
+              "vp25": 4.8,
+              "vp50": 3.5,
+              "vp75": 2.3,
+              "vp100": 1.2,
+              "id": "120255356081290002",
+              "name": "escalar_no_digital",
+              "campaign_id": "120255355949960002",
+              "adset_id": "120255356081280002",
+              "adset_name": "[AD SET 1.2 - PUB OFF ADVT - FEED - STORY]",
+              "thumbnail": "thumbnails/120255356081290002.jpg",
+              "video_id": "1633718547699741",
+              "preview_url": "https://www.facebook.com/watch?v=1633718547699741"
+            }
+          ]
         },
         {
           "spend": 27.01,
@@ -1255,7 +1385,33 @@
           "id": "120256890353660002",
           "name": "[AD SET 1.23 - PUB on ADVT - FEED - STORY] — Cópia — Cópia",
           "campaign_id": "120255355949960002",
-          "ads": []
+          "ads": [
+            {
+              "spend": 27.01,
+              "impressions": 2040,
+              "clicks": 59,
+              "reach": 1695,
+              "leads": 5,
+              "ctr": 2.89,
+              "cpc": 0.46,
+              "cpm": 13.24,
+              "cpl": 5.4,
+              "lp_conv": 8.5,
+              "hook_rate": 24.8,
+              "vp25": 7.4,
+              "vp50": 4.1,
+              "vp75": 2.5,
+              "vp100": 1.7,
+              "id": "120256890353670002",
+              "name": "webnair 3",
+              "campaign_id": "120255355949960002",
+              "adset_id": "120256890353660002",
+              "adset_name": "[AD SET 1.23 - PUB on ADVT - FEED - STORY] — Cópia — Cópia",
+              "thumbnail": "thumbnails/120256890353670002.jpg",
+              "video_id": "2297098747810954",
+              "preview_url": "https://www.facebook.com/watch?v=2297098747810954"
+            }
+          ]
         },
         {
           "spend": 15.76,
@@ -1276,7 +1432,33 @@
           "id": "120256890291250002",
           "name": "[AD SET 1.23 - PUB on ADVT - FEED - STORY]",
           "campaign_id": "120255355949960002",
-          "ads": []
+          "ads": [
+            {
+              "spend": 15.76,
+              "impressions": 1094,
+              "clicks": 20,
+              "reach": 895,
+              "leads": 2,
+              "ctr": 1.83,
+              "cpc": 0.79,
+              "cpm": 14.41,
+              "cpl": 7.88,
+              "lp_conv": 10.0,
+              "hook_rate": 23.8,
+              "vp25": 5.7,
+              "vp50": 3.3,
+              "vp75": 1.8,
+              "vp100": 1.0,
+              "id": "120256890291230002",
+              "name": "webnair 2",
+              "campaign_id": "120255355949960002",
+              "adset_id": "120256890291250002",
+              "adset_name": "[AD SET 1.23 - PUB on ADVT - FEED - STORY]",
+              "thumbnail": "thumbnails/120256890291230002.jpg",
+              "video_id": "2964013137268726",
+              "preview_url": "https://www.facebook.com/watch?v=2964013137268726"
+            }
+          ]
         },
         {
           "spend": 10.64,
@@ -1297,7 +1479,33 @@
           "id": "120256890352710002",
           "name": "[AD SET 1.23 - PUB on ADVT - FEED - STORY] — Cópia",
           "campaign_id": "120255355949960002",
-          "ads": []
+          "ads": [
+            {
+              "spend": 10.64,
+              "impressions": 691,
+              "clicks": 9,
+              "reach": 611,
+              "leads": 0,
+              "ctr": 1.3,
+              "cpc": 1.18,
+              "cpm": 15.4,
+              "cpl": 0,
+              "lp_conv": 0.0,
+              "hook_rate": 20.8,
+              "vp25": 6.5,
+              "vp50": 4.9,
+              "vp75": 2.0,
+              "vp100": 1.0,
+              "id": "120256890352720002",
+              "name": "webnair 1",
+              "campaign_id": "120255355949960002",
+              "adset_id": "120256890352710002",
+              "adset_name": "[AD SET 1.23 - PUB on ADVT - FEED - STORY] — Cópia",
+              "thumbnail": "thumbnails/120256890352720002.jpg",
+              "video_id": "1353697269819007",
+              "preview_url": "https://www.facebook.com/watch?v=1353697269819007"
+            }
+          ]
         },
         {
           "spend": 5.45,
@@ -1318,7 +1526,33 @@
           "id": "120256717805720002",
           "name": "[AD SET 1.9 - PUB OFF ADVT - FEED - STORY] — [VALIDANDO CRIATIVO ]",
           "campaign_id": "120255355949960002",
-          "ads": []
+          "ads": [
+            {
+              "spend": 5.45,
+              "impressions": 574,
+              "clicks": 13,
+              "reach": 543,
+              "leads": 1,
+              "ctr": 2.26,
+              "cpc": 0.42,
+              "cpm": 9.49,
+              "cpl": 5.45,
+              "lp_conv": 7.7,
+              "hook_rate": 26.3,
+              "vp25": 3.8,
+              "vp50": 1.9,
+              "vp75": 1.7,
+              "vp100": 0.5,
+              "id": "120256717805730002",
+              "name": "iMG_7843.MP4",
+              "campaign_id": "120255355949960002",
+              "adset_id": "120256717805720002",
+              "adset_name": "[AD SET 1.9 - PUB OFF ADVT - FEED - STORY] — [VALIDANDO CRIATIVO ]",
+              "thumbnail": "thumbnails/120256717805730002.jpg",
+              "video_id": "1377326073933396",
+              "preview_url": "https://www.facebook.com/watch?v=1377326073933396"
+            }
+          ]
         },
         {
           "spend": 5.33,
@@ -1339,7 +1573,33 @@
           "id": "120256718020480002",
           "name": "[AD SET 1.9 - PUB OFF ADVT - FEED - STORY] — [VALIDANDO CRIATIVO ] — Cópia",
           "campaign_id": "120255355949960002",
-          "ads": []
+          "ads": [
+            {
+              "spend": 5.33,
+              "impressions": 518,
+              "clicks": 19,
+              "reach": 480,
+              "leads": 1,
+              "ctr": 3.67,
+              "cpc": 0.28,
+              "cpm": 10.29,
+              "cpl": 5.33,
+              "lp_conv": 5.3,
+              "hook_rate": 35.9,
+              "vp25": 11.8,
+              "vp50": 8.9,
+              "vp75": 5.0,
+              "vp100": 1.9,
+              "id": "120256718020470002",
+              "name": "iMG_7841.MP4",
+              "campaign_id": "120255355949960002",
+              "adset_id": "120256718020480002",
+              "adset_name": "[AD SET 1.9 - PUB OFF ADVT - FEED - STORY] — [VALIDANDO CRIATIVO ] — Cópia",
+              "thumbnail": "thumbnails/120256718020470002.jpg",
+              "video_id": "1057675326985001",
+              "preview_url": "https://www.facebook.com/watch?v=1057675326985001"
+            }
+          ]
         }
       ]
     },
@@ -1924,7 +2184,33 @@
           "id": "120256297322770002",
           "name": "[INTERESSE RESTRITO] - [ABERTO 24 - 45] - [POS IG E FB] -",
           "campaign_id": "120256297322760002",
-          "ads": []
+          "ads": [
+            {
+              "spend": 48.29,
+              "impressions": 7656,
+              "clicks": 343,
+              "reach": 6420,
+              "leads": 46,
+              "ctr": 4.48,
+              "cpc": 0.14,
+              "cpm": 6.31,
+              "cpl": 1.05,
+              "lp_conv": 13.4,
+              "hook_rate": 0.0,
+              "vp25": 0.0,
+              "vp50": 0.0,
+              "vp75": 0.0,
+              "vp100": 0.0,
+              "id": "120256297531210002",
+              "name": "IMG_7367.JPG",
+              "campaign_id": "120256297322760002",
+              "adset_id": "120256297322770002",
+              "adset_name": "[INTERESSE RESTRITO] - [ABERTO 24 - 45] - [POS IG E FB] -",
+              "thumbnail": "thumbnails/120256297531210002.jpg",
+              "video_id": "",
+              "preview_url": ""
+            }
+          ]
         },
         {
           "spend": 44.76,
@@ -1945,7 +2231,33 @@
           "id": "120256321651270002",
           "name": "[INTERESSE RESTRITO 3 ] - [ABERTO 24 - 45] - [POS IG E FB]",
           "campaign_id": "120256297322760002",
-          "ads": []
+          "ads": [
+            {
+              "spend": 44.76,
+              "impressions": 5284,
+              "clicks": 159,
+              "reach": 4181,
+              "leads": 15,
+              "ctr": 3.01,
+              "cpc": 0.28,
+              "cpm": 8.47,
+              "cpl": 2.98,
+              "lp_conv": 9.4,
+              "hook_rate": 13.9,
+              "vp25": 4.3,
+              "vp50": 2.7,
+              "vp75": 2.0,
+              "vp100": 1.3,
+              "id": "120256321651260002",
+              "name": "criativo04",
+              "campaign_id": "120256297322760002",
+              "adset_id": "120256321651270002",
+              "adset_name": "[INTERESSE RESTRITO 3 ] - [ABERTO 24 - 45] - [POS IG E FB]",
+              "thumbnail": "thumbnails/120256321651260002.jpg",
+              "video_id": "1770147027314954",
+              "preview_url": "https://www.facebook.com/watch?v=1770147027314954"
+            }
+          ]
         },
         {
           "spend": 43.66,
@@ -1966,7 +2278,33 @@
           "id": "120256297582340002",
           "name": "[ADVT OFF] - [ABERTO 24 - 45] - [POS IG E FB]",
           "campaign_id": "120256297322760002",
-          "ads": []
+          "ads": [
+            {
+              "spend": 43.66,
+              "impressions": 8628,
+              "clicks": 352,
+              "reach": 7223,
+              "leads": 44,
+              "ctr": 4.08,
+              "cpc": 0.12,
+              "cpm": 5.06,
+              "cpl": 0.99,
+              "lp_conv": 12.5,
+              "hook_rate": 0.0,
+              "vp25": 0.0,
+              "vp50": 0.0,
+              "vp75": 0.0,
+              "vp100": 0.0,
+              "id": "120256297582350002",
+              "name": "IMG_7367.JPG",
+              "campaign_id": "120256297322760002",
+              "adset_id": "120256297582340002",
+              "adset_name": "[ADVT OFF] - [ABERTO 24 - 45] - [POS IG E FB]",
+              "thumbnail": "thumbnails/120256297582350002.jpg",
+              "video_id": "",
+              "preview_url": ""
+            }
+          ]
         },
         {
           "spend": 0.0,
@@ -1987,7 +2325,33 @@
           "id": "120256321661260002",
           "name": "[INTERESSE RESTRITO 2] - [ABERTO 24 - 45] - [POS IG E FB] — Cópia",
           "campaign_id": "120256297322760002",
-          "ads": []
+          "ads": [
+            {
+              "spend": 0.0,
+              "impressions": 0,
+              "clicks": 0,
+              "reach": 0,
+              "leads": 0,
+              "ctr": 0.0,
+              "cpc": 0.0,
+              "cpm": 0.0,
+              "cpl": 0,
+              "lp_conv": 0,
+              "hook_rate": 0,
+              "vp25": 0,
+              "vp50": 0,
+              "vp75": 0,
+              "vp100": 0,
+              "id": "120256321661270002",
+              "name": "criativo03",
+              "campaign_id": "120256297322760002",
+              "adset_id": "120256321661260002",
+              "adset_name": "[INTERESSE RESTRITO 2] - [ABERTO 24 - 45] - [POS IG E FB] — Cópia",
+              "thumbnail": "thumbnails/120256321661270002.jpg",
+              "video_id": "1750680532926613",
+              "preview_url": "https://www.facebook.com/watch?v=1750680532926613"
+            }
+          ]
         }
       ]
     },
@@ -2572,7 +2936,133 @@
           "id": "120256875373210002",
           "name": "[ADSET 1.1 - PORTUGAL ADVT LIGADO]",
           "campaign_id": "120256875373220002",
-          "ads": []
+          "ads": [
+            {
+              "spend": 86.37,
+              "impressions": 6636,
+              "clicks": 217,
+              "reach": 4913,
+              "leads": 10,
+              "ctr": 3.27,
+              "cpc": 0.4,
+              "cpm": 13.02,
+              "cpl": 8.64,
+              "lp_conv": 4.6,
+              "hook_rate": 23.4,
+              "vp25": 7.7,
+              "vp50": 4.5,
+              "vp75": 2.7,
+              "vp100": 1.9,
+              "id": "120256875414020002",
+              "name": "EVENTO_004",
+              "campaign_id": "120256875373220002",
+              "adset_id": "120256875373210002",
+              "adset_name": "[ADSET 1.1 - PORTUGAL ADVT LIGADO]",
+              "thumbnail": "thumbnails/120256875414020002.jpg",
+              "video_id": "2165250804404201",
+              "preview_url": "https://www.facebook.com/watch?v=2165250804404201"
+            },
+            {
+              "spend": 11.34,
+              "impressions": 807,
+              "clicks": 16,
+              "reach": 616,
+              "leads": 1,
+              "ctr": 1.98,
+              "cpc": 0.71,
+              "cpm": 14.05,
+              "cpl": 11.34,
+              "lp_conv": 6.2,
+              "hook_rate": 22.2,
+              "vp25": 6.1,
+              "vp50": 4.8,
+              "vp75": 3.3,
+              "vp100": 1.7,
+              "id": "120256875413990002",
+              "name": "EVENTO_002",
+              "campaign_id": "120256875373220002",
+              "adset_id": "120256875373210002",
+              "adset_name": "[ADSET 1.1 - PORTUGAL ADVT LIGADO]",
+              "thumbnail": "thumbnails/120256875413990002.jpg",
+              "video_id": "1417840886920984",
+              "preview_url": "https://www.facebook.com/watch?v=1417840886920984"
+            },
+            {
+              "spend": 6.51,
+              "impressions": 561,
+              "clicks": 12,
+              "reach": 449,
+              "leads": 0,
+              "ctr": 2.14,
+              "cpc": 0.54,
+              "cpm": 11.6,
+              "cpl": 0,
+              "lp_conv": 0.0,
+              "hook_rate": 16.6,
+              "vp25": 4.6,
+              "vp50": 1.8,
+              "vp75": 1.6,
+              "vp100": 1.1,
+              "id": "120256875414010002",
+              "name": "EVENTO_005",
+              "campaign_id": "120256875373220002",
+              "adset_id": "120256875373210002",
+              "adset_name": "[ADSET 1.1 - PORTUGAL ADVT LIGADO]",
+              "thumbnail": "thumbnails/120256875414010002.jpg",
+              "video_id": "1683702122736042",
+              "preview_url": "https://www.facebook.com/watch?v=1683702122736042"
+            },
+            {
+              "spend": 3.19,
+              "impressions": 275,
+              "clicks": 10,
+              "reach": 192,
+              "leads": 0,
+              "ctr": 3.64,
+              "cpc": 0.32,
+              "cpm": 11.6,
+              "cpl": 0,
+              "lp_conv": 0.0,
+              "hook_rate": 19.6,
+              "vp25": 6.5,
+              "vp50": 4.7,
+              "vp75": 2.5,
+              "vp100": 1.5,
+              "id": "120256875414030002",
+              "name": "EVENTO_001",
+              "campaign_id": "120256875373220002",
+              "adset_id": "120256875373210002",
+              "adset_name": "[ADSET 1.1 - PORTUGAL ADVT LIGADO]",
+              "thumbnail": "thumbnails/120256875414030002.jpg",
+              "video_id": "960095233767665",
+              "preview_url": "https://www.facebook.com/watch?v=960095233767665"
+            },
+            {
+              "spend": 2.75,
+              "impressions": 225,
+              "clicks": 4,
+              "reach": 170,
+              "leads": 0,
+              "ctr": 1.78,
+              "cpc": 0.69,
+              "cpm": 12.22,
+              "cpl": 0,
+              "lp_conv": 0.0,
+              "hook_rate": 18.2,
+              "vp25": 7.1,
+              "vp50": 3.1,
+              "vp75": 2.7,
+              "vp100": 1.8,
+              "id": "120256875414000002",
+              "name": "EVENTO_003",
+              "campaign_id": "120256875373220002",
+              "adset_id": "120256875373210002",
+              "adset_name": "[ADSET 1.1 - PORTUGAL ADVT LIGADO]",
+              "thumbnail": "thumbnails/120256875414000002.jpg",
+              "video_id": "949563980739526",
+              "preview_url": "https://www.facebook.com/watch?v=949563980739526"
+            }
+          ]
         }
       ]
     },
@@ -3157,7 +3647,33 @@
           "id": "120256806696220002",
           "name": "[AD SET 1.4] - [TUDO OFF - LISBOA]",
           "campaign_id": "120256806598610002",
-          "ads": []
+          "ads": [
+            {
+              "spend": 13.3,
+              "impressions": 933,
+              "clicks": 27,
+              "reach": 791,
+              "leads": 0,
+              "ctr": 2.89,
+              "cpc": 0.49,
+              "cpm": 14.26,
+              "cpl": 0,
+              "lp_conv": 0.0,
+              "hook_rate": 23.3,
+              "vp25": 8.1,
+              "vp50": 4.9,
+              "vp75": 3.8,
+              "vp100": 2.4,
+              "id": "120256806696210002",
+              "name": "EVENTO_004",
+              "campaign_id": "120256806598610002",
+              "adset_id": "120256806696220002",
+              "adset_name": "[AD SET 1.4] - [TUDO OFF - LISBOA]",
+              "thumbnail": "thumbnails/120256806696210002.jpg",
+              "video_id": "1705783107195435",
+              "preview_url": "https://www.facebook.com/watch?v=1705783107195435"
+            }
+          ]
         },
         {
           "spend": 13.23,
@@ -3178,7 +3694,33 @@
           "id": "120256806695130002",
           "name": "[AD SET 1.5] - [TUDO OFF - LISBOA]",
           "campaign_id": "120256806598610002",
-          "ads": []
+          "ads": [
+            {
+              "spend": 13.23,
+              "impressions": 894,
+              "clicks": 27,
+              "reach": 668,
+              "leads": 1,
+              "ctr": 3.02,
+              "cpc": 0.49,
+              "cpm": 14.8,
+              "cpl": 13.23,
+              "lp_conv": 3.7,
+              "hook_rate": 20.2,
+              "vp25": 5.9,
+              "vp50": 3.7,
+              "vp75": 2.3,
+              "vp100": 1.7,
+              "id": "120256806695140002",
+              "name": "EVENTO_005",
+              "campaign_id": "120256806598610002",
+              "adset_id": "120256806695130002",
+              "adset_name": "[AD SET 1.5] - [TUDO OFF - LISBOA]",
+              "thumbnail": "thumbnails/120256806695140002.jpg",
+              "video_id": "883907557932472",
+              "preview_url": "https://www.facebook.com/watch?v=883907557932472"
+            }
+          ]
         },
         {
           "spend": 12.68,
@@ -3199,7 +3741,33 @@
           "id": "120256806696870002",
           "name": "[AD SET 1.2] - [TUDO OFF - LISBOA]",
           "campaign_id": "120256806598610002",
-          "ads": []
+          "ads": [
+            {
+              "spend": 12.68,
+              "impressions": 973,
+              "clicks": 30,
+              "reach": 767,
+              "leads": 0,
+              "ctr": 3.08,
+              "cpc": 0.42,
+              "cpm": 13.03,
+              "cpl": 0,
+              "lp_conv": 0.0,
+              "hook_rate": 23.1,
+              "vp25": 7.4,
+              "vp50": 6.4,
+              "vp75": 3.7,
+              "vp100": 1.3,
+              "id": "120256806696860002",
+              "name": "EVENTO_002",
+              "campaign_id": "120256806598610002",
+              "adset_id": "120256806696870002",
+              "adset_name": "[AD SET 1.2] - [TUDO OFF - LISBOA]",
+              "thumbnail": "thumbnails/120256806696860002.jpg",
+              "video_id": "1387632549993162",
+              "preview_url": "https://www.facebook.com/watch?v=1387632549993162"
+            }
+          ]
         },
         {
           "spend": 6.08,
@@ -3220,7 +3788,33 @@
           "id": "120256806697640002",
           "name": "[AD SET 1.3] - [TUDO OFF - LISBOA]",
           "campaign_id": "120256806598610002",
-          "ads": []
+          "ads": [
+            {
+              "spend": 6.08,
+              "impressions": 405,
+              "clicks": 7,
+              "reach": 356,
+              "leads": 0,
+              "ctr": 1.73,
+              "cpc": 0.87,
+              "cpm": 15.01,
+              "cpl": 0,
+              "lp_conv": 0.0,
+              "hook_rate": 19.8,
+              "vp25": 4.7,
+              "vp50": 2.7,
+              "vp75": 2.5,
+              "vp100": 1.2,
+              "id": "120256806697630002",
+              "name": "EVENTO_003",
+              "campaign_id": "120256806598610002",
+              "adset_id": "120256806697640002",
+              "adset_name": "[AD SET 1.3] - [TUDO OFF - LISBOA]",
+              "thumbnail": "thumbnails/120256806697630002.jpg",
+              "video_id": "1434419812001109",
+              "preview_url": "https://www.facebook.com/watch?v=1434419812001109"
+            }
+          ]
         },
         {
           "spend": 6.01,
@@ -3241,7 +3835,33 @@
           "id": "120256806598620002",
           "name": "[AD SET 1.1] - [TUDO OFF - LISBOA]",
           "campaign_id": "120256806598610002",
-          "ads": []
+          "ads": [
+            {
+              "spend": 6.01,
+              "impressions": 428,
+              "clicks": 4,
+              "reach": 371,
+              "leads": 0,
+              "ctr": 0.93,
+              "cpc": 1.5,
+              "cpm": 14.04,
+              "cpl": 0,
+              "lp_conv": 0.0,
+              "hook_rate": 23.4,
+              "vp25": 4.2,
+              "vp50": 3.0,
+              "vp75": 2.1,
+              "vp100": 1.6,
+              "id": "120256806598630002",
+              "name": "EVENTO_001",
+              "campaign_id": "120256806598610002",
+              "adset_id": "120256806598620002",
+              "adset_name": "[AD SET 1.1] - [TUDO OFF - LISBOA]",
+              "thumbnail": "thumbnails/120256806598630002.jpg",
+              "video_id": "2012539772714993",
+              "preview_url": "https://www.facebook.com/watch?v=2012539772714993"
+            }
+          ]
         }
       ]
     },
@@ -3826,7 +4446,108 @@
           "id": "120256956511580002",
           "name": "[AD SET 1.1 - ADVTANGE LIGADO]",
           "campaign_id": "120256956511570002",
-          "ads": []
+          "ads": [
+            {
+              "spend": 11.02,
+              "impressions": 910,
+              "clicks": 27,
+              "reach": 804,
+              "leads": 3,
+              "ctr": 2.97,
+              "cpc": 0.41,
+              "cpm": 12.11,
+              "cpl": 3.67,
+              "lp_conv": 11.1,
+              "hook_rate": 32.1,
+              "vp25": 8.4,
+              "vp50": 5.4,
+              "vp75": 3.1,
+              "vp100": 1.2,
+              "id": "120256956580710002",
+              "name": "escalar_no_digital — Cópia",
+              "campaign_id": "120256956511570002",
+              "adset_id": "120256956511580002",
+              "adset_name": "[AD SET 1.1 - ADVTANGE LIGADO]",
+              "thumbnail": "thumbnails/120256956580710002.jpg",
+              "video_id": "1633718547699741",
+              "preview_url": "https://www.facebook.com/watch?v=1633718547699741"
+            },
+            {
+              "spend": 10.37,
+              "impressions": 679,
+              "clicks": 24,
+              "reach": 646,
+              "leads": 0,
+              "ctr": 3.53,
+              "cpc": 0.43,
+              "cpm": 15.27,
+              "cpl": 0,
+              "lp_conv": 0.0,
+              "hook_rate": 32.8,
+              "vp25": 6.9,
+              "vp50": 2.1,
+              "vp75": 1.2,
+              "vp100": 0.7,
+              "id": "120256956580700002",
+              "name": "img6623 — Cópia",
+              "campaign_id": "120256956511570002",
+              "adset_id": "120256956511580002",
+              "adset_name": "[AD SET 1.1 - ADVTANGE LIGADO]",
+              "thumbnail": "thumbnails/120256956580700002.jpg",
+              "video_id": "1592035372631274",
+              "preview_url": "https://www.facebook.com/watch?v=1592035372631274"
+            },
+            {
+              "spend": 5.68,
+              "impressions": 564,
+              "clicks": 17,
+              "reach": 540,
+              "leads": 1,
+              "ctr": 3.01,
+              "cpc": 0.33,
+              "cpm": 10.07,
+              "cpl": 5.68,
+              "lp_conv": 5.9,
+              "hook_rate": 21.1,
+              "vp25": 6.6,
+              "vp50": 4.3,
+              "vp75": 2.5,
+              "vp100": 2.0,
+              "id": "120256956580690002",
+              "name": "voce_freelancer — Cópia",
+              "campaign_id": "120256956511570002",
+              "adset_id": "120256956511580002",
+              "adset_name": "[AD SET 1.1 - ADVTANGE LIGADO]",
+              "thumbnail": "thumbnails/120256956580690002.jpg",
+              "video_id": "1661534985140063",
+              "preview_url": "https://www.facebook.com/watch?v=1661534985140063"
+            },
+            {
+              "spend": 0.52,
+              "impressions": 62,
+              "clicks": 0,
+              "reach": 60,
+              "leads": 0,
+              "ctr": 0.0,
+              "cpc": 0.0,
+              "cpm": 8.39,
+              "cpl": 0,
+              "lp_conv": 0,
+              "hook_rate": 48.4,
+              "vp25": 12.9,
+              "vp50": 11.3,
+              "vp75": 4.8,
+              "vp100": 3.2,
+              "id": "120256956580680002",
+              "name": "iMG_7843.MP4 — Cópia",
+              "campaign_id": "120256956511570002",
+              "adset_id": "120256956511580002",
+              "adset_name": "[AD SET 1.1 - ADVTANGE LIGADO]",
+              "thumbnail": "thumbnails/120256956580680002.jpg",
+              "video_id": "1377326073933396",
+              "preview_url": "https://www.facebook.com/watch?v=1377326073933396"
+            }
+          ]
         }
       ]
     },
@@ -4411,7 +5132,33 @@
           "id": "120257001369020002",
           "name": "[AD ALFA 4] - [PORTUGAL]",
           "campaign_id": "120257000992860002",
-          "ads": []
+          "ads": [
+            {
+              "spend": 2.79,
+              "impressions": 213,
+              "clicks": 9,
+              "reach": 203,
+              "leads": 0,
+              "ctr": 4.23,
+              "cpc": 0.31,
+              "cpm": 13.1,
+              "cpl": 0,
+              "lp_conv": 0.0,
+              "hook_rate": 33.8,
+              "vp25": 7.0,
+              "vp50": 4.2,
+              "vp75": 1.4,
+              "vp100": 1.4,
+              "id": "120257001426190002",
+              "name": "img6623",
+              "campaign_id": "120257000992860002",
+              "adset_id": "120257001369020002",
+              "adset_name": "[AD ALFA 4] - [PORTUGAL]",
+              "thumbnail": "thumbnails/120257001426190002.jpg",
+              "video_id": "1592035372631274",
+              "preview_url": "https://www.facebook.com/watch?v=1592035372631274"
+            }
+          ]
         },
         {
           "spend": 2.63,
@@ -4432,7 +5179,33 @@
           "id": "120257001353750002",
           "name": "[AD ALFA 3] - [PORTUGAL]  -",
           "campaign_id": "120257000992860002",
-          "ads": []
+          "ads": [
+            {
+              "spend": 2.63,
+              "impressions": 179,
+              "clicks": 3,
+              "reach": 166,
+              "leads": 0,
+              "ctr": 1.68,
+              "cpc": 0.88,
+              "cpm": 14.69,
+              "cpl": 0,
+              "lp_conv": 0.0,
+              "hook_rate": 27.9,
+              "vp25": 5.0,
+              "vp50": 3.4,
+              "vp75": 2.8,
+              "vp100": 1.1,
+              "id": "120257001409480002",
+              "name": "escalar_no_digital",
+              "campaign_id": "120257000992860002",
+              "adset_id": "120257001353750002",
+              "adset_name": "[AD ALFA 3] - [PORTUGAL]  -",
+              "thumbnail": "thumbnails/120257001409480002.jpg",
+              "video_id": "1688003048954286",
+              "preview_url": "https://www.facebook.com/watch?v=1688003048954286"
+            }
+          ]
         },
         {
           "spend": 2.53,
@@ -4453,7 +5226,33 @@
           "id": "120257000992830002",
           "name": "[AD ALFA 1] - [PORTUGAL]",
           "campaign_id": "120257000992860002",
-          "ads": []
+          "ads": [
+            {
+              "spend": 2.53,
+              "impressions": 191,
+              "clicks": 1,
+              "reach": 176,
+              "leads": 1,
+              "ctr": 0.52,
+              "cpc": 2.53,
+              "cpm": 13.25,
+              "cpl": 2.53,
+              "lp_conv": 100.0,
+              "hook_rate": 24.1,
+              "vp25": 6.8,
+              "vp50": 4.7,
+              "vp75": 4.7,
+              "vp100": 2.6,
+              "id": "120257001288520002",
+              "name": "voce_e_agencia",
+              "campaign_id": "120257000992860002",
+              "adset_id": "120257000992830002",
+              "adset_name": "[AD ALFA 1] - [PORTUGAL]",
+              "thumbnail": "thumbnails/120257001288520002.jpg",
+              "video_id": "1503788817473368",
+              "preview_url": "https://www.facebook.com/watch?v=1503788817473368"
+            }
+          ]
         },
         {
           "spend": 2.29,
@@ -4474,7 +5273,33 @@
           "id": "120257001295770002",
           "name": "[AD ALFA 2] - [PORTUGAL]  - [IMG + VD]",
           "campaign_id": "120257000992860002",
-          "ads": []
+          "ads": [
+            {
+              "spend": 2.29,
+              "impressions": 216,
+              "clicks": 4,
+              "reach": 176,
+              "leads": 0,
+              "ctr": 1.85,
+              "cpc": 0.57,
+              "cpm": 10.6,
+              "cpl": 0,
+              "lp_conv": 0.0,
+              "hook_rate": 4.6,
+              "vp25": 1.9,
+              "vp50": 1.4,
+              "vp75": 0.5,
+              "vp100": 0.0,
+              "id": "120257001328150002",
+              "name": "voce_freelancer",
+              "campaign_id": "120257000992860002",
+              "adset_id": "120257001295770002",
+              "adset_name": "[AD ALFA 2] - [PORTUGAL]  - [IMG + VD]",
+              "thumbnail": "thumbnails/120257001328150002.jpg",
+              "video_id": "1443914144270836",
+              "preview_url": "https://www.facebook.com/watch?v=1443914144270836"
+            }
+          ]
         }
       ]
     }
