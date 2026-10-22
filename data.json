@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-22T16:44:08Z",
+  "last_updated": "2026-10-22T21:15:04Z",
   "account": {
     "id": "act_615338413578534",
     "name": "CA - João Mafra Lançamento",
@@ -10,8 +10,8 @@
     "until": "2026-10-22"
   },
   "summary": {
-    "spend": 1913.69,
-    "impressions": 200978,
+    "spend": 1913.7,
+    "impressions": 200981,
     "clicks": 5186,
     "reach": 63559,
     "leads": 395,
@@ -550,14 +550,14 @@
       "date": "2026-10-21"
     },
     {
-      "spend": 56.49,
-      "impressions": 5464,
+      "spend": 56.5,
+      "impressions": 5467,
       "clicks": 159,
       "reach": 4970,
       "leads": 9,
       "ctr": 2.91,
       "cpc": 0.36,
-      "cpm": 10.34,
+      "cpm": 10.33,
       "cpl": 6.28,
       "lp_conv": 5.7,
       "hook_rate": 45.6,
@@ -570,8 +570,8 @@
   ],
   "campaigns": [
     {
-      "spend": 1510.1,
-      "impressions": 151903,
+      "spend": 1510.11,
+      "impressions": 151905,
       "clicks": 4237,
       "reach": 54717,
       "leads": 352,
@@ -1112,17 +1112,17 @@
           "date": "2026-10-21"
         },
         {
-          "spend": 48.19,
-          "impressions": 4858,
+          "spend": 48.2,
+          "impressions": 4860,
           "clicks": 144,
           "reach": 4538,
           "leads": 8,
           "ctr": 2.96,
           "cpc": 0.33,
           "cpm": 9.92,
-          "cpl": 6.02,
+          "cpl": 6.03,
           "lp_conv": 5.6,
-          "hook_rate": 49.6,
+          "hook_rate": 49.5,
           "vp25": 11.5,
           "vp50": 5.7,
           "vp75": 3.6,
@@ -1132,8 +1132,8 @@
       ],
       "adsets": [
         {
-          "spend": 1334.45,
-          "impressions": 135216,
+          "spend": 1334.46,
+          "impressions": 135218,
           "clicks": 3824,
           "reach": 53656,
           "leads": 317,
@@ -1152,8 +1152,8 @@
           "campaign_id": "120257373073540002",
           "ads": [
             {
-              "spend": 1334.45,
-              "impressions": 135216,
+              "spend": 1334.46,
+              "impressions": 135218,
               "clicks": 3824,
               "reach": 53656,
               "leads": 317,
@@ -2733,7 +2733,7 @@
     },
     {
       "spend": 61.43,
-      "impressions": 4626,
+      "impressions": 4627,
       "clicks": 120,
       "reach": 2697,
       "leads": 4,
@@ -3275,13 +3275,13 @@
         },
         {
           "spend": 8.3,
-          "impressions": 606,
+          "impressions": 607,
           "clicks": 15,
           "reach": 512,
           "leads": 1,
-          "ctr": 2.48,
+          "ctr": 2.47,
           "cpc": 0.55,
-          "cpm": 13.7,
+          "cpm": 13.67,
           "cpl": 8.3,
           "lp_conv": 6.7,
           "hook_rate": 13.7,
@@ -3295,13 +3295,13 @@
       "adsets": [
         {
           "spend": 17.54,
-          "impressions": 1092,
+          "impressions": 1093,
           "clicks": 25,
           "reach": 950,
           "leads": 1,
           "ctr": 2.29,
           "cpc": 0.7,
-          "cpm": 16.06,
+          "cpm": 16.05,
           "cpl": 17.54,
           "lp_conv": 4.0,
           "hook_rate": 32.5,
@@ -3315,13 +3315,13 @@
           "ads": [
             {
               "spend": 17.54,
-              "impressions": 1092,
+              "impressions": 1093,
               "clicks": 25,
               "reach": 950,
               "leads": 1,
               "ctr": 2.29,
               "cpc": 0.7,
-              "cpm": 16.06,
+              "cpm": 16.05,
               "cpl": 17.54,
               "lp_conv": 4.0,
               "hook_rate": 32.5,
