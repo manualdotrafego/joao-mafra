@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-25T10:51:45Z",
+  "last_updated": "2026-10-25T15:39:13Z",
   "account": {
     "id": "act_615338413578534",
     "name": "CA - João Mafra Lançamento",
@@ -11,7 +11,7 @@
   },
   "summary": {
     "spend": 2020.14,
-    "impressions": 206538,
+    "impressions": 206540,
     "clicks": 5536,
     "reach": 65544,
     "leads": 414,
@@ -533,7 +533,7 @@
     },
     {
       "spend": 133.78,
-      "impressions": 12213,
+      "impressions": 12215,
       "clicks": 346,
       "reach": 10240,
       "leads": 23,
@@ -571,7 +571,7 @@
   "campaigns": [
     {
       "spend": 1693.48,
-      "impressions": 169196,
+      "impressions": 169198,
       "clicks": 4752,
       "reach": 60658,
       "leads": 386,
@@ -1095,13 +1095,13 @@
         },
         {
           "spend": 119.8,
-          "impressions": 10720,
+          "impressions": 10722,
           "clicks": 294,
           "reach": 9350,
           "leads": 23,
           "ctr": 2.74,
           "cpc": 0.41,
-          "cpm": 11.18,
+          "cpm": 11.17,
           "cpl": 5.21,
           "lp_conv": 7.8,
           "hook_rate": 46.1,
@@ -1133,7 +1133,7 @@
       "adsets": [
         {
           "spend": 1518.04,
-          "impressions": 152262,
+          "impressions": 152264,
           "clicks": 4344,
           "reach": 59954,
           "leads": 354,
@@ -1153,7 +1153,7 @@
           "ads": [
             {
               "spend": 1518.04,
-              "impressions": 152262,
+              "impressions": 152264,
               "clicks": 4344,
               "reach": 59954,
               "leads": 354,
